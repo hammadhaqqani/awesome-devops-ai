@@ -21,6 +21,8 @@ jobs:
             --exclude-path CODE_OF_CONDUCT.md
             --exclude "linkedin.com"
             --exclude "x.com"
+            --exclude "shoreline.io"
+            --exclude "reddit.com"
             --max-retries 3
             --timeout 30
             "README.md"

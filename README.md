@@ -44,7 +44,7 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 
 - [K8sGPT](https://github.com/k8sgpt-ai/k8sgpt) - AI-powered Kubernetes troubleshooting and diagnostics, a CNCF Sandbox project that scans clusters for issues and explains them in plain English.
 - [Kagent](https://github.com/kagent-dev/kagent) - CNCF Sandbox AI agent framework for DevOps and platform engineers to run agents inside Kubernetes clusters.
-- [KAITO](https://github.com/azure/kaito) - Kubernetes AI Toolchain Operator that simplifies LLM inference and fine-tuning workloads on clusters, a CNCF Sandbox project.
+- [KAITO](https://github.com/kaito-project/kaito) - Kubernetes AI Toolchain Operator that simplifies LLM inference and fine-tuning workloads on clusters, a CNCF Sandbox project.
 - [Robusta](https://github.com/robusta-dev/robusta) - Kubernetes monitoring and troubleshooting platform with AI root cause analysis and Holmes AI integration for automated diagnostics.
 - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) - Google Cloud kubectl plugin that uses LLMs to generate and apply Kubernetes manifests from natural language.
 - [Kubernetes ChatGPT Bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) - ChatGPT integration for Kubernetes troubleshooting via Slack notifications.
@@ -64,7 +64,7 @@ Tools that bring AI capabilities to Infrastructure as Code workflows.
 
 AI systems that detect, investigate, and remediate production incidents.
 
-- [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Agentic AI troubleshooting for Kubernetes and cloud-native environments, a CNCF Sandbox project combining observability telemetry with LLM reasoning.
+- [HolmesGPT](https://github.com/HolmesGPT/holmesgpt) - Agentic AI troubleshooting for Kubernetes and cloud-native environments, a CNCF Sandbox project combining observability telemetry with LLM reasoning.
 - [IncidentFox](https://github.com/incidentfox/incidentfox) - Open-source AI SRE platform for automated incident investigation, hypothesis formation, and fix suggestions with Slack and PagerDuty integration.
 - [Tracecat](https://github.com/TracecatHQ/tracecat) - Open-source AI automation for security and reliability operations with 100+ integrations and sandboxed execution.
 - [Rootly](https://rootly.com/) - AI-powered incident management with automated timelines, AI-generated postmortems, and Slack-native workflows.
@@ -100,7 +100,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 
 AI and automation tools for cloud cost management, FinOps, and resource optimization.
 
-- [Kubecost](https://github.com/kubecost/cost-analyzer-helm-chart) - Real-time Kubernetes cost monitoring by service, deployment, namespace, and container with cloud billing integration.
+- [Kubecost](https://github.com/kubecost/kubecost) - Real-time Kubernetes cost monitoring by service, deployment, namespace, and container with cloud billing integration.
 - [OpenCost](https://github.com/opencost/opencost) - CNCF Sandbox project for vendor-neutral, real-time Kubernetes cost monitoring and allocation.
 - [CAST AI](https://cast.ai/) - AI-powered Kubernetes cost optimization with automated rightsizing, spot instance management, and cluster autoscaling.
 - [Spot by NetApp](https://spot.io/) - AI-driven cloud infrastructure optimization using spot instances, autoscaling, and intelligent workload placement.
@@ -113,7 +113,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, PostgreSQL, Puppeteer, and more.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub MCP server for repos, issues, PRs, Actions, and code search from AI agents.
 - [AWS MCP Servers](https://awslabs.github.io/mcp/) - Official AWS MCP server suite covering Terraform, CDK, CloudFormation, Lambda, S3, CloudWatch, ECS, and more.
-- [Docker MCP Server](https://github.com/docker/docker-mcp) - Docker-maintained MCP server for container management, image operations, and Docker Compose workflows.
+- [Docker MCP Gateway](https://github.com/docker/mcp-gateway) - Docker-maintained MCP server for container management, image operations, and Docker Compose workflows.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive curated list of all MCP servers across every category.
 - [Kubernetes MCP Server](https://github.com/stevelacy/mcp-k8s) - MCP server for kubectl operations, pod management, and cluster introspection.
 
@@ -121,7 +121,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 
 AI tools that enhance continuous integration and delivery pipelines.
 
-- [PR-Agent](https://github.com/Codium-ai/pr-agent) - AI-powered pull request analysis that auto-describes, reviews, improves, and generates tests for GitHub, GitLab, and Bitbucket.
+- [PR-Agent](https://github.com/qodo-ai/pr-agent) - AI-powered pull request analysis that auto-describes, reviews, improves, and generates tests for GitHub, GitLab, and Bitbucket.
 - [GitLab Duo](https://about.gitlab.com/gitlab-duo/) - AI across the GitLab DevSecOps platform with code suggestions, root cause analysis, vulnerability resolution, and CI/CD pipeline generation.
 - [Harness AIDA](https://www.harness.io/products/aida) - AI Development Assistant for intelligent pipeline creation, failure analysis, and deployment optimization.
 - [ArgoCD](https://github.com/argoproj/argo-cd) - CNCF GitOps continuous delivery for Kubernetes that serves as the foundation for AI-driven deployment workflows.
