@@ -27,6 +27,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 - [Learning Resources](#learning-resources)
 - [Community and Newsletters](#community-and-newsletters)
 - [Author](#author)
+- [Support](#support)
 
 ## AI Coding Agents for Infrastructure
 
