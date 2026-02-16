@@ -81,7 +81,7 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Metoro Guardian](https://metoro.io/) - AI observability copilot combining telemetry and code analysis for accurate root cause identification and auto-generated fix PRs.
 - [Datadog Bits AI](https://www.datadoghq.com/product/platform/bits-ai/) - AI assistant for natural language metric queries, root cause analysis, and automated investigation across infrastructure.
 - [New Relic AI](https://newrelic.com/platform/new-relic-ai) - AI monitoring assistant with natural language querying, anomaly explanation, and intelligent alert correlation.
-- [Dynatrace Davis AI](https://www.dynatrace.com/platform/davis-ai/) - Causal AI engine for automated root cause analysis, impact assessment, and predictive problem detection.
+- [Dynatrace Davis AI](https://docs.dynatrace.com/docs/platform/davis-ai) - Causal AI engine for automated root cause analysis, impact assessment, and predictive problem detection.
 - [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) - Cloud-native monitoring foundation essential for AI-powered alerting pipelines, a CNCF project.
 
 ## AI Security Scanning
@@ -115,7 +115,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [AWS MCP Servers](https://awslabs.github.io/mcp/) - Official AWS MCP server suite covering Terraform, CDK, CloudFormation, Lambda, S3, CloudWatch, ECS, and more.
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway) - Docker-maintained MCP server for container management, image operations, and Docker Compose workflows.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive curated list of all MCP servers across every category.
-- [Kubernetes MCP Server](https://github.com/stevelacy/mcp-k8s) - MCP server for kubectl operations, pod management, and cluster introspection.
+- [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes) - MCP server for kubectl operations, pod management, and cluster introspection.
 
 ## AI-Powered CI/CD
 
@@ -153,8 +153,8 @@ Ready-to-use AI agent configurations for infrastructure repositories.
 
 - [Claude Code DevOps Toolkit](https://github.com/hammadhaqqani/claude-code-devops-toolkit) - Production-tested CLAUDE.md files, curated DevOps prompts, automation scripts, and project configs for infrastructure workflows.
 - [Awesome CursorRules](https://github.com/PatrickJS/awesome-cursorrules) - Community-curated .cursorrules files for various project types including infrastructure and DevOps.
-- [GitHub Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions) - Official guide for creating copilot-instructions.md to customize AI behavior per repository.
-- [ChatGPT Prompts for DevOps](https://www.yourdevopsguy.com/chatgpt-prompts-for-devops/) - Community-curated prompt library for common DevOps automation tasks.
+- [GitHub Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) - Official guide for creating copilot-instructions.md to customize AI behavior per repository.
+- [ChatGPT Prompts for DevOps](https://github.com/f/awesome-chatgpt-prompts) - Community-curated prompt library that includes DevOps and system administration automation prompts.
 - [Free AI and DevOps Tools](https://hammadhaqqani.com/tools) - Collection of 41 free browser-based AI and DevOps tools including prompt builder, system prompt generator, and token counter.
 
 ## Learning Resources
