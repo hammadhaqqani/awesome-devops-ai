@@ -1,0 +1,28 @@
+name: Link Check
+on:
+  schedule:
+    - cron: "0 9 * * 1"  # Every Monday at 9 AM UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  link-check:
+    name: Check for broken links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >
+            --verbose
+            --no-progress
+            --accept 200,204,301,302,403,429
+            --exclude-path CODE_OF_CONDUCT.md
+            --exclude "linkedin.com"
+            --exclude "x.com"
+            --max-retries 3
+            --timeout 30
+            "README.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
