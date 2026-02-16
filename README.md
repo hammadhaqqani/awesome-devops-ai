@@ -18,11 +18,11 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 - [MCP Servers for DevOps](#mcp-servers-for-devops)
 - [AI-Powered CI/CD](#ai-powered-cicd)
 - [AI Log Analysis and Debugging](#ai-log-analysis-and-debugging)
-- [AI Prompt Collections for DevOps](#ai-prompt-collections-for-devops)
 - [AI Agent Frameworks for Infrastructure](#ai-agent-frameworks-for-infrastructure)
 - [System Prompt and Config Templates](#system-prompt-and-config-templates)
 - [Learning Resources](#learning-resources)
 - [Community and Newsletters](#community-and-newsletters)
+- [Author](#author)
 
 ## AI Coding Agents for Infrastructure
 
@@ -53,7 +53,7 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 
 Tools that bring AI capabilities to Infrastructure as Code workflows.
 
-- [AWS Terraform MCP Server](https://github.com/awslabs/mcp) - Official AWS MCP servers including Terraform best practices, Checkov security scanning, and AWS provider documentation search.
+- [AWS Terraform MCP Server](https://awslabs.github.io/mcp/servers/terraform-mcp-server) - AWS MCP server with Terraform best practices, Checkov security scanning, and AWS provider documentation search.
 - [Terraform Copilot Prompts](https://github.com/zloeber/terraform-copilot-prompts) - GitHub Copilot prompts for creating and converting Terraform configurations across cloud providers.
 - [Pulumi AI](https://www.pulumi.com/ai/) - Generates Pulumi IaC programs from natural language using AI, supporting AWS, Azure, GCP, and Kubernetes.
 - [Spacelift AI](https://spacelift.io/) - AI-enhanced IaC management platform with drift detection, policy-as-code, and automated remediation.
@@ -110,9 +110,9 @@ AI and automation tools for cloud cost management, FinOps, and resource optimiza
 
 Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and Cursor access to DevOps tools and infrastructure.
 
-- [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, Postgres, Puppeteer, and more.
+- [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, PostgreSQL, Puppeteer, and more.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub MCP server for repos, issues, PRs, Actions, and code search from AI agents.
-- [AWS MCP Servers](https://github.com/awslabs/mcp) - Official AWS MCP server suite covering Terraform, CDK, CloudFormation, Lambda, S3, CloudWatch, ECS, and more.
+- [AWS MCP Servers](https://awslabs.github.io/mcp/) - Official AWS MCP server suite covering Terraform, CDK, CloudFormation, Lambda, S3, CloudWatch, ECS, and more.
 - [Docker MCP Server](https://github.com/docker/docker-mcp) - Docker-maintained MCP server for container management, image operations, and Docker Compose workflows.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive curated list of all MCP servers across every category.
 - [Kubernetes MCP Server](https://github.com/stevelacy/mcp-k8s) - MCP server for kubectl operations, pod management, and cluster introspection.
@@ -137,15 +137,6 @@ AI tools for log analysis, pattern detection, and debugging production systems.
 - [LogAI](https://github.com/salesforce/logai) - Salesforce's open-source toolkit for AI-powered log analysis with ML algorithms for anomaly detection, clustering, and summarization.
 - [Zebrium](https://www.zebrium.com/) - ML-powered root cause analysis from logs that automatically identifies incident root cause without manual queries.
 
-## AI Prompt Collections for DevOps
-
-Curated prompt libraries specifically designed for DevOps and infrastructure workflows.
-
-- [Claude Code DevOps Toolkit](https://github.com/hammadhaqqani/claude-code-devops-toolkit) - CLAUDE.md templates, curated DevOps prompts, automation scripts, and project configs for Claude Code workflows.
-- [Terraform Copilot Prompts](https://github.com/zloeber/terraform-copilot-prompts) - GitHub Copilot prompts designed for Terraform configuration generation and multi-cloud provider conversion.
-- [Free AI and DevOps Tools](https://hammadhaqqani.com/tools) - Collection of 41 free browser-based AI and DevOps tools including prompt builder, system prompt generator, and token counter.
-- [ChatGPT Prompts for DevOps](https://www.yourdevopsguy.com/chatgpt-prompts-for-devops/) - Community-curated prompt library for common DevOps automation tasks.
-
 ## AI Agent Frameworks for Infrastructure
 
 General-purpose AI agent frameworks with strong infrastructure and DevOps use cases.
@@ -160,9 +151,11 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 
 Ready-to-use AI agent configurations for infrastructure repositories.
 
-- [DevOps CLAUDE.md Templates](https://github.com/hammadhaqqani/claude-code-devops-toolkit) - Production-tested CLAUDE.md files for Terraform repos, Kubernetes projects, CI/CD pipelines, and Python infrastructure tools.
+- [Claude Code DevOps Toolkit](https://github.com/hammadhaqqani/claude-code-devops-toolkit) - Production-tested CLAUDE.md files, curated DevOps prompts, automation scripts, and project configs for infrastructure workflows.
 - [Awesome CursorRules](https://github.com/PatrickJS/awesome-cursorrules) - Community-curated .cursorrules files for various project types including infrastructure and DevOps.
 - [GitHub Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions) - Official guide for creating copilot-instructions.md to customize AI behavior per repository.
+- [ChatGPT Prompts for DevOps](https://www.yourdevopsguy.com/chatgpt-prompts-for-devops/) - Community-curated prompt library for common DevOps automation tasks.
+- [Free AI and DevOps Tools](https://hammadhaqqani.com/tools) - Collection of 41 free browser-based AI and DevOps tools including prompt builder, system prompt generator, and token counter.
 
 ## Learning Resources
 
@@ -188,7 +181,7 @@ Courses, certifications, articles, and guides on AI for DevOps.
 Communities, forums, and newsletters covering AI and DevOps.
 
 - [r/devops](https://reddit.com/r/devops) - Reddit community with 780k+ members actively discussing AI tool adoption in DevOps workflows.
-- [r/kubernetes](https://reddit.com/r/kubernetes) - Reddit community with 260k+ members discussing K8sGPT, KAITO, and AI-powered cluster management.
+- [r/Kubernetes](https://reddit.com/r/kubernetes) - Reddit community with 260k+ members discussing K8sGPT, KAITO, and AI-powered cluster management.
 - [r/Terraform](https://reddit.com/r/Terraform) - Active Reddit community discussing AI-assisted IaC and Terraform automation.
 - [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) - Cloud Native Computing Foundation community with channels for K8sGPT, HolmesGPT, and AI-native projects.
 - [DevOps Weekly](https://www.devopsweekly.com/) - Weekly newsletter covering DevOps tooling and practices including AI adoption.
@@ -209,7 +202,6 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 **Hammad Haqqani** - DevOps Architect and Cloud Engineer
 
 - Website: [hammadhaqqani.com](https://hammadhaqqani.com)
-- Free AI and DevOps Tools: [hammadhaqqani.com/tools](https://hammadhaqqani.com/tools)
 - LinkedIn: [linkedin.com/in/haqqani](https://www.linkedin.com/in/haqqani)
 - GitHub: [github.com/hammadhaqqani](https://github.com/hammadhaqqani?tab=repositories)
 
