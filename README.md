@@ -1,8 +1,8 @@
 # Awesome DevOps AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome Lint](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml/badge.svg)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml)
-[![Link Check](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml/badge.svg)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml)
-[![GitHub Pages](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/pages.yml/badge.svg)](https://hammadhaqqani.github.io/awesome-devops-ai/)
+[![Awesome Lint](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml/badge.svg?branch=main)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml)
+[![Link Check](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml/badge.svg?branch=main)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml)
+[![GitHub Pages](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/pages.yml/badge.svg?branch=main)](https://hammadhaqqani.github.io/awesome-devops-ai/)
 
 > A curated list of AI tools, agents, MCP servers, and resources for DevOps, SRE, and Platform Engineering.
 
