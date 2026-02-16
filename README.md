@@ -1,5 +1,9 @@
 # Awesome DevOps AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![Awesome Lint](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml/badge.svg)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml)
+[![Link Check](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml/badge.svg)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml)
+[![GitHub Pages](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/pages.yml/badge.svg)](https://hammadhaqqani.github.io/awesome-devops-ai/)
+
 > A curated list of AI tools, agents, MCP servers, and resources for DevOps, SRE, and Platform Engineering.
 
 The AI revolution is transforming how infrastructure is built, monitored, and operated. This list tracks every meaningful tool at the intersection of AI and DevOps, from coding agents that write Terraform to AI-powered incident response that pages you with a root cause already identified.
@@ -204,5 +208,11 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 - Website: [hammadhaqqani.com](https://hammadhaqqani.com)
 - LinkedIn: [linkedin.com/in/haqqani](https://www.linkedin.com/in/haqqani)
 - GitHub: [github.com/hammadhaqqani](https://github.com/hammadhaqqani?tab=repositories)
+
+---
+
+## Support
+
+If you find this useful, consider buying me a coffee!
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/hammadhaqqani)
