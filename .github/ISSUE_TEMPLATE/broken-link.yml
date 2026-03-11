@@ -1,0 +1,26 @@
+name: Report Broken Link
+description: Report a broken or outdated link
+title: "[Link] "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      placeholder: e.g., K8sGPT
+    validations:
+      required: true
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken URL
+      placeholder: The URL that is broken or redirects
+    validations:
+      required: true
+  - type: input
+    id: correct-url
+    attributes:
+      label: Correct URL (if known)
+      placeholder: The updated URL, if you know it
+    validations:
+      required: false

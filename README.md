@@ -3,6 +3,8 @@
 [![Awesome Lint](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml/badge.svg?branch=main)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml)
 [![Link Check](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml/badge.svg?branch=main)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml)
 [![GitHub Pages](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/pages.yml/badge.svg?branch=main)](https://hammadhaqqani.github.io/awesome-devops-ai/)
+[![GitHub stars](https://img.shields.io/github/stars/hammadhaqqani/awesome-devops-ai?style=social)](https://github.com/hammadhaqqani/awesome-devops-ai/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/hammadhaqqani/awesome-devops-ai?style=social)](https://github.com/hammadhaqqani/awesome-devops-ai/network/members)
 
 > A curated list of AI tools, agents, MCP servers, and resources for DevOps, SRE, and Platform Engineering.
 
@@ -11,6 +13,8 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
 **218 tools** across **20 categories** — updated March 2026.
+
+If this list is useful, please give it a star to help others find it.
 
 ## Contents
 
