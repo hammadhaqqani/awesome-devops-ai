@@ -12,9 +12,37 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**218 tools** across **20 categories** — updated March 2026.
+**246 tools** across **20 categories** — updated March 2026.
 
 If this list is useful, please give it a star to help others find it.
+
+## AI DevOps Landscape at a Glance
+
+| Layer | Open Source | Commercial | CNCF Projects |
+|-------|------------|------------|---------------|
+| **Coding Agents** | Aider, Cline, Continue | Claude Code, Cursor, Copilot, Devin | - |
+| **Kubernetes** | K8sGPT, kubectl-ai, Headlamp | Komodor, Robusta | K8sGPT, Kagent, KAITO |
+| **IaC and Terraform** | OpenTofu, Infracost, Checkov | Spacelift, Env0, Firefly | - |
+| **Incident Response** | HolmesGPT, IncidentFox, Tracecat | Rootly, PagerDuty AIOps | HolmesGPT |
+| **Monitoring** | Grafana, Prometheus | Datadog, Dynatrace, Splunk | Prometheus |
+| **Security** | Trivy, Falco, Checkov, Semgrep | Snyk, Wiz, Prisma Cloud | Falco |
+| **Cost and FinOps** | OpenCost, Kubecost | CAST AI, Vantage, CloudZero | OpenCost |
+| **MCP Servers** | MCP Reference, Kubernetes MCP | AWS MCP, GitHub MCP | - |
+| **CI/CD** | ArgoCD, Tekton, Dagger | GitLab Duo, Harness | ArgoCD, Tekton |
+| **Platform Engineering** | Backstage, Kratix | Port, Humanitec, Cortex | Backstage |
+| **GitOps** | Flux, Kustomize, Helm | Weave GitOps, Codefresh | Flux, Helm |
+| **Chaos Engineering** | Chaos Mesh, Litmus | Gremlin, Steadybit | Chaos Mesh, Litmus |
+
+## Quick Start: What Should I Use?
+
+New to AI DevOps? Here is where to start based on your role:
+
+- **DevOps Engineer starting with AI**: Start with [Claude Code](#ai-coding-agents-for-infrastructure) or [GitHub Copilot](#ai-coding-agents-for-infrastructure) for daily IaC work, then add [K8sGPT](#ai-powered-kubernetes) for cluster troubleshooting.
+- **SRE focused on reliability**: Start with [HolmesGPT](#ai-incident-response-and-troubleshooting) for incident investigation, [Grafana AI](#ai-monitoring-and-observability) for observability, and [Chaos Mesh](#ai-for-chaos-engineering-and-reliability) for resilience testing.
+- **Platform Engineer building self-service**: Start with [Backstage](#ai-for-platform-engineering) for your developer portal, [ArgoCD](#ai-powered-cicd) for GitOps, and [Flux](#ai-for-gitops) for continuous reconciliation.
+- **Security Engineer**: Start with [Trivy](#ai-security-scanning) for vulnerability scanning, [Falco](#ai-security-scanning) for runtime security, and [Docker Scout](#ai-for-container-security-and-supply-chain) for supply chain.
+- **FinOps and Cost Optimization**: Start with [OpenCost](#ai-cost-optimization) for Kubernetes cost visibility and [Infracost](#ai-powered-terraform-and-iac) for Terraform cost estimates in PRs.
+- **Building AI agents for infrastructure**: Start with [LangChain](#ai-agent-frameworks-for-infrastructure) or [CrewAI](#ai-agent-frameworks-for-infrastructure) for custom agents, and explore [MCP Servers](#mcp-servers-for-devops) for tool integrations.
 
 ## Contents
 
@@ -39,6 +67,7 @@ If this list is useful, please give it a star to help others find it.
 - [System Prompt and Config Templates](#system-prompt-and-config-templates)
 - [Learning Resources](#learning-resources)
 - [Community and Newsletters](#community-and-newsletters)
+- [Related Awesome Lists](#related-awesome-lists)
 - [Author](#author)
 - [Support](#support)
 
@@ -60,6 +89,7 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with full codebase context, ideal for navigating large monorepos with shared infrastructure modules.
 - [Tabnine](https://www.tabnine.com/) - AI code completion that runs locally or in the cloud with enterprise-grade privacy for sensitive infrastructure code.
 - [Windsurf](https://codeium.com/windsurf) - AI IDE by Codeium with agentic Cascade mode for multi-step infrastructure tasks.
+- [Void](https://voideditor.com/) - Open-source AI code editor forked from VS Code that supports local and remote LLMs for privacy-first infrastructure development.
 - [Zed AI](https://zed.dev/) - High-performance editor with built-in AI assistant, inline generation, and terminal integration for infrastructure workflows.
 
 ## AI-Powered Kubernetes
@@ -76,6 +106,7 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [Kubernetes ChatGPT Bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) - ChatGPT integration for Kubernetes troubleshooting via Slack notifications.
 - [Kubeshark](https://github.com/kubeshark/kubeshark) - API traffic analyzer for Kubernetes providing real-time visibility into cluster network traffic for AI-powered anomaly detection.
 - [Robusta](https://github.com/robusta-dev/robusta) - Kubernetes monitoring and troubleshooting platform with AI root cause analysis and Holmes AI integration for automated diagnostics.
+- [ValidKube](https://github.com/komodorio/validkube) - Open-source tool that validates, cleans, and secures Kubernetes manifests in one interface.
 - [vCluster](https://github.com/loft-sh/vcluster) - Virtual Kubernetes clusters for development and testing that enable isolated AI workload experimentation.
 
 ## AI-Powered Terraform and IaC
@@ -92,7 +123,9 @@ Tools that bring AI capabilities to Infrastructure as Code workflows.
 - [Pulumi AI](https://www.pulumi.com/ai/) - Generates Pulumi IaC programs from natural language using AI, supporting AWS, Azure, GCP, and Kubernetes.
 - [Spacelift AI](https://spacelift.io/) - AI-enhanced IaC management platform with drift detection, policy-as-code, and automated remediation.
 - [Terraform Copilot Prompts](https://github.com/zloeber/terraform-copilot-prompts) - GitHub Copilot prompts for creating and converting Terraform configurations across cloud providers.
+- [Terrascan](https://github.com/tenable/terrascan) - Static code analyzer for IaC that detects compliance and security violations across Terraform, Kubernetes, and Helm.
 - [Terramate](https://github.com/terramate-io/terramate) - Orchestration and code generation tool for Terraform that simplifies managing complex multi-stack infrastructure.
+- [tfswitch](https://github.com/warrensbox/terraform-switcher) - Command-line tool to switch between different versions of Terraform essential for managing multi-version IaC pipelines.
 
 ## AI Incident Response and Troubleshooting
 
@@ -178,6 +211,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Sentry MCP Server](https://github.com/getsentry/sentry-mcp) - Official Sentry MCP server for error tracking, issue search, and event analysis from AI agents.
 - [Slack MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) - MCP server for Slack workspace interaction enabling AI agents to read channels, post messages, and search conversations.
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) - Official HashiCorp MCP server for Terraform module search, provider documentation, and policy enforcement.
+- [Vercel MCP Server](https://github.com/vercel/mcp-adapter) - MCP adapter by Vercel for integrating AI agents with serverless deployment and edge function management.
 
 ## AI-Powered CI/CD
 
@@ -193,6 +227,7 @@ AI tools that enhance continuous integration and delivery pipelines.
 - [PR-Agent](https://github.com/qodo-ai/pr-agent) - AI-powered pull request analysis that auto-describes, reviews, improves, and generates tests for GitHub, GitLab, and Bitbucket.
 - [Tekton](https://github.com/tektoncd/pipeline) - Cloud-native CI/CD building blocks for Kubernetes providing the foundation for AI-orchestrated build and deploy pipelines.
 - [Trunk](https://trunk.io/) - Developer experience platform with AI-powered code quality checks, merge queues, and flaky test management.
+- [Woodpecker CI](https://github.com/woodpecker-ci/woodpecker) - Community fork of Drone CI with a simple pipeline engine, container-native execution, and multi-platform support.
 
 ## AI Log Analysis and Debugging
 
@@ -221,6 +256,7 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - OpenAI's framework for building multi-agent systems with handoffs, guardrails, and tracing for infrastructure automation.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's SDK for integrating LLMs into applications with plugin architecture ideal for building infrastructure automation agents.
 - [Temporal](https://github.com/temporalio/temporal) - Durable execution platform for orchestrating long-running infrastructure workflows with built-in retry and failure handling.
+- [Wren AI](https://github.com/Canner/WrenAI) - Open-source text-to-SQL AI agent that generates SQL queries from natural language for infrastructure analytics and reporting.
 
 ## AI for Platform Engineering
 
@@ -235,6 +271,8 @@ AI tools for building internal developer platforms, service catalogs, and self-s
 - [OpsLevel](https://www.opslevel.com/) - Service ownership platform with AI-powered maturity tracking, dependency mapping, and developer self-service.
 - [Port](https://www.getport.io/) - Open internal developer portal with AI-powered software catalog, self-service actions, and scorecards for engineering standards.
 - [Qovery](https://www.qovery.com/) - Platform that provides production-like environments for developers with AI-assisted deployment and environment management.
+- [Roadie](https://roadie.io/) - Managed Backstage platform with AI-powered scaffolding, TechDocs hosting, and developer productivity insights.
+- [Upbound](https://www.upbound.io/) - Universal cloud platform built on Crossplane for building internal platforms with declarative infrastructure APIs.
 
 ## AI for Database Operations
 
@@ -247,6 +285,7 @@ AI tools for database management, query optimization, and data operations.
 - [OtterTune](https://ottertune.com/) - AI-powered database optimization that automatically tunes PostgreSQL, MySQL, and MariaDB configurations for performance.
 - [pganalyze](https://pganalyze.com/) - PostgreSQL performance monitoring with AI-powered query optimization recommendations and index advisor.
 - [PlanetScale](https://planetscale.com/) - Serverless MySQL platform with AI-powered schema change management, query insights, and non-blocking deploys.
+- [SchemaHero](https://github.com/schemahero/schemahero) - Kubernetes-native database schema management tool that applies declarative schema definitions as migrations.
 - [Vitess](https://github.com/vitessio/vitess) - CNCF graduated database clustering system for horizontal scaling of MySQL, essential for AI workloads needing distributed data.
 
 ## AI for Networking and Service Mesh
@@ -260,6 +299,7 @@ AI tools for network management, service mesh, and traffic engineering.
 - [Linkerd](https://github.com/linkerd/linkerd2) - CNCF graduated ultralight service mesh for Kubernetes with automated mTLS, traffic splitting, and golden metrics.
 - [Ngrok](https://ngrok.com/) - Unified ingress platform with AI-powered traffic inspection, policy enforcement, and API gateway capabilities.
 - [Traefik](https://github.com/traefik/traefik) - Cloud-native application proxy with automatic service discovery, Let's Encrypt integration, and observability features.
+- [Envoy](https://github.com/envoyproxy/envoy) - CNCF graduated high-performance edge and service proxy powering the data plane for Istio and other service meshes.
 
 ## AI for Container Security and Supply Chain
 
@@ -272,6 +312,7 @@ AI tools for container image security, software supply chain, and build verifica
 - [Harbor](https://github.com/goharbor/harbor) - CNCF graduated cloud-native registry with vulnerability scanning, image signing, and policy-based image replication.
 - [Slim.AI](https://www.slim.ai/) - Container optimization platform with AI-powered image analysis, vulnerability reduction through minification.
 - [Syft](https://github.com/anchore/syft) - Open-source SBOM generator for container images and filesystems supporting multiple output formats.
+- [Wolfi](https://github.com/wolfi-dev/os) - Community Linux distribution designed for building minimal container images with automated CVE patching.
 
 ## AI for Chaos Engineering and Reliability
 
@@ -293,6 +334,7 @@ AI tools that assist with cloud migration planning, execution, and application m
 - [Azure Migrate](https://azure.microsoft.com/en-us/products/azure-migrate/) - Unified migration platform with AI-powered assessment, server migration, and database modernization tools.
 - [Google Cloud Migrate](https://cloud.google.com/solutions/migration-center) - Comprehensive migration platform with AI-driven assessment, workload discovery, and total cost of ownership analysis.
 - [Konveyor](https://github.com/konveyor/konveyor) - Open-source migration toolkit for modernizing applications to Kubernetes with AI-assisted code transformation.
+- [Zerto](https://www.zerto.com/) - Disaster recovery and workload migration platform with AI-powered resilience and continuous data protection.
 
 ## AI for GitOps
 
@@ -303,6 +345,7 @@ AI tools for GitOps workflows, declarative infrastructure, and continuous reconc
 - [Kargo](https://github.com/akuity/kargo) - Continuous promotion and lifecycle orchestrator for Kubernetes applications across environments with GitOps principles.
 - [Kustomize](https://github.com/kubernetes-sigs/kustomize) - Kubernetes configuration customization tool that enables declarative management of manifests without template engines.
 - [Weave GitOps](https://github.com/weaveworks/weave-gitops) - Enterprise GitOps platform with progressive delivery, policy enforcement, and multi-cluster management.
+- [Crossplane](https://github.com/crossplane/crossplane) - CNCF incubating project for building cloud-native control planes with declarative infrastructure APIs and GitOps workflows.
 
 ## System Prompt and Config Templates
 
@@ -326,12 +369,24 @@ Courses, certifications, articles, and guides on AI for DevOps.
 - [The AI Singularity Is Closer Than You Think](https://hammadhaqqani.com/blog/the-ai-singularity-is-closer-than-you-think) - First-hand account of how AI agents are replacing engineering workflows from a DevOps veteran with 10+ years of experience.
 - [Top 15 AI Prompts Every DevOps Engineer Should Master](https://kubezilla.io/top-15-ai-prompts-every-devops-engineer-should-master-in-2026) - Essential prompt patterns for infrastructure automation.
 
+### Books
+
+- [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) - Comprehensive guide to production ML systems covering infrastructure, monitoring, and deployment patterns.
+- [Platform Engineering on Kubernetes](https://www.manning.com/books/platform-engineering-on-kubernetes) - Practical guide to building internal platforms with Kubernetes, GitOps, and developer self-service.
+- [Site Reliability Engineering](https://sre.google/books/) - Google's definitive SRE book covering the principles that AI tools are now automating.
+
 ### Certifications
 
 - [AWS AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/) - Foundational AI and ML certification with cloud infrastructure context.
 - [CKA and KCNA](https://www.cncf.io/certification/) - CNCF Kubernetes certifications that provide essential foundation before adding AI-powered Kubernetes tools.
 - [Google Cloud Professional ML Engineer](https://cloud.google.com/learn/certification/machine-learning-engineer) - ML engineering certification focused on GCP infrastructure.
 - [Terraform Associate](https://www.hashicorp.com/certification/terraform-associate) - HashiCorp IaC certification providing prerequisite knowledge for AI-assisted Terraform workflows.
+
+### Podcasts
+
+- [Kubernetes Podcast from Google](https://kubernetespodcast.com/) - Weekly podcast covering Kubernetes ecosystem news, interviews, and AI tooling developments.
+- [Ship It!](https://changelog.com/shipit) - Podcast about building and shipping software with coverage of AI-enhanced DevOps workflows.
+- [The CloudCast](https://www.thecloudcast.net/) - Weekly cloud technology podcast covering AI, DevOps, and infrastructure trends.
 
 ## Community and Newsletters
 
@@ -347,14 +402,25 @@ Communities, forums, and newsletters covering AI and DevOps.
 - [The New Stack](https://thenewstack.io/) - Publication covering cloud-native, Kubernetes, and AI infrastructure developments.
 - [TLDR DevOps](https://tldr.tech/devops) - Daily DevOps newsletter with AI and automation coverage.
 
+## Related Awesome Lists
+
+- [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Curated list of Kubernetes resources.
+- [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform) - Curated list of Terraform resources and modules.
+- [Awesome SRE](https://github.com/dastergon/awesome-sre) - Curated list of Site Reliability Engineering resources.
+- [Awesome Cloud Native](https://github.com/rootsongjc/awesome-cloud-native) - Curated list of cloud native tools and resources.
+- [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Curated list of Docker resources and projects.
+- [Awesome CI/CD](https://github.com/cicdops/awesome-ciandcd) - Curated list of CI/CD tools and resources.
+- [Awesome Platform Engineering](https://github.com/toptechevangelist/awesome-platform-engineering) - Curated list of platform engineering resources.
+
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. We especially welcome:
 
 - New AI tools for DevOps workflows.
-- Star count updates for listed tools.
 - Corrections to descriptions or broken links.
 - New categories as the ecosystem evolves.
+
+Join the [discussion](https://github.com/hammadhaqqani/awesome-devops-ai/discussions) to suggest tools or ask questions.
 
 ## Author
 
