@@ -12,7 +12,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**246 tools** across **20 categories** — updated March 2026.
+**258 tools** across **20 categories** — updated March 2026.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -77,6 +77,7 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 
 - [Aider](https://github.com/aider-ai/aider) - Terminal-based AI pair programming that works with any LLM, great for infrastructure repos with git-commit-per-change workflows.
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS-native AI assistant with deep CloudFormation, CDK, and AWS service knowledge.
+- [Clanker](https://github.com/bgdnvk/clanker) - Autonomous systems engineering CLI agent for any cloud environment including AWS, GCP, and Cloudflare.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's agentic coding tool that excels at large-scale Terraform refactoring, multi-file Kubernetes manifest generation, and infrastructure debugging.
 - [Cline](https://github.com/cline/cline) - Autonomous AI coding agent for VS Code that runs terminal commands, edits files, and handles complex infrastructure tasks.
 - [Codex](https://openai.com/index/openai-codex/) - OpenAI's autonomous coding agent with cloud sandbox execution, strong at generating IaC from natural language descriptions.
@@ -159,6 +160,8 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) - Cloud-native monitoring foundation essential for AI-powered alerting pipelines, a CNCF project.
 - [Splunk AI](https://www.splunk.com/en_us/products/ai-assistant.html) - AI assistant for natural language search, anomaly detection, and predictive analytics across IT infrastructure.
 - [Sumo Logic](https://www.sumologic.com/) - Cloud-native machine data analytics with AI-driven log analysis, threat detection, and infrastructure intelligence.
+- [Thanos](https://github.com/thanos-io/thanos) - CNCF incubating highly available Prometheus setup with long-term storage and global query view for large-scale monitoring.
+- [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - Fast, cost-effective monitoring solution and time series database compatible with Prometheus and Grafana.
 
 ## AI Security Scanning
 
@@ -179,6 +182,8 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [tfsec](https://github.com/aquasecurity/tfsec) - Security scanner for Terraform code that checks for security misconfigurations and compliance violations.
 - [Trivy](https://github.com/aquasecurity/trivy) - Comprehensive open-source vulnerability scanner for containers, IaC, Kubernetes, and code that is fast, accurate, and widely adopted.
 - [Wiz](https://www.wiz.io/) - Cloud security platform that unifies vulnerability findings with cloud context to prioritize exploitable risks.
+- [Kyverno](https://github.com/kyverno/kyverno) - CNCF incubating Kubernetes-native policy engine for validating, mutating, and generating configurations.
+- [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper) - Policy controller for Kubernetes based on Open Policy Agent for admission control and audit.
 
 ## AI Cost Optimization
 
@@ -194,6 +199,7 @@ AI and automation tools for cloud cost management, FinOps, and resource optimiza
 - [Spot by NetApp](https://spot.io/) - AI-driven cloud infrastructure optimization using spot instances, autoscaling, and intelligent workload placement.
 - [Turbonomic](https://www.ibm.com/products/turbonomic) - IBM AI-powered application resource management that continuously optimizes compute, storage, and network allocation.
 - [Vantage](https://www.vantage.sh/) - Cloud cost transparency platform with AI-powered recommendations across AWS, Azure, GCP, Kubernetes, and Datadog.
+- [Komiser](https://github.com/tailwarden/komiser) - Open-source cloud cost management dashboard that analyzes spending across multi-cloud environments.
 
 ## MCP Servers for DevOps
 
@@ -241,6 +247,8 @@ AI tools for log analysis, pattern detection, and debugging production systems.
 - [Parseable](https://github.com/parseablehq/parseable) - Cloud-native log storage and observability platform built in Rust with AI-powered log analysis and alerting.
 - [Vector](https://github.com/vectordotdev/vector) - High-performance observability data pipeline for collecting, transforming, and routing logs, metrics, and traces to AI analysis backends.
 - [Zebrium](https://www.zebrium.com/) - ML-powered root cause analysis from logs that automatically identifies incident root cause without manual queries.
+- [Fluentd](https://github.com/fluent/fluentd) - CNCF graduated unified logging layer for collecting, filtering, and routing logs from any source to any destination.
+- [Fluent Bit](https://github.com/fluent/fluent-bit) - Fast and lightweight log processor and forwarder for Linux, macOS, and embedded systems built for cloud-native environments.
 
 ## AI Agent Frameworks for Infrastructure
 
@@ -273,6 +281,7 @@ AI tools for building internal developer platforms, service catalogs, and self-s
 - [Qovery](https://www.qovery.com/) - Platform that provides production-like environments for developers with AI-assisted deployment and environment management.
 - [Roadie](https://roadie.io/) - Managed Backstage platform with AI-powered scaffolding, TechDocs hosting, and developer productivity insights.
 - [Upbound](https://www.upbound.io/) - Universal cloud platform built on Crossplane for building internal platforms with declarative infrastructure APIs.
+- [Score](https://github.com/score-spec/spec) - Open-source workload specification that eliminates configuration drift between local and remote environments.
 
 ## AI for Database Operations
 
@@ -324,6 +333,7 @@ AI tools for chaos engineering, resilience testing, and reliability validation.
 - [Litmus](https://github.com/litmuschaos/litmus) - CNCF incubating chaos engineering framework for Kubernetes with a hub of prebuilt experiments and GitOps integration.
 - [Steadybit](https://www.steadybit.com/) - Chaos engineering platform with AI-assisted experiment design and automated reliability validation.
 - [Testkube](https://github.com/kubeshop/testkube) - Kubernetes-native test orchestration framework for running any testing tool inside clusters with CI/CD integration.
+- [Toxiproxy](https://github.com/Shopify/toxiproxy) - TCP proxy by Shopify for simulating network conditions and testing system resilience to network failures.
 
 ## AI for Cloud Migration and Modernization
 
@@ -356,6 +366,8 @@ Ready-to-use AI agent configurations for infrastructure repositories.
 - [Claude Code DevOps Toolkit](https://github.com/hammadhaqqani/claude-code-devops-toolkit) - Production-tested CLAUDE.md files, curated DevOps prompts, automation scripts, and project configs for infrastructure workflows.
 - [Free AI and DevOps Tools](https://hammadhaqqani.com/tools) - Collection of 41 free browser-based AI and DevOps tools including prompt builder, system prompt generator, and token counter.
 - [GitHub Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) - Official guide for creating copilot-instructions.md to customize AI behavior per repository.
+- [Awesome Claude Code](https://github.com/anthropics/claude-code-tips) - Official tips and techniques for getting the most out of Claude Code for infrastructure workflows.
+- [DevOps GPT Prompts](https://github.com/dair-ai/Prompt-Engineering-Guide) - Comprehensive prompt engineering guide with patterns applicable to DevOps automation.
 
 ## Learning Resources
 
