@@ -23,6 +23,9 @@ jobs:
             --exclude "x.com"
             --exclude "shoreline.io"
             --exclude "reddit.com"
+            --exclude "devin.ai"
+            --exclude "replit.com"
+            --exclude "cursor.com"
             --max-retries 3
             --timeout 30
             "README.md"
