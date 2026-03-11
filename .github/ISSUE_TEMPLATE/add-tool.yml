@@ -1,0 +1,68 @@
+name: Suggest a Tool
+description: Suggest a new AI tool to add to the list
+title: "[Tool] "
+labels: ["new-tool"]
+body:
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      placeholder: e.g., K8sGPT
+    validations:
+      required: true
+  - type: input
+    id: tool-url
+    attributes:
+      label: Tool URL
+      placeholder: e.g., https://github.com/k8sgpt-ai/k8sgpt
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - AI Coding Agents for Infrastructure
+        - AI-Powered Kubernetes
+        - AI-Powered Terraform and IaC
+        - AI Incident Response and Troubleshooting
+        - AI Monitoring and Observability
+        - AI Security Scanning
+        - AI Cost Optimization
+        - MCP Servers for DevOps
+        - AI-Powered CI/CD
+        - AI Log Analysis and Debugging
+        - AI Agent Frameworks for Infrastructure
+        - AI for Platform Engineering
+        - AI for Database Operations
+        - AI for Networking and Service Mesh
+        - AI for Container Security and Supply Chain
+        - AI for Chaos Engineering and Reliability
+        - AI for Cloud Migration and Modernization
+        - AI for GitOps
+        - System Prompt and Config Templates
+        - Learning Resources
+        - New Category (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One sentence, under 150 characters, ending with a period.
+      placeholder: AI-powered Kubernetes troubleshooting that scans clusters and explains issues in plain English.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Tool is relevant to DevOps, SRE, or Platform Engineering
+          required: true
+        - label: Tool has an AI/ML component
+          required: true
+        - label: Tool is actively maintained (commits within 6 months)
+          required: true
+        - label: Tool is not already listed
+          required: true
