@@ -16,36 +16,10 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 If this list is useful, please give it a star to help others find it.
 
-## AI DevOps Landscape at a Glance
-
-| Layer | Open Source | Commercial | CNCF Projects |
-|-------|------------|------------|---------------|
-| **Coding Agents** | Aider, Cline, Continue | Claude Code, Cursor, Copilot, Devin | - |
-| **Kubernetes** | K8sGPT, kubectl-ai, Headlamp | Komodor, Robusta | K8sGPT, Kagent, KAITO |
-| **IaC and Terraform** | OpenTofu, Infracost, Checkov | Spacelift, Env0, Firefly | - |
-| **Incident Response** | HolmesGPT, IncidentFox, Tracecat | Rootly, PagerDuty AIOps | HolmesGPT |
-| **Monitoring** | Grafana, Prometheus | Datadog, Dynatrace, Splunk | Prometheus |
-| **Security** | Trivy, Falco, Checkov, Semgrep | Snyk, Wiz, Prisma Cloud | Falco |
-| **Cost and FinOps** | OpenCost, Kubecost | CAST AI, Vantage, CloudZero | OpenCost |
-| **MCP Servers** | MCP Reference, Kubernetes MCP | AWS MCP, GitHub MCP | - |
-| **CI/CD** | ArgoCD, Tekton, Dagger | GitLab Duo, Harness | ArgoCD, Tekton |
-| **Platform Engineering** | Backstage, Kratix | Port, Humanitec, Cortex | Backstage |
-| **GitOps** | Flux, Kustomize, Helm | Weave GitOps, Codefresh | Flux, Helm |
-| **Chaos Engineering** | Chaos Mesh, Litmus | Gremlin, Steadybit | Chaos Mesh, Litmus |
-
-## Quick Start: What Should I Use?
-
-New to AI DevOps? Here is where to start based on your role:
-
-- **DevOps Engineer starting with AI**: Start with [Claude Code](#ai-coding-agents-for-infrastructure) or [GitHub Copilot](#ai-coding-agents-for-infrastructure) for daily IaC work, then add [K8sGPT](#ai-powered-kubernetes) for cluster troubleshooting.
-- **SRE focused on reliability**: Start with [HolmesGPT](#ai-incident-response-and-troubleshooting) for incident investigation, [Grafana AI](#ai-monitoring-and-observability) for observability, and [Chaos Mesh](#ai-for-chaos-engineering-and-reliability) for resilience testing.
-- **Platform Engineer building self-service**: Start with [Backstage](#ai-for-platform-engineering) for your developer portal, [ArgoCD](#ai-powered-cicd) for GitOps, and [Flux](#ai-for-gitops) for continuous reconciliation.
-- **Security Engineer**: Start with [Trivy](#ai-security-scanning) for vulnerability scanning, [Falco](#ai-security-scanning) for runtime security, and [Docker Scout](#ai-for-container-security-and-supply-chain) for supply chain.
-- **FinOps and Cost Optimization**: Start with [OpenCost](#ai-cost-optimization) for Kubernetes cost visibility and [Infracost](#ai-powered-terraform-and-iac) for Terraform cost estimates in PRs.
-- **Building AI agents for infrastructure**: Start with [LangChain](#ai-agent-frameworks-for-infrastructure) or [CrewAI](#ai-agent-frameworks-for-infrastructure) for custom agents, and explore [MCP Servers](#mcp-servers-for-devops) for tool integrations.
-
 ## Contents
 
+- [AI DevOps Landscape at a Glance](#ai-devops-landscape-at-a-glance)
+- [Quick Start by Role](#quick-start-by-role)
 - [AI Coding Agents for Infrastructure](#ai-coding-agents-for-infrastructure)
 - [AI-Powered Kubernetes](#ai-powered-kubernetes)
 - [AI-Powered Terraform and IaC](#ai-powered-terraform-and-iac)
@@ -70,6 +44,34 @@ New to AI DevOps? Here is where to start based on your role:
 - [Related Awesome Lists](#related-awesome-lists)
 - [Author](#author)
 - [Support](#support)
+
+## AI DevOps Landscape at a Glance
+
+| Layer                      | Open Source                        | Commercial                         | CNCF Projects          |
+| -------------------------- | ---------------------------------- | ---------------------------------- | ---------------------- |
+| **Coding Agents**          | Aider, Cline, Continue             | Claude Code, Cursor, Copilot       | -                      |
+| **Kubernetes**             | K8sGPT, kubectl-ai, Headlamp      | Komodor, Robusta                   | K8sGPT, Kagent, KAITO  |
+| **IaC and Terraform**      | OpenTofu, Infracost, Checkov       | Spacelift, Env0, Firefly           | -                      |
+| **Incident Response**      | HolmesGPT, IncidentFox, Tracecat  | Rootly, PagerDuty AIOps            | HolmesGPT              |
+| **Monitoring**             | Grafana, Prometheus                | Datadog, Dynatrace, Splunk         | Prometheus             |
+| **Security**               | Trivy, Falco, Checkov, Semgrep     | Snyk, Wiz, Prisma Cloud            | Falco                  |
+| **Cost and FinOps**        | OpenCost, Kubecost                 | CAST AI, Vantage, CloudZero        | OpenCost               |
+| **MCP Servers**            | MCP Reference, Kubernetes MCP      | AWS MCP, GitHub MCP                | -                      |
+| **CI/CD**                  | ArgoCD, Tekton, Dagger             | GitLab Duo, Harness                | ArgoCD, Tekton         |
+| **Platform Engineering**   | Backstage, Kratix                  | Port, Humanitec, Cortex            | Backstage              |
+| **GitOps**                 | Flux, Kustomize, Helm              | Weave GitOps, Codefresh            | Flux, Helm             |
+| **Chaos Engineering**      | Chaos Mesh, Litmus                 | Gremlin, Steadybit                 | Chaos Mesh, Litmus     |
+
+## Quick Start by Role
+
+New to AI DevOps? Here is where to start based on your role.
+
+- **DevOps Engineer starting with AI** — Start with Claude Code or GitHub Copilot for daily IaC work, then add K8sGPT for cluster troubleshooting.
+- **SRE focused on reliability** — Start with HolmesGPT for incident investigation, Grafana AI for observability, and Chaos Mesh for resilience testing.
+- **Platform Engineer building self-service** — Start with Backstage for your developer portal, ArgoCD for GitOps, and Flux for continuous reconciliation.
+- **Security Engineer** — Start with Trivy for vulnerability scanning, Falco for runtime security, and Docker Scout for supply chain.
+- **FinOps and Cost Optimization** — Start with OpenCost for Kubernetes cost visibility and Infracost for Terraform cost estimates in PRs.
+- **Building AI agents for infrastructure** — Start with LangChain or CrewAI for custom agents, and explore MCP Servers for tool integrations.
 
 ## AI Coding Agents for Infrastructure
 
