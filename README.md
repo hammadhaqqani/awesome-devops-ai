@@ -12,14 +12,12 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**258 tools** across **20 categories** — updated March 2026.
+**258 tools** across **20 categories** — updated March 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
 ## Contents
 
-- [AI DevOps Landscape at a Glance](#ai-devops-landscape-at-a-glance)
-- [Quick Start by Role](#quick-start-by-role)
 - [AI Coding Agents for Infrastructure](#ai-coding-agents-for-infrastructure)
 - [AI-Powered Kubernetes](#ai-powered-kubernetes)
 - [AI-Powered Terraform and IaC](#ai-powered-terraform-and-iac)
@@ -44,34 +42,6 @@ If this list is useful, please give it a star to help others find it.
 - [Related Awesome Lists](#related-awesome-lists)
 - [Author](#author)
 - [Support](#support)
-
-## AI DevOps Landscape at a Glance
-
-| Layer                      | Open Source                        | Commercial                         | CNCF Projects          |
-| -------------------------- | ---------------------------------- | ---------------------------------- | ---------------------- |
-| **Coding Agents**          | Aider, Cline, Continue             | Claude Code, Cursor, Copilot       | -                      |
-| **Kubernetes**             | K8sGPT, kubectl-ai, Headlamp      | Komodor, Robusta                   | K8sGPT, Kagent, KAITO  |
-| **IaC and Terraform**      | OpenTofu, Infracost, Checkov       | Spacelift, Env0, Firefly           | -                      |
-| **Incident Response**      | HolmesGPT, IncidentFox, Tracecat  | Rootly, PagerDuty AIOps            | HolmesGPT              |
-| **Monitoring**             | Grafana, Prometheus                | Datadog, Dynatrace, Splunk         | Prometheus             |
-| **Security**               | Trivy, Falco, Checkov, Semgrep     | Snyk, Wiz, Prisma Cloud            | Falco                  |
-| **Cost and FinOps**        | OpenCost, Kubecost                 | CAST AI, Vantage, CloudZero        | OpenCost               |
-| **MCP Servers**            | MCP Reference, Kubernetes MCP      | AWS MCP, GitHub MCP                | -                      |
-| **CI/CD**                  | ArgoCD, Tekton, Dagger             | GitLab Duo, Harness                | ArgoCD, Tekton         |
-| **Platform Engineering**   | Backstage, Kratix                  | Port, Humanitec, Cortex            | Backstage              |
-| **GitOps**                 | Flux, Kustomize, Helm              | Weave GitOps, Codefresh            | Flux, Helm             |
-| **Chaos Engineering**      | Chaos Mesh, Litmus                 | Gremlin, Steadybit                 | Chaos Mesh, Litmus     |
-
-## Quick Start by Role
-
-New to AI DevOps? Here is where to start based on your role.
-
-- **DevOps Engineer starting with AI** — Start with Claude Code or GitHub Copilot for daily IaC work, then add K8sGPT for cluster troubleshooting.
-- **SRE focused on reliability** — Start with HolmesGPT for incident investigation, Grafana AI for observability, and Chaos Mesh for resilience testing.
-- **Platform Engineer building self-service** — Start with Backstage for your developer portal, ArgoCD for GitOps, and Flux for continuous reconciliation.
-- **Security Engineer** — Start with Trivy for vulnerability scanning, Falco for runtime security, and Docker Scout for supply chain.
-- **FinOps and Cost Optimization** — Start with OpenCost for Kubernetes cost visibility and Infracost for Terraform cost estimates in PRs.
-- **Building AI agents for infrastructure** — Start with LangChain or CrewAI for custom agents, and explore MCP Servers for tool integrations.
 
 ## AI Coding Agents for Infrastructure
 
