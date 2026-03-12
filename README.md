@@ -12,7 +12,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**258 tools** across **20 categories** — updated March 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**257 tools** across **20 categories** — updated March 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -130,7 +130,7 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Metoro Guardian](https://metoro.io/) - AI observability copilot combining telemetry and code analysis for accurate root cause identification and auto-generated fix PRs.
 - [New Relic AI](https://newrelic.com/platform/new-relic-ai) - AI monitoring assistant with natural language querying, anomaly explanation, and intelligent alert correlation.
 - [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) - Cloud-native monitoring foundation essential for AI-powered alerting pipelines, a CNCF project.
-- [Splunk AI](https://www.splunk.com/en_us/products/ai-assistant.html) - AI assistant for natural language search, anomaly detection, and predictive analytics across IT infrastructure.
+- [Splunk AI](https://www.splunk.com/en_us/products.html) - AI-powered analytics platform for natural language search, anomaly detection, and predictive insights across IT infrastructure.
 - [Sumo Logic](https://www.sumologic.com/) - Cloud-native machine data analytics with AI-driven log analysis, threat detection, and infrastructure intelligence.
 - [Thanos](https://github.com/thanos-io/thanos) - CNCF incubating highly available Prometheus setup with long-term storage and global query view for large-scale monitoring.
 - [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - Fast, cost-effective monitoring solution and time series database compatible with Prometheus and Grafana.
@@ -187,7 +187,6 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Linear MCP Server](https://github.com/jerhadf/linear-mcp-server) - MCP server for Linear project management enabling AI agents to manage issues, projects, and cycles.
 - [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, PostgreSQL, Puppeteer, and more.
 - [Sentry MCP Server](https://github.com/getsentry/sentry-mcp) - Official Sentry MCP server for error tracking, issue search, and event analysis from AI agents.
-- [Slack MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) - MCP server for Slack workspace interaction enabling AI agents to read channels, post messages, and search conversations.
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) - Official HashiCorp MCP server for Terraform module search, provider documentation, and policy enforcement.
 - [Vercel MCP Server](https://github.com/vercel/mcp-adapter) - MCP adapter by Vercel for integrating AI agents with serverless deployment and edge function management.
 
@@ -315,7 +314,7 @@ AI tools that assist with cloud migration planning, execution, and application m
 - [AWS Migration Hub](https://aws.amazon.com/migration-hub/) - Central hub for tracking migrations across multiple AWS and partner tools with AI-powered progress tracking.
 - [Azure Migrate](https://azure.microsoft.com/en-us/products/azure-migrate/) - Unified migration platform with AI-powered assessment, server migration, and database modernization tools.
 - [Google Cloud Migrate](https://cloud.google.com/solutions/migration-center) - Comprehensive migration platform with AI-driven assessment, workload discovery, and total cost of ownership analysis.
-- [Konveyor](https://github.com/konveyor/konveyor) - Open-source migration toolkit for modernizing applications to Kubernetes with AI-assisted code transformation.
+- [Konveyor](https://github.com/konveyor/tackle2-hub) - Open-source migration toolkit for modernizing applications to Kubernetes with AI-assisted code transformation.
 - [Zerto](https://www.zerto.com/) - Disaster recovery and workload migration platform with AI-powered resilience and continuous data protection.
 
 ## AI for GitOps
@@ -338,7 +337,7 @@ Ready-to-use AI agent configurations for infrastructure repositories.
 - [Claude Code DevOps Toolkit](https://github.com/hammadhaqqani/claude-code-devops-toolkit) - Production-tested CLAUDE.md files, curated DevOps prompts, automation scripts, and project configs for infrastructure workflows.
 - [Free AI and DevOps Tools](https://hammadhaqqani.com/tools) - Collection of 41 free browser-based AI and DevOps tools including prompt builder, system prompt generator, and token counter.
 - [GitHub Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) - Official guide for creating copilot-instructions.md to customize AI behavior per repository.
-- [Awesome Claude Code](https://github.com/anthropics/claude-code-tips) - Official tips and techniques for getting the most out of Claude Code for infrastructure workflows.
+- [Awesome Claude Code](https://github.com/anthropics/claude-code) - Anthropic's official Claude Code repository with documentation, examples, and tips for infrastructure workflows.
 - [DevOps GPT Prompts](https://github.com/dair-ai/Prompt-Engineering-Guide) - Comprehensive prompt engineering guide with patterns applicable to DevOps automation.
 
 ## Learning Resources
