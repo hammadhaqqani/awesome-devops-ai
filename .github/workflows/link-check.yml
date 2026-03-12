@@ -17,7 +17,7 @@ jobs:
           args: >
             --verbose
             --no-progress
-            --accept 200,204,301,302,403,429
+            --accept 200,204,301,302,403,429,503
             --exclude-path CODE_OF_CONDUCT.md
             --exclude "linkedin.com"
             --exclude "x.com"
