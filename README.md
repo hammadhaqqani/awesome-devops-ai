@@ -281,7 +281,7 @@ AI tools for database management, query optimization, and data operations.
 - [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg) - Kubernetes operator for PostgreSQL that manages the full lifecycle of PostgreSQL clusters with automated failover.
 - [Drizzle](https://github.com/drizzle-team/drizzle-orm) - TypeScript ORM with declarative schema migrations and AI-friendly type-safe query building for infrastructure databases.
 - [Metabase](https://github.com/metabase/metabase) - Open-source BI platform with natural language querying that enables non-technical users to explore infrastructure databases.
-- [Neon](https://github.com/neondatabase/neon) - Serverless Postgres with database branching, autoscaling, and AI-powered query optimization for modern infrastructure.
+- [Neon](https://github.com/neondatabase/neon) - Serverless PostgreSQL with database branching, autoscaling, and AI-powered query optimization for modern infrastructure.
 - [OtterTune](https://ottertune.com/) - AI-powered database optimization that automatically tunes PostgreSQL, MySQL, and MariaDB configurations for performance.
 - [pganalyze](https://pganalyze.com/) - PostgreSQL performance monitoring with AI-powered query optimization recommendations and index advisor.
 - [PlanetScale](https://planetscale.com/) - Serverless MySQL platform with AI-powered schema change management, query insights, and non-blocking deploys.
