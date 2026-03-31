@@ -12,7 +12,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**280 tools** across **20 categories** — updated March 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**314 tools** across **20 categories** — updated March 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -67,6 +67,9 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [Tabnine](https://www.tabnine.com/) - AI code completion that runs locally or in the cloud with enterprise-grade privacy for sensitive infrastructure code.
 - [Windsurf](https://codeium.com/windsurf) - AI IDE by Codeium with agentic Cascade mode for multi-step infrastructure tasks.
 - [Void](https://voideditor.com/) - Open-source AI code editor forked from VS Code that supports local and remote LLMs for privacy-first infrastructure development.
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source AI agent for the terminal with built-in tools, MCP server support, and a free tier of 1,000 requests per day using Gemini models.
+- [Goose](https://github.com/block/goose) - Open-source autonomous AI agent by Block written in Rust that installs, executes, edits, and tests with any LLM via MCP under Apache 2.0.
+- [Kiro](https://kiro.dev/) - AWS spec-driven agentic IDE that uses structured requirements, design docs, and agent hooks to produce reproducible infrastructure code.
 - [Zed AI](https://zed.dev/) - High-performance editor with built-in AI assistant, inline generation, and terminal integration for infrastructure workflows.
 
 ## AI-Powered Kubernetes
@@ -79,12 +82,18 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [Kagent](https://github.com/kagent-dev/kagent) - CNCF Sandbox AI agent framework for DevOps and platform engineers to run agents inside Kubernetes clusters.
 - [KAITO](https://github.com/kaito-project/kaito) - Kubernetes AI Toolchain Operator that simplifies LLM inference and fine-tuning workloads on clusters, a CNCF Sandbox project.
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter) - Kubernetes node autoscaler that uses intelligent bin-packing and just-in-time provisioning to optimize cluster resources and costs.
+- [KServe](https://github.com/kserve/kserve) - Standardized distributed AI inference platform for Kubernetes supporting multi-framework model serving with autoscaling and canary rollouts.
 - [Komodor](https://komodor.com/) - Kubernetes troubleshooting platform with AI-driven root cause analysis, change tracking, and automated remediation workflows.
 - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) - Google Cloud kubectl plugin that uses LLMs to generate and apply Kubernetes manifests from natural language.
 - [Kubernetes ChatGPT Bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) - ChatGPT integration for Kubernetes troubleshooting via Slack notifications.
+- [Kubeflow](https://github.com/kubeflow/kubeflow) - CNCF incubating ML platform for Kubernetes with distributed training, model serving, pipelines, and notebook environments for AI workloads.
+- [Kubescape](https://github.com/kubescape/kubescape) - CNCF incubating Kubernetes security platform with runtime threat detection, SBOM generation, eBPF-based monitoring, and AI agent integration.
 - [Kubeshark](https://github.com/kubeshark/kubeshark) - API traffic analyzer for Kubernetes providing real-time visibility into cluster network traffic for AI-powered anomaly detection.
 - [Robusta](https://github.com/robusta-dev/robusta) - Kubernetes monitoring and troubleshooting platform with AI root cause analysis and Holmes AI integration for automated diagnostics.
 - [ValidKube](https://github.com/komodorio/validkube) - Open-source tool that validates, cleans, and secures Kubernetes manifests in one interface.
+- [k8m](https://github.com/weibaohui/k8m) - Lightweight Kubernetes AI dashboard with multi-cluster management, intelligent agents, and MCP support in a single-binary deployment.
+- [KubeAI](https://github.com/kubeai-project/kubeai) - Kubernetes AI inference operator for serving LLMs, embeddings, and speech-to-text models with intelligent scaling and zero external dependencies.
+- [Kubewall](https://github.com/kubewall/kubewall) - Single-binary Kubernetes dashboard with multi-cluster management and AI integration supporting OpenAI, Claude, Gemini, and local models.
 - [vCluster](https://github.com/loft-sh/vcluster) - Virtual Kubernetes clusters for development and testing that enable isolated AI workload experimentation.
 
 ## AI-Powered Terraform and IaC
@@ -119,6 +128,7 @@ AI systems that detect, investigate, and remediate production incidents.
 - [Moogsoft](https://www.moogsoft.com/) - AIOps platform with AI-driven noise reduction, correlation, and situation awareness for reducing alert fatigue.
 - [Opsgenie](https://www.atlassian.com/software/opsgenie) - Incident management with AI-powered alert routing, on-call scheduling, and intelligent escalation by Atlassian.
 - [PagerDuty AIOps](https://www.pagerduty.com/platform/aiops/) - AI event correlation, noise reduction, and intelligent routing that reduces alert fatigue with ML-based grouping.
+- [Keep](https://github.com/keephq/keep) - Open-source AIOps platform that correlates, deduplicates, and routes alerts from any monitoring tool with AI-powered noise reduction and workflow automation.
 - [Rootly](https://rootly.com/) - AI-powered incident management with automated timelines, AI-generated postmortems, and Slack-native workflows.
 - [Shoreline](https://shoreline.io/) - AI-powered incident automation that converts runbooks into automated remediation executing across fleets.
 - [Tracecat](https://github.com/TracecatHQ/tracecat) - Open-source AI automation for security and reliability operations with 100+ integrations and sandboxed execution.
@@ -127,6 +137,7 @@ AI systems that detect, investigate, and remediate production incidents.
 
 AI-enhanced monitoring, alerting, and observability platforms.
 
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform with OpenTelemetry-based tracing, model drift detection, and RAG debugging for production AI systems.
 - [Chronosphere](https://chronosphere.io/) - Cloud-native observability platform with AI-driven data optimization that reduces telemetry costs while preserving critical signals.
 - [Coralogix](https://coralogix.com/) - Full-stack observability with AI-powered log analysis, anomaly detection, and cost-effective data management.
 - [Datadog Bits AI](https://www.datadoghq.com/product/platform/bits-ai/) - AI assistant for natural language metric queries, root cause analysis, and automated investigation across infrastructure.
@@ -141,6 +152,7 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Splunk AI](https://www.splunk.com/en_us/products.html) - AI-powered analytics platform for natural language search, anomaly detection, and predictive insights across IT infrastructure.
 - [Sumo Logic](https://www.sumologic.com/) - Cloud-native machine data analytics with AI-driven log analysis, threat detection, and infrastructure intelligence.
 - [Thanos](https://github.com/thanos-io/thanos) - CNCF incubating highly available Prometheus setup with long-term storage and global query view for large-scale monitoring.
+- [OpenObserve](https://github.com/openobserve/openobserve) - Open-source observability platform built in Rust covering logs, metrics, and traces with 140x lower storage costs and SQL query interface.
 - [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - Fast, cost-effective monitoring solution and time series database compatible with Prometheus and Grafana.
 
 ## AI Security Scanning
@@ -166,6 +178,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [Wiz](https://www.wiz.io/) - Cloud security platform that unifies vulnerability findings with cloud context to prioritize exploitable risks.
 - [Kyverno](https://github.com/kyverno/kyverno) - CNCF incubating Kubernetes-native policy engine for validating, mutating, and generating configurations.
 - [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper) - Policy controller for Kubernetes based on Open Policy Agent for admission control and audit.
+- [Sysdig](https://www.sysdig.com/) - Cloud-native security platform with Sysdig Sage AI analyst for automated threat investigation, runtime protection, and AI coding agent security monitoring.
 
 ## AI Cost Optimization
 
@@ -201,6 +214,15 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [PagerDuty MCP Server](https://github.com/PagerDuty/mcp-server-pagerduty) - MCP server for PagerDuty incident management, on-call schedules, and alert routing from AI agents.
 - [Sentry MCP Server](https://github.com/getsentry/sentry-mcp) - Official Sentry MCP server for error tracking, issue search, and event analysis from AI agents.
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) - Official HashiCorp MCP server for Terraform module search, provider documentation, and policy enforcement.
+- [Argo CD MCP Server](https://github.com/argoproj-labs/mcp-for-argocd) - Official Argo Project MCP server enabling AI assistants to list, inspect, sync, and manage Argo CD applications via natural language.
+- [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) - Official Microsoft MCP server for Azure DevOps work items, pull requests, pipelines, repos, and wikis with Entra authentication.
+- [GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/) - Official GitLab MCP server for secure AI access to projects, issues, merge requests, and CI/CD pipelines with OAuth 2.0 support.
+- [Jenkins MCP Server](https://github.com/jenkinsci/mcp-server-plugin) - Official Jenkins plugin implementing an MCP server that exposes jobs, builds, and pipelines to AI assistants via SSE and streamable HTTP.
+- [JFrog MCP Server](https://github.com/jfrog/jfrog-mcp-server) - Official JFrog MCP server for Artifactory repository management, artifact search, security scanning, and supply chain management via AI agents.
+- [Notion MCP Server](https://developers.notion.com/docs/mcp) - Official Notion MCP server providing AI tools with semantic search across workspaces and connected sources plus page creation capabilities.
+- [Prometheus MCP Server](https://github.com/pab1it0/prometheus-mcp-server) - MCP server for querying Prometheus metrics via PromQL from AI agents, compatible with Claude Desktop, VS Code, and Cursor.
+- [Slack MCP Server](https://docs.slack.dev/ai/slack-mcp-server/) - Official Slack MCP server enabling AI assistants to search messages, read channel histories, send messages, and manage canvases securely.
+- [Pulumi MCP Server](https://www.pulumi.com/docs/ai/mcp-server/) - Official Pulumi MCP server for infrastructure previews, resource lookups, and delegating complex IaC tasks to Pulumi Neo from AI assistants.
 - [Vercel MCP Server](https://github.com/vercel/mcp-adapter) - MCP adapter by Vercel for integrating AI agents with serverless deployment and edge function management.
 
 ## AI-Powered CI/CD
@@ -219,6 +241,7 @@ AI tools that enhance continuous integration and delivery pipelines.
 - [PR-Agent](https://github.com/qodo-ai/pr-agent) - AI-powered pull request analysis that auto-describes, reviews, improves, and generates tests for GitHub, GitLab, and Bitbucket.
 - [Tekton](https://github.com/tektoncd/pipeline) - Cloud-native CI/CD building blocks for Kubernetes providing the foundation for AI-orchestrated build and deploy pipelines.
 - [Trunk](https://trunk.io/) - Developer experience platform with AI-powered code quality checks, merge queues, and flaky test management.
+- [Devtron](https://github.com/devtron-labs/devtron) - Kubernetes-native DevOps platform with AI-driven cost optimization, multi-cluster management, and integrated CI/CD with canary deployments and automated rollbacks.
 - [Woodpecker CI](https://github.com/woodpecker-ci/woodpecker) - Community fork of Drone CI with a simple pipeline engine, container-native execution, and multi-platform support.
 
 ## AI Log Analysis and Debugging
@@ -235,6 +258,7 @@ AI tools for log analysis, pattern detection, and debugging production systems.
 - [Zebrium](https://www.zebrium.com/) - ML-powered root cause analysis from logs that automatically identifies incident root cause without manual queries.
 - [Fluentd](https://github.com/fluent/fluentd) - CNCF graduated unified logging layer for collecting, filtering, and routing logs from any source to any destination.
 - [Fluent Bit](https://github.com/fluent/fluent-bit) - Fast and lightweight log processor and forwarder for Linux, macOS, and embedded systems built for cloud-native environments.
+- [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM observability platform with tracing, prompt management, and evaluations for monitoring AI agents in DevOps pipelines.
 
 ## AI Agent Frameworks for Infrastructure
 
@@ -250,9 +274,14 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLM applications with indexing, retrieval, and agent capabilities for infrastructure documentation and knowledge bases.
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript AI agent framework with built-in tool integrations, workflows, and RAG for building DevOps automation agents.
 - [n8n](https://github.com/n8n-io/n8n) - Workflow automation platform with 400+ integrations and AI agent capabilities for low-code DevOps automation.
+- [Google ADK](https://github.com/google/adk-python) - Google's open-source code-first framework for building multi-agent systems with workflow agents, MCP tool integration, and Cloud Run deployment.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - OpenAI's framework for building multi-agent systems with handoffs, guardrails, and tracing for infrastructure automation.
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Type-safe AI agent framework with native MCP support, 25+ model providers, and OpenTelemetry-based observability for DevOps automation.
+- [smolagents](https://github.com/huggingface/smolagents) - Minimalist open-source AI agent library from Hugging Face where agents write and execute Python code directly with sandboxed execution.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's SDK for integrating LLMs into applications with plugin architecture ideal for building infrastructure automation agents.
 - [Temporal](https://github.com/temporalio/temporal) - Durable execution platform for orchestrating long-running infrastructure workflows with built-in retry and failure handling.
+- [DSPy](https://github.com/stanfordnlp/dspy) - Stanford framework for programming language models with automatic prompt optimization and weight tuning, ideal for building reliable DevOps AI pipelines.
+- [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal AI assistant with 50+ integrations across messaging platforms, self-extending agent skills, and fully local execution for privacy.
 - [Wren AI](https://github.com/Canner/WrenAI) - Open-source text-to-SQL AI agent that generates SQL queries from natural language for infrastructure analytics and reporting.
 
 ## AI for Platform Engineering
@@ -271,6 +300,7 @@ AI tools for building internal developer platforms, service catalogs, and self-s
 - [Roadie](https://roadie.io/) - Managed Backstage platform with AI-powered scaffolding, TechDocs hosting, and developer productivity insights.
 - [Upbound](https://www.upbound.io/) - Universal cloud platform built on Crossplane for building internal platforms with declarative infrastructure APIs.
 - [Score](https://github.com/score-spec/spec) - Open-source workload specification that eliminates configuration drift between local and remote environments.
+- [StackGen](https://stackgen.com/) - Autonomous infrastructure platform with AI agents that generate validated, policy-compliant Terraform from natural language descriptions.
 
 ## AI for Database Operations
 
