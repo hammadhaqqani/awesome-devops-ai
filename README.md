@@ -18,6 +18,9 @@ If this list is useful, please give it a star to help others find it.
 
 ## Contents
 
+- [Tool of the Week](#tool-of-the-week)
+- [What's New](#whats-new)
+- [Most Starred Projects](#most-starred-projects)
 - [AI Coding Agents for Infrastructure](#ai-coding-agents-for-infrastructure)
 - [AI-Powered Kubernetes](#ai-powered-kubernetes)
 - [AI-Powered Terraform and IaC](#ai-powered-terraform-and-iac)
@@ -42,6 +45,39 @@ If this list is useful, please give it a star to help others find it.
 - [Related Awesome Lists](#related-awesome-lists)
 - [Author](#author)
 - [Support](#support)
+
+## Tool of the Week
+
+**Gemini CLI** — Google's open-source terminal AI agent that hit 99k+ GitHub stars in months. Free tier with 1,000 requests/day, built-in MCP support, and works with any infrastructure repo. Try it: `npx @google/gemini-cli`
+
+> Previous picks: Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics) | HolmesGPT (agentic troubleshooting)
+
+## What's New
+
+**March 2026** — Added 34 new tools including Gemini CLI, Goose, Kiro, KubeAI, Kubescape, Keep, Sysdig, and Pydantic AI. Added 9 new MCP servers (Azure DevOps, GitLab, JFrog, Jenkins, Prometheus, Pulumi, Argo CD, Slack, Notion). Added 3 new CNCF projects (Kubeflow, Kubescape, KServe) and new agent frameworks (Google ADK, Pydantic AI, smolagents, DSPy, OpenClaw). **Total: 314 tools** across 20 categories.
+
+**February 2026** — Added 23 new tools across 12 categories to reach 280 total. New coverage for database operations, networking, and container security.
+
+## Most Starred Projects
+
+The most popular open-source projects in this list by GitHub stars.
+
+| Project                 | Stars                                                                                    | Category            |
+| ----------------------- | ---------------------------------------------------------------------------------------- | ------------------- |
+| Gemini CLI              | ![Stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat)        | AI Coding Agents    |
+| OpenClaw                | ![Stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat)               | AI Agent Frameworks |
+| Grafana                 | ![Stars](https://img.shields.io/github/stars/grafana/grafana?style=flat)                 | AI Monitoring       |
+| Elasticsearch           | ![Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=flat)           | AI Log Analysis     |
+| n8n                     | ![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=flat)                      | AI Agent Frameworks |
+| LangChain               | ![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat)          | AI Agent Frameworks |
+| Dify                    | ![Stars](https://img.shields.io/github/stars/langgenius/dify?style=flat)                 | AI Agent Frameworks |
+| Aider                   | ![Stars](https://img.shields.io/github/stars/aider-ai/aider?style=flat)                  | AI Coding Agents    |
+| K8sGPT                  | ![Stars](https://img.shields.io/github/stars/k8sgpt-ai/k8sgpt?style=flat)                | AI Kubernetes       |
+| Trivy                   | ![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=flat)              | AI Security         |
+| ArgoCD                  | ![Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=flat)                | AI CI/CD            |
+| Istio                   | ![Stars](https://img.shields.io/github/stars/istio/istio?style=flat)                     | AI Networking       |
+| Helm                    | ![Stars](https://img.shields.io/github/stars/helm/helm?style=flat)                       | AI GitOps           |
+| Falco                   | ![Stars](https://img.shields.io/github/stars/falcosecurity/falco?style=flat)             | AI Security         |
 
 ## AI Coding Agents for Infrastructure
 
@@ -439,6 +475,7 @@ Communities, forums, and newsletters covering AI and DevOps.
 
 ## Related Awesome Lists
 
+- [Awesome](https://github.com/sindresorhus/awesome) - The original awesome list of awesome lists.
 - [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Curated list of Kubernetes resources.
 - [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform) - Curated list of Terraform resources and modules.
 - [Awesome SRE](https://github.com/dastergon/awesome-sre) - Curated list of Site Reliability Engineering resources.
@@ -447,6 +484,7 @@ Communities, forums, and newsletters covering AI and DevOps.
 - [Awesome CI/CD](https://github.com/cicdops/awesome-ciandcd) - Curated list of CI/CD tools and resources.
 - [Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) - Curated list of tools for deploying and operating LLMs in production.
 - [Awesome Platform Engineering](https://github.com/toptechevangelist/awesome-platform-engineering) - Curated list of platform engineering resources.
+- [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Curated list of self-hosted software for infrastructure and DevOps teams.
 
 ## Contributing
 
