@@ -107,6 +107,8 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [Goose](https://github.com/block/goose) - Open-source autonomous AI agent by Block written in Rust that installs, executes, edits, and tests with any LLM via MCP under Apache 2.0.
 - [Kiro](https://kiro.dev/) - AWS spec-driven agentic IDE that uses structured requirements, design docs, and agent hooks to produce reproducible infrastructure code.
 - [Zed AI](https://zed.dev/) - High-performance editor with built-in AI assistant, inline generation, and terminal integration for infrastructure workflows.
+- [toprank](https://github.com/nowork-studio/toprank) - Open-source Claude Code plugin (MIT) providing 9 SEO and Google Ads skills — connects Google Search Console, PageSpeed Insights, and Google Ads API for automated audits, keyword research, and content optimization directly from Claude Code.
+
 
 ## AI-Powered Kubernetes
 
