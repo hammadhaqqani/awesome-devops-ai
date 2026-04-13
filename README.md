@@ -255,14 +255,14 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [AWS MCP Servers](https://awslabs.github.io/mcp/) - Official AWS MCP server suite covering Terraform, CDK, CloudFormation, Lambda, S3, CloudWatch, ECS, and more.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive curated list of all MCP servers across every category.
 - [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare) - Official Cloudflare MCP server for managing Workers, KV, R2, and DNS from AI agents.
-- [Datadog MCP Server](https://github.com/DataDog/datadog-mcp-server) - MCP server for querying Datadog metrics, monitors, dashboards, and logs from AI agents.
+- [Datadog MCP Server](https://github.com/datadog-labs/mcp-server) - MCP server for querying Datadog metrics, monitors, dashboards, and logs from AI agents.
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway) - Docker-maintained MCP server for container management, image operations, and Docker Compose workflows.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub MCP server for repos, issues, PRs, Actions, and code search from AI agents.
 - [Grafana MCP Server](https://github.com/grafana/mcp-grafana) - Official Grafana MCP server for querying dashboards, datasources, and alerts from AI agents.
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes) - MCP server for kubectl operations, pod management, and cluster introspection.
 - [Linear MCP Server](https://github.com/jerhadf/linear-mcp-server) - MCP server for Linear project management enabling AI agents to manage issues, projects, and cycles.
 - [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, PostgreSQL, Puppeteer, and more.
-- [PagerDuty MCP Server](https://github.com/PagerDuty/mcp-server-pagerduty) - MCP server for PagerDuty incident management, on-call schedules, and alert routing from AI agents.
+- [PagerDuty MCP Server](https://github.com/PagerDuty/pagerduty-mcp-server) - MCP server for PagerDuty incident management, on-call schedules, and alert routing from AI agents.
 - [Sentry MCP Server](https://github.com/getsentry/sentry-mcp) - Official Sentry MCP server for error tracking, issue search, and event analysis from AI agents.
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) - Official HashiCorp MCP server for Terraform module search, provider documentation, and policy enforcement.
 - [Argo CD MCP Server](https://github.com/argoproj-labs/mcp-for-argocd) - Official Argo Project MCP server enabling AI assistants to list, inspect, sync, and manage Argo CD applications via natural language.
@@ -276,7 +276,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Pulumi MCP Server](https://www.pulumi.com/docs/ai/mcp-server/) - Official Pulumi MCP server for infrastructure previews, resource lookups, and delegating complex IaC tasks to Pulumi Neo from AI assistants.
 - [Vercel MCP Server](https://github.com/vercel/mcp-adapter) - MCP adapter by Vercel for integrating AI agents with serverless deployment and edge function management.
 - [Lens MCP Server](https://lenshq.io/) - Built-in MCP server in Lens Kubernetes IDE connecting AI coding assistants directly to Kubernetes clusters with native EKS and AKS integration.
-- [StackGen MCP Server](https://stackgen.com/mcp) - MCP server for AI-powered infrastructure lifecycle management that generates policy-compliant Terraform, Kubernetes manifests, and Helm charts from natural language.
+- [StackGen MCP Server](https://docs.stackgen.com/docs/stackbuilder/mcp-integration) - MCP server for AI-powered infrastructure lifecycle management that generates policy-compliant Terraform, Kubernetes manifests, and Helm charts from natural language.
 - [GCP gcloud MCP Server](https://github.com/googleapis/gcloud-mcp) - Official Google Cloud MCP server enabling AI assistants to interact with GCP resources via the gcloud CLI using natural language.
 - [Google Cloud Run MCP Server](https://github.com/GoogleCloudPlatform/cloud-run-mcp) - Official MCP server for deploying and managing applications on Google Cloud Run from AI agents.
 - [DigitalOcean MCP Server](https://github.com/digitalocean/digitalocean-mcp) - Official DigitalOcean MCP server for managing Droplets, App Platform, databases, DOKS, networking, and Spaces via AI assistants.
