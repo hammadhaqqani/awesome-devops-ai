@@ -12,7 +12,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**383 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**393 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -53,6 +53,8 @@ If this list is useful, please give it a star to help others find it.
 > Previous picks: Gemini CLI (Google's terminal AI agent) | Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics) | HolmesGPT (agentic troubleshooting)
 
 ## What's New
+
+**April 2026 (Late)** — Added 10 new entries covering the latest releases: OpenCode (140k+ stars terminal coding agent), Roo Code (VS Code agent), Microsoft Agent Framework 1.0 (unified Semantic Kernel and AutoGen, released April 3), LangChain Deep Agents, Llama Stack (Meta), AGENTS.md (OpenAI universal agent standard), Claude Skills (Anthropic), and the Agentic AI Foundation (Linux Foundation community). **Total: 393 tools** across 20 categories.
 
 **April 2026** — Major update with 69 new entries. Added 18 new tools including JetBrains Junie, aiac, NVIDIA KAI Scheduler, llm-d, Sedai, AccuKnox, Checkmarx One, Coroot, Apache SkyWalking, Dash0, MetaGPT, testRigor, Testsigma, ControlMonkey, and Braintrust. Added 24 new MCP servers from GCP, DigitalOcean, Oracle, New Relic, Splunk, Elastic, Dynatrace, CircleCI, Buildkite, MongoDB, Redis, Neon, Supabase, Vault, Snyk, Trivy, Rootly, FireHydrant, incident.io, and Ansible. Added 8 new books, 16 new certifications (AWS, Azure, GCP, CNCF, HashiCorp, FinOps, Datadog), and the Agentic DevOps podcast. **Total: 383 tools** across 20 categories.
 
@@ -100,7 +102,9 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer integrated into VS Code, JetBrains, and CLI, with Copilot Workspace for multi-file infrastructure changes.
 - [JetBrains AI](https://www.jetbrains.com/ai/) - AI assistant built into IntelliJ-based IDEs with context-aware infrastructure code completions and explanations.
 - [Lovable](https://lovable.dev/) - AI-powered full-stack app builder that generates production-ready applications from natural language descriptions with one-click deploy.
+- [OpenCode](https://github.com/opencode-ai/opencode) - Go-based terminal AI coding agent with 140k+ GitHub stars supporting 75+ models from Claude, OpenAI, Gemini, and local providers with Build and Plan modes.
 - [Replit Agent](https://replit.com/ai) - AI agent that builds and deploys full-stack applications from natural language, useful for rapid prototyping of infrastructure dashboards.
+- [Roo Code](https://github.com/RooCodeInc/Roo-Code) - Open-source VS Code AI coding agent with Custom Modes, agentic multi-file editing, and enterprise SOC 2 compliance forked from Cline.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with full codebase context, ideal for navigating large monorepos with shared infrastructure modules.
 - [Tabnine](https://www.tabnine.com/) - AI code completion that runs locally or in the cloud with enterprise-grade privacy for sensitive infrastructure code.
 - [Windsurf](https://codeium.com/windsurf) - AI IDE by Codeium with agentic Cascade mode for multi-step infrastructure tasks.
@@ -347,9 +351,12 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [Dify](https://github.com/langgenius/dify) - LLM application development platform with agent workflows, RAG, and model management for building custom DevOps chatbots.
 - [Haystack](https://github.com/deepset-ai/haystack) - Open-source LLM framework by deepset for building RAG pipelines and AI agents with infrastructure knowledge bases.
 - [LangChain](https://github.com/langchain-ai/langchain) - Framework for building LLM-powered applications, widely used for building custom DevOps agents with tool integrations.
+- [LangChain Deep Agents](https://github.com/langchain-ai/deepagents) - Reference agent harness from LangChain with built-in planning tools, filesystem backend, and subagent spawning for complex infrastructure tasks.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Library for building stateful, multi-actor applications with LLMs, ideal for complex infrastructure orchestration workflows.
+- [Llama Stack](https://github.com/meta-llama/llama-stack) - Meta's unified deployment stack with inference, agents, safety, and evaluation APIs for running open-source LLMs in production AI workloads.
 - [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLM applications with indexing, retrieval, and agent capabilities for infrastructure documentation and knowledge bases.
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript AI agent framework with built-in tool integrations, workflows, and RAG for building DevOps automation agents.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Microsoft's unified .NET and Python SDK that merges Semantic Kernel and AutoGen with MCP, A2A, graph workflows, and multi-agent orchestration.
 - [n8n](https://github.com/n8n-io/n8n) - Workflow automation platform with 400+ integrations and AI agent capabilities for low-code DevOps automation.
 - [Google ADK](https://github.com/google/adk-python) - Google's open-source code-first framework for building multi-agent systems with workflow agents, MCP tool integration, and Cloud Run deployment.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - OpenAI's framework for building multi-agent systems with handoffs, guardrails, and tracing for infrastructure automation.
@@ -462,9 +469,11 @@ AI tools for GitOps workflows, declarative infrastructure, and continuous reconc
 
 Ready-to-use AI agent configurations for infrastructure repositories.
 
+- [AGENTS.md](https://agents.md/) - Universal open standard from OpenAI for providing project-specific guidance to AI coding agents, supported across Cursor, Claude Code, Codex, and Gemini CLI.
 - [Awesome CursorRules](https://github.com/PatrickJS/awesome-cursorrules) - Community-curated .cursorrules files for various project types including infrastructure and DevOps.
 - [ChatGPT Prompts for DevOps](https://github.com/f/awesome-chatgpt-prompts) - Community-curated prompt library that includes DevOps and system administration automation prompts.
 - [Claude Code DevOps Toolkit](https://github.com/hammadhaqqani/claude-code-devops-toolkit) - Production-tested CLAUDE.md files, curated DevOps prompts, automation scripts, and project configs for infrastructure workflows.
+- [Claude Skills](https://github.com/anthropics/skills) - Anthropic's official repository of agent skills — folders of instructions, scripts, and resources that Claude loads dynamically for specialized DevOps workflows.
 - [Free AI and DevOps Tools](https://hammadhaqqani.com/tools) - Collection of 41 free browser-based AI and DevOps tools including prompt builder, system prompt generator, and token counter.
 - [GitHub Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) - Official guide for creating copilot-instructions.md to customize AI behavior per repository.
 - [Awesome Claude Code](https://github.com/anthropics/claude-code) - Anthropic's official Claude Code repository with documentation, examples, and tips for infrastructure workflows.
@@ -534,6 +543,7 @@ Courses, certifications, articles, and guides on AI for DevOps.
 
 Communities, forums, and newsletters covering AI and DevOps.
 
+- [Agentic AI Foundation](https://aaif.io/) - Linux Foundation community anchored by MCP, Goose, and AGENTS.md for open standards in agentic AI infrastructure and DevOps workflows.
 - [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) - Cloud Native Computing Foundation community with channels for K8sGPT, HolmesGPT, and AI-native projects.
 - [DevOps Weekly](https://www.devopsweekly.com/) - Weekly newsletter covering DevOps tooling and practices including AI adoption.
 - [KubeWeekly](https://www.cncf.io/kubeweekly/) - Official CNCF newsletter covering Kubernetes ecosystem updates and AI-powered tooling announcements.
