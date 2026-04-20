@@ -12,7 +12,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**383 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**414 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -53,6 +53,8 @@ If this list is useful, please give it a star to help others find it.
 > Previous picks: Gemini CLI (Google's terminal AI agent) | Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics) | HolmesGPT (agentic troubleshooting)
 
 ## What's New
+
+**April 2026 (Late)** — Major update adding 31 new entries from deep research. **AI Coding Agents** (7): OpenCode (140k+ stars), Roo Code, OpenHands (77.6% SWEBench), Crush (Charm), Factory AI, Qwen Code (Alibaba), Trae (ByteDance). **AI Agent Frameworks** (3): Microsoft Agent Framework 1.0 (April 3 release), LangChain Deep Agents, Llama Stack (Meta). **AI CI/CD and Testing** (5): Mendral (YC AI DevOps engineer), Stably AI, Momentic, Cursor BugBot, Claude Code Review (Anthropic multi-agent). **MCP Servers** (2): Cloudflare Code Mode, Bitbucket. **Kubernetes** (2): NVIDIA AI Cluster Runtime, Velero (CNCF Sandbox). **Terraform/IaC** (1): Terracotta AI. **Databases** (2): Tembo, Xata. **Security/Governance** (3): Credo AI, Holistic AI, Microsoft Purview. **Observability** (1): OpenLLMetry. **System Prompts** (2): AGENTS.md (OpenAI), Claude Skills (Anthropic). **Community** (1): Agentic AI Foundation (Linux Foundation). **Total: 414 tools** across 20 categories.
 
 **April 2026** — Major update with 69 new entries. Added 18 new tools including JetBrains Junie, aiac, NVIDIA KAI Scheduler, llm-d, Sedai, AccuKnox, Checkmarx One, Coroot, Apache SkyWalking, Dash0, MetaGPT, testRigor, Testsigma, ControlMonkey, and Braintrust. Added 24 new MCP servers from GCP, DigitalOcean, Oracle, New Relic, Splunk, Elastic, Dynatrace, CircleCI, Buildkite, MongoDB, Redis, Neon, Supabase, Vault, Snyk, Trivy, Rootly, FireHydrant, incident.io, and Ansible. Added 8 new books, 16 new certifications (AWS, Azure, GCP, CNCF, HashiCorp, FinOps, Datadog), and the Agentic DevOps podcast. **Total: 383 tools** across 20 categories.
 
@@ -100,7 +102,14 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer integrated into VS Code, JetBrains, and CLI, with Copilot Workspace for multi-file infrastructure changes.
 - [JetBrains AI](https://www.jetbrains.com/ai/) - AI assistant built into IntelliJ-based IDEs with context-aware infrastructure code completions and explanations.
 - [Lovable](https://lovable.dev/) - AI-powered full-stack app builder that generates production-ready applications from natural language descriptions with one-click deploy.
+- [Crush](https://github.com/charmbracelet/crush) - Glamourous terminal AI coding agent by Charm supporting OpenAI, Anthropic, Groq, Gemini, Bedrock, Azure, and any compatible endpoint without losing session context.
+- [Factory AI](https://factory.ai/) - Enterprise AI coding platform with advanced agents that generate complex apps, work on large codebases, and run code locally with web search and MCP access.
+- [OpenCode](https://github.com/opencode-ai/opencode) - Go-based terminal AI coding agent with 140k+ GitHub stars supporting 75+ models from Claude, OpenAI, Gemini, and local providers with Build and Plan modes.
+- [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source AI software engineering platform (MIT) with 77.6% SWEBench success rate, autonomous shell commands, file navigation, and debugging capabilities.
+- [Qwen Code](https://github.com/QwenLM/Qwen3-Coder) - Alibaba Qwen's official CLI coding agent with 20k+ stars supporting Qwen3-Coder models for infrastructure code generation and refactoring.
 - [Replit Agent](https://replit.com/ai) - AI agent that builds and deploys full-stack applications from natural language, useful for rapid prototyping of infrastructure dashboards.
+- [Roo Code](https://github.com/RooCodeInc/Roo-Code) - Open-source VS Code AI coding agent with Custom Modes, agentic multi-file editing, and enterprise SOC 2 compliance forked from Cline.
+- [Trae](https://www.trae.ai/) - ByteDance's free AI-first IDE with vibe coding that generates production-ready code from natural language prompts with built-in MCP support.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with full codebase context, ideal for navigating large monorepos with shared infrastructure modules.
 - [Tabnine](https://www.tabnine.com/) - AI code completion that runs locally or in the cloud with enterprise-grade privacy for sensitive infrastructure code.
 - [Windsurf](https://codeium.com/windsurf) - AI IDE by Codeium with agentic Cascade mode for multi-step infrastructure tasks.
@@ -139,7 +148,9 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [vCluster](https://github.com/loft-sh/vcluster) - Virtual Kubernetes clusters for development and testing that enable isolated AI workload experimentation.
 - [KAI Scheduler](https://github.com/NVIDIA/KAI-Scheduler) - CNCF Sandbox Kubernetes-native GPU scheduler by NVIDIA for AI workloads with topology-aware scheduling, gang scheduling, GPU sharing, and dynamic resource allocation.
 - [llm-d](https://github.com/llm-d/llm-d) - CNCF Sandbox distributed LLM inference framework for Kubernetes by Red Hat, IBM, and Google with disaggregated serving, intelligent scheduling, and vendor-neutral accelerator support.
+- [NVIDIA AI Cluster Runtime](https://github.com/NVIDIA/aicr) - NVIDIA's alpha release AI cluster runtime with aicr CLI, API server, cluster agent, and validated recipes for training and inference on H100 and Blackwell accelerators.
 - [Sedai](https://sedai.io/) - Autonomous Kubernetes optimization platform using reinforcement learning to continuously tune scaling, compact clusters, and remediate issues in copilot or full autopilot mode.
+- [Velero](https://github.com/vmware-tanzu/velero) - CNCF Sandbox Kubernetes backup, disaster recovery, and migration tool donated by Broadcom with AI-assisted scheduling and restore workflows.
 
 ## AI-Powered Terraform and IaC
 
@@ -159,6 +170,7 @@ Tools that bring AI capabilities to Infrastructure as Code workflows.
 - [Terramate](https://github.com/terramate-io/terramate) - Orchestration and code generation tool for Terraform that simplifies managing complex multi-stack infrastructure.
 - [tfswitch](https://github.com/warrensbox/terraform-switcher) - Command-line tool to switch between different versions of Terraform essential for managing multi-version IaC pipelines.
 - [ControlMonkey](https://controlmonkey.io/) - Infrastructure governance and resilience platform for Terraform and OpenTofu with AI-powered drift remediation, automatic IaC generation from cloud resources, and compliance guardrails.
+- [Terracotta AI](https://tryterracotta.com/) - AI-powered IaC PR reviewer (YC) for Terraform, OpenTofu, and CDK-TF code providing plan analysis, drift detection, IAM security, cost impact, and architecture diagrams on every pull request.
 
 ## AI Incident Response and Troubleshooting
 
@@ -230,6 +242,9 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [Sysdig](https://www.sysdig.com/) - Cloud-native security platform with Sysdig Sage AI analyst for automated threat investigation, runtime protection, and AI coding agent security monitoring.
 - [AccuKnox](https://accuknox.com/) - Cloud-native zero-trust security platform with AI CoPilot for Kubernetes using eBPF-based runtime visibility, GenAI policy generation, and compliance tracking.
 - [Checkmarx One](https://checkmarx.com/) - Unified application security platform combining SAST, SCA, DAST, IaC, API, container, and supply chain security with AI-powered autonomous vulnerability remediation.
+- [Credo AI](https://www.credo.ai/) - AI governance and compliance platform for enforcing EU AI Act, NIST AI RMF, and other frameworks across enterprise AI systems and LLM deployments.
+- [Holistic AI](https://www.holisticai.com/) - AI governance and risk management platform providing continuous audit, bias detection, and compliance tracking for AI systems in production infrastructure.
+- [Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview) - Unified data governance and AI security platform with data loss prevention, insider risk management, and AI compliance controls across Microsoft 365 and Azure.
 
 ## AI Cost Optimization
 
@@ -298,6 +313,8 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [FireHydrant MCP Server](https://github.com/firehydrant/firehydrant-mcp) - Official FireHydrant MCP server for interacting with incident management API through AI assistants.
 - [Incident.io MCP Server](https://github.com/incident-io/incidentio-mcp-golang) - Official incident.io MCP server connecting AI assistants to incident.io for incident management and response.
 - [Ansible MCP Server](https://github.com/sibilleb/AAP-Enterprise-MCP-Server) - MCP server for Ansible Automation Platform and Event-Driven Ansible enabling AI-driven playbook execution and infrastructure automation.
+- [Bitbucket MCP Server](https://github.com/MatanYemini/bitbucket-mcp) - MCP server for integrating with Bitbucket Cloud and Server APIs enabling AI agents to manage repositories, pull requests, and code reviews.
+- [Cloudflare Code Mode MCP Server](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) - Cloudflare MCP server with Code Mode that exposes only search and execute tools backed by a type-aware SDK, reducing context footprint across 2,500+ API endpoints.
 
 ## AI-Powered CI/CD
 
@@ -317,6 +334,11 @@ AI tools that enhance continuous integration and delivery pipelines.
 - [Trunk](https://trunk.io/) - Developer experience platform with AI-powered code quality checks, merge queues, and flaky test management.
 - [Devtron](https://github.com/devtron-labs/devtron) - Kubernetes-native DevOps platform with AI-driven cost optimization, multi-cluster management, and integrated CI/CD with canary deployments and automated rollbacks.
 - [Woodpecker CI](https://github.com/woodpecker-ci/woodpecker) - Community fork of Drone CI with a simple pipeline engine, container-native execution, and multi-platform support.
+- [Claude Code Review](https://github.com/anthropics/claude-code-security-review) - Anthropic's multi-agent GitHub Action that analyzes pull requests for logic errors, race conditions, data handling mistakes, API misuse, and security vulnerabilities in parallel.
+- [Cursor BugBot](https://cursor.com/bugbot) - AI code review bot from Cursor that reviews 2 million+ PRs monthly using 8 parallel review passes with randomized diff order to catch bugs single-pass reviewers miss.
+- [Mendral](https://www.mendral.com/) - Always-on AI DevOps engineer (YC W26) that autonomously diagnoses CI failures, fixes flaky tests, and opens fix PRs with a 75% acceptance rate.
+- [Momentic](https://momentic.ai/) - AI-native automated testing platform (YC) that writes, runs, and maintains end-to-end tests for CI/CD pipelines with self-healing capabilities.
+- [Stably AI](https://www.stably.ai/) - AI testing platform (YC, Vercel Ventures) that auto-writes, runs, and maintains diff-aware end-to-end tests directly in CI with automatic selector healing.
 - [testRigor](https://testrigor.com/) - AI-driven codeless testing platform that integrates into CI/CD pipelines with natural language test creation and intelligent test maintenance.
 - [Testsigma](https://github.com/testsigmahq/testsigma) - Open-source agentic AI test automation platform with self-healing tests, natural language test creation, and CI/CD integration.
 
@@ -335,6 +357,7 @@ AI tools for log analysis, pattern detection, and debugging production systems.
 - [Fluentd](https://github.com/fluent/fluentd) - CNCF graduated unified logging layer for collecting, filtering, and routing logs from any source to any destination.
 - [Fluent Bit](https://github.com/fluent/fluent-bit) - Fast and lightweight log processor and forwarder for Linux, macOS, and embedded systems built for cloud-native environments.
 - [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM observability platform with tracing, prompt management, and evaluations for monitoring AI agents in DevOps pipelines.
+- [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-compatible observability project for AI agents providing standardized instrumentation for OpenAI, Anthropic, and other LLM providers.
 - [Braintrust](https://braintrust.dev/) - AI observability and evaluation platform for monitoring LLM applications and AI agents in production with trace capture, automated scoring, and real-time feedback loops.
 
 ## AI Agent Frameworks for Infrastructure
@@ -347,9 +370,12 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [Dify](https://github.com/langgenius/dify) - LLM application development platform with agent workflows, RAG, and model management for building custom DevOps chatbots.
 - [Haystack](https://github.com/deepset-ai/haystack) - Open-source LLM framework by deepset for building RAG pipelines and AI agents with infrastructure knowledge bases.
 - [LangChain](https://github.com/langchain-ai/langchain) - Framework for building LLM-powered applications, widely used for building custom DevOps agents with tool integrations.
+- [LangChain Deep Agents](https://github.com/langchain-ai/deepagents) - Reference agent harness from LangChain with built-in planning tools, filesystem backend, and subagent spawning for complex infrastructure tasks.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Library for building stateful, multi-actor applications with LLMs, ideal for complex infrastructure orchestration workflows.
+- [Llama Stack](https://github.com/meta-llama/llama-stack) - Meta's unified deployment stack with inference, agents, safety, and evaluation APIs for running open-source LLMs in production AI workloads.
 - [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLM applications with indexing, retrieval, and agent capabilities for infrastructure documentation and knowledge bases.
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript AI agent framework with built-in tool integrations, workflows, and RAG for building DevOps automation agents.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Microsoft's unified .NET and Python SDK that merges Semantic Kernel and AutoGen with MCP, A2A, graph workflows, and multi-agent orchestration.
 - [n8n](https://github.com/n8n-io/n8n) - Workflow automation platform with 400+ integrations and AI agent capabilities for low-code DevOps automation.
 - [Google ADK](https://github.com/google/adk-python) - Google's open-source code-first framework for building multi-agent systems with workflow agents, MCP tool integration, and Cloud Run deployment.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - OpenAI's framework for building multi-agent systems with handoffs, guardrails, and tracing for infrastructure automation.
@@ -394,7 +420,9 @@ AI tools for database management, query optimization, and data operations.
 - [pganalyze](https://pganalyze.com/) - PostgreSQL performance monitoring with AI-powered query optimization recommendations and index advisor.
 - [PlanetScale](https://planetscale.com/) - Serverless MySQL platform with AI-powered schema change management, query insights, and non-blocking deploys.
 - [SchemaHero](https://github.com/schemahero/schemahero) - Kubernetes-native database schema management tool that applies declarative schema definitions as migrations.
+- [Tembo](https://tembo.io/) - Open-source serverless PostgreSQL platform with AI-driven database optimization, error resolution, and integration with AWS RDS, Supabase, Linear, and GitHub.
 - [Vitess](https://github.com/vitessio/vitess) - CNCF graduated database clustering system for horizontal scaling of MySQL, essential for AI workloads needing distributed data.
+- [Xata](https://xata.io/) - Serverless database platform combining PostgreSQL with OpenSearch for AI applications with full-text search, vector search, and database branching in a single managed service.
 
 ## AI for Networking and Service Mesh
 
@@ -462,9 +490,11 @@ AI tools for GitOps workflows, declarative infrastructure, and continuous reconc
 
 Ready-to-use AI agent configurations for infrastructure repositories.
 
+- [AGENTS.md](https://agents.md/) - Universal open standard from OpenAI for providing project-specific guidance to AI coding agents, supported across Cursor, Claude Code, Codex, and Gemini CLI.
 - [Awesome CursorRules](https://github.com/PatrickJS/awesome-cursorrules) - Community-curated .cursorrules files for various project types including infrastructure and DevOps.
 - [ChatGPT Prompts for DevOps](https://github.com/f/awesome-chatgpt-prompts) - Community-curated prompt library that includes DevOps and system administration automation prompts.
 - [Claude Code DevOps Toolkit](https://github.com/hammadhaqqani/claude-code-devops-toolkit) - Production-tested CLAUDE.md files, curated DevOps prompts, automation scripts, and project configs for infrastructure workflows.
+- [Claude Skills](https://github.com/anthropics/skills) - Anthropic's official repository of agent skills — folders of instructions, scripts, and resources that Claude loads dynamically for specialized DevOps workflows.
 - [Free AI and DevOps Tools](https://hammadhaqqani.com/tools) - Collection of 41 free browser-based AI and DevOps tools including prompt builder, system prompt generator, and token counter.
 - [GitHub Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) - Official guide for creating copilot-instructions.md to customize AI behavior per repository.
 - [Awesome Claude Code](https://github.com/anthropics/claude-code) - Anthropic's official Claude Code repository with documentation, examples, and tips for infrastructure workflows.
@@ -534,6 +564,7 @@ Courses, certifications, articles, and guides on AI for DevOps.
 
 Communities, forums, and newsletters covering AI and DevOps.
 
+- [Agentic AI Foundation](https://aaif.io/) - Linux Foundation community anchored by MCP, Goose, and AGENTS.md for open standards in agentic AI infrastructure and DevOps workflows.
 - [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) - Cloud Native Computing Foundation community with channels for K8sGPT, HolmesGPT, and AI-native projects.
 - [DevOps Weekly](https://www.devopsweekly.com/) - Weekly newsletter covering DevOps tooling and practices including AI adoption.
 - [KubeWeekly](https://www.cncf.io/kubeweekly/) - Official CNCF newsletter covering Kubernetes ecosystem updates and AI-powered tooling announcements.
