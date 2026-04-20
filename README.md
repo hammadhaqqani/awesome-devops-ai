@@ -12,7 +12,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**403 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**414 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -54,7 +54,7 @@ If this list is useful, please give it a star to help others find it.
 
 ## What's New
 
-**April 2026 (Late)** — Added 20 new entries covering the latest releases. **AI Coding Agents** (7): OpenCode (140k+ stars), Roo Code, OpenHands (77.6% SWEBench), Crush (Charm terminal agent), Factory AI, Qwen Code (Alibaba), and Trae (ByteDance). **AI Agent Frameworks** (3): Microsoft Agent Framework 1.0 (unified Semantic Kernel and AutoGen, released April 3), LangChain Deep Agents, and Llama Stack (Meta). **MCP Servers** (2): Cloudflare Code Mode and Bitbucket. **Kubernetes** (2): NVIDIA AI Cluster Runtime and Velero (CNCF Sandbox). **Observability** (1): OpenLLMetry. **System Prompts** (2): AGENTS.md (OpenAI universal agent standard) and Claude Skills (Anthropic). **Community** (1): Agentic AI Foundation (Linux Foundation). **Other** (2): additional coverage. **Total: 403 tools** across 20 categories.
+**April 2026 (Late)** — Major update adding 31 new entries from deep research. **AI Coding Agents** (7): OpenCode (140k+ stars), Roo Code, OpenHands (77.6% SWEBench), Crush (Charm), Factory AI, Qwen Code (Alibaba), Trae (ByteDance). **AI Agent Frameworks** (3): Microsoft Agent Framework 1.0 (April 3 release), LangChain Deep Agents, Llama Stack (Meta). **AI CI/CD and Testing** (5): Mendral (YC AI DevOps engineer), Stably AI, Momentic, Cursor BugBot, Claude Code Review (Anthropic multi-agent). **MCP Servers** (2): Cloudflare Code Mode, Bitbucket. **Kubernetes** (2): NVIDIA AI Cluster Runtime, Velero (CNCF Sandbox). **Terraform/IaC** (1): Terracotta AI. **Databases** (2): Tembo, Xata. **Security/Governance** (3): Credo AI, Holistic AI, Microsoft Purview. **Observability** (1): OpenLLMetry. **System Prompts** (2): AGENTS.md (OpenAI), Claude Skills (Anthropic). **Community** (1): Agentic AI Foundation (Linux Foundation). **Total: 414 tools** across 20 categories.
 
 **April 2026** — Major update with 69 new entries. Added 18 new tools including JetBrains Junie, aiac, NVIDIA KAI Scheduler, llm-d, Sedai, AccuKnox, Checkmarx One, Coroot, Apache SkyWalking, Dash0, MetaGPT, testRigor, Testsigma, ControlMonkey, and Braintrust. Added 24 new MCP servers from GCP, DigitalOcean, Oracle, New Relic, Splunk, Elastic, Dynatrace, CircleCI, Buildkite, MongoDB, Redis, Neon, Supabase, Vault, Snyk, Trivy, Rootly, FireHydrant, incident.io, and Ansible. Added 8 new books, 16 new certifications (AWS, Azure, GCP, CNCF, HashiCorp, FinOps, Datadog), and the Agentic DevOps podcast. **Total: 383 tools** across 20 categories.
 
@@ -170,6 +170,7 @@ Tools that bring AI capabilities to Infrastructure as Code workflows.
 - [Terramate](https://github.com/terramate-io/terramate) - Orchestration and code generation tool for Terraform that simplifies managing complex multi-stack infrastructure.
 - [tfswitch](https://github.com/warrensbox/terraform-switcher) - Command-line tool to switch between different versions of Terraform essential for managing multi-version IaC pipelines.
 - [ControlMonkey](https://controlmonkey.io/) - Infrastructure governance and resilience platform for Terraform and OpenTofu with AI-powered drift remediation, automatic IaC generation from cloud resources, and compliance guardrails.
+- [Terracotta AI](https://tryterracotta.com/) - AI-powered IaC PR reviewer (YC) for Terraform, OpenTofu, and CDK-TF code providing plan analysis, drift detection, IAM security, cost impact, and architecture diagrams on every pull request.
 
 ## AI Incident Response and Troubleshooting
 
@@ -241,6 +242,9 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [Sysdig](https://www.sysdig.com/) - Cloud-native security platform with Sysdig Sage AI analyst for automated threat investigation, runtime protection, and AI coding agent security monitoring.
 - [AccuKnox](https://accuknox.com/) - Cloud-native zero-trust security platform with AI CoPilot for Kubernetes using eBPF-based runtime visibility, GenAI policy generation, and compliance tracking.
 - [Checkmarx One](https://checkmarx.com/) - Unified application security platform combining SAST, SCA, DAST, IaC, API, container, and supply chain security with AI-powered autonomous vulnerability remediation.
+- [Credo AI](https://www.credo.ai/) - AI governance and compliance platform for enforcing EU AI Act, NIST AI RMF, and other frameworks across enterprise AI systems and LLM deployments.
+- [Holistic AI](https://www.holisticai.com/) - AI governance and risk management platform providing continuous audit, bias detection, and compliance tracking for AI systems in production infrastructure.
+- [Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview) - Unified data governance and AI security platform with data loss prevention, insider risk management, and AI compliance controls across Microsoft 365 and Azure.
 
 ## AI Cost Optimization
 
@@ -330,6 +334,11 @@ AI tools that enhance continuous integration and delivery pipelines.
 - [Trunk](https://trunk.io/) - Developer experience platform with AI-powered code quality checks, merge queues, and flaky test management.
 - [Devtron](https://github.com/devtron-labs/devtron) - Kubernetes-native DevOps platform with AI-driven cost optimization, multi-cluster management, and integrated CI/CD with canary deployments and automated rollbacks.
 - [Woodpecker CI](https://github.com/woodpecker-ci/woodpecker) - Community fork of Drone CI with a simple pipeline engine, container-native execution, and multi-platform support.
+- [Claude Code Review](https://github.com/anthropics/claude-code-security-review) - Anthropic's multi-agent GitHub Action that analyzes pull requests for logic errors, race conditions, data handling mistakes, API misuse, and security vulnerabilities in parallel.
+- [Cursor BugBot](https://cursor.com/bugbot) - AI code review bot from Cursor that reviews 2 million+ PRs monthly using 8 parallel review passes with randomized diff order to catch bugs single-pass reviewers miss.
+- [Mendral](https://www.mendral.com/) - Always-on AI DevOps engineer (YC W26) that autonomously diagnoses CI failures, fixes flaky tests, and opens fix PRs with a 75% acceptance rate.
+- [Momentic](https://momentic.ai/) - AI-native automated testing platform (YC) that writes, runs, and maintains end-to-end tests for CI/CD pipelines with self-healing capabilities.
+- [Stably AI](https://www.stably.ai/) - AI testing platform (YC, Vercel Ventures) that auto-writes, runs, and maintains diff-aware end-to-end tests directly in CI with automatic selector healing.
 - [testRigor](https://testrigor.com/) - AI-driven codeless testing platform that integrates into CI/CD pipelines with natural language test creation and intelligent test maintenance.
 - [Testsigma](https://github.com/testsigmahq/testsigma) - Open-source agentic AI test automation platform with self-healing tests, natural language test creation, and CI/CD integration.
 
@@ -411,7 +420,9 @@ AI tools for database management, query optimization, and data operations.
 - [pganalyze](https://pganalyze.com/) - PostgreSQL performance monitoring with AI-powered query optimization recommendations and index advisor.
 - [PlanetScale](https://planetscale.com/) - Serverless MySQL platform with AI-powered schema change management, query insights, and non-blocking deploys.
 - [SchemaHero](https://github.com/schemahero/schemahero) - Kubernetes-native database schema management tool that applies declarative schema definitions as migrations.
+- [Tembo](https://tembo.io/) - Open-source serverless PostgreSQL platform with AI-driven database optimization, error resolution, and integration with AWS RDS, Supabase, Linear, and GitHub.
 - [Vitess](https://github.com/vitessio/vitess) - CNCF graduated database clustering system for horizontal scaling of MySQL, essential for AI workloads needing distributed data.
+- [Xata](https://xata.io/) - Serverless database platform combining PostgreSQL with OpenSearch for AI applications with full-text search, vector search, and database branching in a single managed service.
 
 ## AI for Networking and Service Mesh
 
