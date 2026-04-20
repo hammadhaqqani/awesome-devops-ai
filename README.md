@@ -157,7 +157,7 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 Tools that bring AI capabilities to Infrastructure as Code workflows.
 
 - [Atmos](https://github.com/cloudposse/atmos) - Universal tool for DevOps workflows that provides a framework for managing Terraform configurations at scale with AI-assisted component discovery.
-- [AWS Terraform MCP Server](https://awslabs.github.io/mcp/servers/terraform-mcp-server) - AWS MCP server with Terraform best practices, Checkov security scanning, and AWS provider documentation search.
+- [AWS Terraform MCP Server](https://pypi.org/project/awslabs.terraform-mcp-server/) - AWS Labs MCP server with Terraform best practices, Checkov security scanning, and AWS provider documentation search.
 - [Brainboard](https://www.brainboard.co/) - Visual Terraform designer with AI-powered architecture generation from cloud diagrams.
 - [Env0](https://www.env0.com/) - Self-service infrastructure platform with AI-assisted policy enforcement, cost estimation, and drift detection for Terraform.
 - [Firefly](https://www.firefly.ai/) - Cloud asset management that uses AI to detect drift, generate Terraform from existing resources, and manage IaC coverage gaps.
