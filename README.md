@@ -12,7 +12,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**393 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**403 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -54,7 +54,7 @@ If this list is useful, please give it a star to help others find it.
 
 ## What's New
 
-**April 2026 (Late)** — Added 10 new entries covering the latest releases: OpenCode (140k+ stars terminal coding agent), Roo Code (VS Code agent), Microsoft Agent Framework 1.0 (unified Semantic Kernel and AutoGen, released April 3), LangChain Deep Agents, Llama Stack (Meta), AGENTS.md (OpenAI universal agent standard), Claude Skills (Anthropic), and the Agentic AI Foundation (Linux Foundation community). **Total: 393 tools** across 20 categories.
+**April 2026 (Late)** — Added 20 new entries covering the latest releases. **AI Coding Agents** (7): OpenCode (140k+ stars), Roo Code, OpenHands (77.6% SWEBench), Crush (Charm terminal agent), Factory AI, Qwen Code (Alibaba), and Trae (ByteDance). **AI Agent Frameworks** (3): Microsoft Agent Framework 1.0 (unified Semantic Kernel and AutoGen, released April 3), LangChain Deep Agents, and Llama Stack (Meta). **MCP Servers** (2): Cloudflare Code Mode and Bitbucket. **Kubernetes** (2): NVIDIA AI Cluster Runtime and Velero (CNCF Sandbox). **Observability** (1): OpenLLMetry. **System Prompts** (2): AGENTS.md (OpenAI universal agent standard) and Claude Skills (Anthropic). **Community** (1): Agentic AI Foundation (Linux Foundation). **Other** (2): additional coverage. **Total: 403 tools** across 20 categories.
 
 **April 2026** — Major update with 69 new entries. Added 18 new tools including JetBrains Junie, aiac, NVIDIA KAI Scheduler, llm-d, Sedai, AccuKnox, Checkmarx One, Coroot, Apache SkyWalking, Dash0, MetaGPT, testRigor, Testsigma, ControlMonkey, and Braintrust. Added 24 new MCP servers from GCP, DigitalOcean, Oracle, New Relic, Splunk, Elastic, Dynatrace, CircleCI, Buildkite, MongoDB, Redis, Neon, Supabase, Vault, Snyk, Trivy, Rootly, FireHydrant, incident.io, and Ansible. Added 8 new books, 16 new certifications (AWS, Azure, GCP, CNCF, HashiCorp, FinOps, Datadog), and the Agentic DevOps podcast. **Total: 383 tools** across 20 categories.
 
@@ -102,9 +102,14 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer integrated into VS Code, JetBrains, and CLI, with Copilot Workspace for multi-file infrastructure changes.
 - [JetBrains AI](https://www.jetbrains.com/ai/) - AI assistant built into IntelliJ-based IDEs with context-aware infrastructure code completions and explanations.
 - [Lovable](https://lovable.dev/) - AI-powered full-stack app builder that generates production-ready applications from natural language descriptions with one-click deploy.
+- [Crush](https://github.com/charmbracelet/crush) - Glamourous terminal AI coding agent by Charm supporting OpenAI, Anthropic, Groq, Gemini, Bedrock, Azure, and any compatible endpoint without losing session context.
+- [Factory AI](https://factory.ai/) - Enterprise AI coding platform with advanced agents that generate complex apps, work on large codebases, and run code locally with web search and MCP access.
 - [OpenCode](https://github.com/opencode-ai/opencode) - Go-based terminal AI coding agent with 140k+ GitHub stars supporting 75+ models from Claude, OpenAI, Gemini, and local providers with Build and Plan modes.
+- [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source AI software engineering platform (MIT) with 77.6% SWEBench success rate, autonomous shell commands, file navigation, and debugging capabilities.
+- [Qwen Code](https://github.com/QwenLM/Qwen3-Coder) - Alibaba Qwen's official CLI coding agent with 20k+ stars supporting Qwen3-Coder models for infrastructure code generation and refactoring.
 - [Replit Agent](https://replit.com/ai) - AI agent that builds and deploys full-stack applications from natural language, useful for rapid prototyping of infrastructure dashboards.
 - [Roo Code](https://github.com/RooCodeInc/Roo-Code) - Open-source VS Code AI coding agent with Custom Modes, agentic multi-file editing, and enterprise SOC 2 compliance forked from Cline.
+- [Trae](https://www.trae.ai/) - ByteDance's free AI-first IDE with vibe coding that generates production-ready code from natural language prompts with built-in MCP support.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with full codebase context, ideal for navigating large monorepos with shared infrastructure modules.
 - [Tabnine](https://www.tabnine.com/) - AI code completion that runs locally or in the cloud with enterprise-grade privacy for sensitive infrastructure code.
 - [Windsurf](https://codeium.com/windsurf) - AI IDE by Codeium with agentic Cascade mode for multi-step infrastructure tasks.
@@ -143,7 +148,9 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [vCluster](https://github.com/loft-sh/vcluster) - Virtual Kubernetes clusters for development and testing that enable isolated AI workload experimentation.
 - [KAI Scheduler](https://github.com/NVIDIA/KAI-Scheduler) - CNCF Sandbox Kubernetes-native GPU scheduler by NVIDIA for AI workloads with topology-aware scheduling, gang scheduling, GPU sharing, and dynamic resource allocation.
 - [llm-d](https://github.com/llm-d/llm-d) - CNCF Sandbox distributed LLM inference framework for Kubernetes by Red Hat, IBM, and Google with disaggregated serving, intelligent scheduling, and vendor-neutral accelerator support.
+- [NVIDIA AI Cluster Runtime](https://github.com/NVIDIA/aicr) - NVIDIA's alpha release AI cluster runtime with aicr CLI, API server, cluster agent, and validated recipes for training and inference on H100 and Blackwell accelerators.
 - [Sedai](https://sedai.io/) - Autonomous Kubernetes optimization platform using reinforcement learning to continuously tune scaling, compact clusters, and remediate issues in copilot or full autopilot mode.
+- [Velero](https://github.com/vmware-tanzu/velero) - CNCF Sandbox Kubernetes backup, disaster recovery, and migration tool donated by Broadcom with AI-assisted scheduling and restore workflows.
 
 ## AI-Powered Terraform and IaC
 
@@ -302,6 +309,8 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [FireHydrant MCP Server](https://github.com/firehydrant/firehydrant-mcp) - Official FireHydrant MCP server for interacting with incident management API through AI assistants.
 - [Incident.io MCP Server](https://github.com/incident-io/incidentio-mcp-golang) - Official incident.io MCP server connecting AI assistants to incident.io for incident management and response.
 - [Ansible MCP Server](https://github.com/sibilleb/AAP-Enterprise-MCP-Server) - MCP server for Ansible Automation Platform and Event-Driven Ansible enabling AI-driven playbook execution and infrastructure automation.
+- [Bitbucket MCP Server](https://github.com/MatanYemini/bitbucket-mcp) - MCP server for integrating with Bitbucket Cloud and Server APIs enabling AI agents to manage repositories, pull requests, and code reviews.
+- [Cloudflare Code Mode MCP Server](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) - Cloudflare MCP server with Code Mode that exposes only search and execute tools backed by a type-aware SDK, reducing context footprint across 2,500+ API endpoints.
 
 ## AI-Powered CI/CD
 
@@ -339,6 +348,7 @@ AI tools for log analysis, pattern detection, and debugging production systems.
 - [Fluentd](https://github.com/fluent/fluentd) - CNCF graduated unified logging layer for collecting, filtering, and routing logs from any source to any destination.
 - [Fluent Bit](https://github.com/fluent/fluent-bit) - Fast and lightweight log processor and forwarder for Linux, macOS, and embedded systems built for cloud-native environments.
 - [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM observability platform with tracing, prompt management, and evaluations for monitoring AI agents in DevOps pipelines.
+- [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-compatible observability project for AI agents providing standardized instrumentation for OpenAI, Anthropic, and other LLM providers.
 - [Braintrust](https://braintrust.dev/) - AI observability and evaluation platform for monitoring LLM applications and AI agents in production with trace capture, automated scoring, and real-time feedback loops.
 
 ## AI Agent Frameworks for Infrastructure
