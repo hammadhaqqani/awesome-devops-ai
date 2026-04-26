@@ -134,6 +134,7 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [KAITO](https://github.com/kaito-project/kaito) - Kubernetes AI Toolchain Operator that simplifies LLM inference and fine-tuning workloads on clusters, a CNCF Sandbox project.
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter) - Kubernetes node autoscaler that uses intelligent bin-packing and just-in-time provisioning to optimize cluster resources and costs.
 - [KServe](https://github.com/kserve/kserve) - Standardized distributed AI inference platform for Kubernetes supporting multi-framework model serving with autoscaling and canary rollouts.
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI-powered operations, MCP server for natural-language cluster management, and real-time observability across edge and cloud clusters. CNCF Sandbox project.
 - [Komodor](https://komodor.com/) - Kubernetes troubleshooting platform with AI-driven root cause analysis, change tracking, and automated remediation workflows.
 - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) - Google Cloud kubectl plugin that uses LLMs to generate and apply Kubernetes manifests from natural language.
 - [Kubernetes ChatGPT Bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) - ChatGPT integration for Kubernetes troubleshooting via Slack notifications.
@@ -275,6 +276,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub MCP server for repos, issues, PRs, Actions, and code search from AI agents.
 - [Grafana MCP Server](https://github.com/grafana/mcp-grafana) - Official Grafana MCP server for querying dashboards, datasources, and alerts from AI agents.
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes) - MCP server for kubectl operations, pod management, and cluster introspection.
+- [KubeStellar Console MCP](https://github.com/kubestellar/console) - Go-based MCP server (kc-agent) bridging kubeconfig contexts to LLMs for AI-assisted multi-cluster Kubernetes operations across edge and cloud.
 - [Linear MCP Server](https://github.com/jerhadf/linear-mcp-server) - MCP server for Linear project management enabling AI agents to manage issues, projects, and cycles.
 - [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, PostgreSQL, Puppeteer, and more.
 - [PagerDuty MCP Server](https://github.com/PagerDuty/pagerduty-mcp-server) - MCP server for PagerDuty incident management, on-call schedules, and alert routing from AI agents.
