@@ -27,6 +27,8 @@ jobs:
             --exclude "replit.com"
             --exclude "cursor.com"
             --exclude "kubezilla.io"
+            --exclude "resourcely.io"
+            --exclude "tryparity.com"
             --max-retries 3
             --timeout 30
             "README.md"
