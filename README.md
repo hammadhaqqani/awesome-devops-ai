@@ -253,8 +253,8 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Flip AI](https://www.flip.ai/) - DevOps-specific LLM that predicts incidents and generates root-cause analyses in seconds across Datadog, Splunk, and AppDynamics with on-prem, hybrid, and multi-cloud deployment.
 - [Coralogix Olly](https://ollyhq.com/) - Autonomous AI observability agent that correlates logs, metrics, and traces with natural-language queries and code-aware root cause analysis, launched with Coralogix's $115M unicorn round.
 - [LogicMonitor Edwin AI](https://www.logicmonitor.com/edwin-ai) - AIOps agent that connects 3,000+ tools, correlates alerts, performs root cause analysis, and executes remediation autonomously across hybrid infrastructure.
-- [New Relic SRE Agent](https://newrelic.com/platform/ai-monitoring) - AI-powered SRE agent for autonomous incident diagnosis across application and infrastructure layers with Intelligent Root Cause Analysis (iRCA) across the New Relic platform.
-- [AgentSight](https://github.com/agent-sight/agentsight) - eBPF-based boundary tracing for AI agent observability without instrumentation, validated against Claude Code, Cursor, and Gemini CLI for runtime agent monitoring.
+- [New Relic SRE Agent](https://newrelic.com/platform/sre-agent) - AI-powered SRE agent for autonomous incident diagnosis across application and infrastructure layers with Intelligent Root Cause Analysis (iRCA) across the New Relic platform.
+- [AgentSight](https://github.com/eunomia-bpf/agentsight) - eBPF-based boundary tracing for AI agent observability without instrumentation, validated against Claude Code, Cursor, and Gemini CLI with under 3% overhead for runtime agent monitoring.
 
 ## AI Security Scanning
 
@@ -300,7 +300,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [Upwind](https://www.upwind.io/) - Runtime-first CNAPP with eBPF-based threat detection, AI workload security, and $250M Series B at a $1.5B valuation in January 2026.
 - [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - Open-source MCP server bridging LLMs to 150+ offensive security tools for AI-driven penetration testing and red-team automation.
 - [Databricks Lakewatch](https://www.databricks.com/product/lakewatch) - Open agentic SIEM on the lakehouse with Agent Bricks and Genie for automated triage, detection authoring, and natural-language-to-SQL queries, launched March 2026.
-- [Microsoft Security Copilot](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/security-copilot-for-soc) - Microsoft's agentic AI SOC platform extending Defender with autonomous investigation agents for alert triage, phishing analysis, and vulnerability management.
+- [Microsoft Security Copilot](https://learn.microsoft.com/en-us/copilot/security/agents-overview) - Microsoft's agentic AI SOC platform extending Defender with autonomous investigation agents for alert triage, phishing analysis, and vulnerability management.
 
 ## AI Cost Optimization
 
@@ -555,7 +555,7 @@ AI tools for chaos engineering, resilience testing, and reliability validation.
 - [Steadybit](https://www.steadybit.com/) - Chaos engineering platform with AI-assisted experiment design and automated reliability validation.
 - [Testkube](https://github.com/kubeshop/testkube) - Kubernetes-native test orchestration framework for running any testing tool inside clusters with CI/CD integration.
 - [Toxiproxy](https://github.com/Shopify/toxiproxy) - TCP proxy by Shopify for simulating network conditions and testing system resilience to network failures.
-- [ChaosEater](https://github.com/IBM/chaos-eater) - LLM-driven full-cycle chaos engineering automation that assigns chaos engineering workflow stages to LLM agents for autonomous experiment design and execution.
+- [ChaosEater](https://github.com/ntt-dkiku/chaos-eater) - NTT's open-source LLM-based system that automates the entire chaos engineering cycle (hypothesis, experiment, analysis, improvement) supporting GPT, Claude, Gemini, and Ollama backends.
 
 ## AI for Cloud Migration and Modernization
 
