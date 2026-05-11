@@ -429,6 +429,7 @@ AI tools that enhance continuous integration and delivery pipelines.
 
 AI tools for log analysis, pattern detection, and debugging production systems.
 
+- [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding agent logs across cost, token usage, latency, failures, and reports.
 - [Axiom](https://axiom.co/) - Cloud-native log management with AI-powered query generation, anomaly detection, and unlimited data retention.
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - Foundation for AI-powered log analysis with ES|QL, vector search, and ML anomaly detection.
 - [Grafana Loki](https://github.com/grafana/loki) - Log aggregation system designed for cloud-native environments that pairs with Grafana AI for intelligent log querying.
