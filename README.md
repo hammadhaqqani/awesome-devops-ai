@@ -48,11 +48,13 @@ If this list is useful, please give it a star to help others find it.
 
 ## Tool of the Week
 
-**JetBrains Junie** — JetBrains' LLM-agnostic coding agent that works in the terminal, IDEs, and CI/CD pipelines. Supports OpenAI, Anthropic, Google, and Grok models out of the box. The first major IDE vendor to ship a standalone agentic CLI.
+**NVIDIA Grove** — NVIDIA's Kubernetes API for orchestrating complex multi-node AI inference with hierarchical gang scheduling and topology-aware placement. Announced at KubeCon 2026 as part of the Dynamo ecosystem, it fills GPU orchestration gaps that plain Deployments and StatefulSets cannot cover.
 
-> Previous picks: Gemini CLI (Google's terminal AI agent) | Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics) | HolmesGPT (agentic troubleshooting)
+> Previous picks: JetBrains Junie (LLM-agnostic coding agent) | Gemini CLI (Google's terminal AI agent) | Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics) | HolmesGPT (agentic troubleshooting)
 
 ## What's New
+
+**May 2026** — Deep research update adding 43 new tools across 9 categories. **Kubernetes** (7): NVIDIA Grove, Agent Sandbox, Microsoft Agent Governance Toolkit, KubeCopilot Core, kube-agent, LLMKube, OpenSRE. **IaC** (6): Pulumi Neo, HashiCorp Project Infragraph, HashiCorp Agent Skills, Overmind, Saturnhead AI, Quali Torque. **Incident Response** (3): Datafruit, SRE.ai, AWS Security Incident Response Agent. **Observability** (4): Coralogix Olly, LogicMonitor Edwin AI, New Relic SRE Agent, AgentSight. **Security** (9): Prophet Security, Dropzone AI, 7AI, Conifers CognitiveSOC, Hex Security, Upwind, HexStrike AI, Databricks Lakewatch, Microsoft Security Copilot. **FinOps** (1): Costimizer. **MCP Servers** (7): Hetzner Cloud, Snowflake, MCP Toolbox for Databases, LaunchDarkly, Unleash, Temporal, Istio. **Agent Frameworks** (4): Kubiya, agentgateway, open-multi-agent, Composio Agent Orchestrator. **Platform Engineering** (1): OpenChoreo. **Chaos** (1): ChaosEater. **Total: 502 tools** across 20 categories.
 
 **Late April 2026 (#2)** — Web research update adding 45 new tools across 9 categories and fixing the broken KubeStellar Console MCP link from PR #19. **AI Coding Agents** (3): Kilo Code, Plandex, Mistral Vibe. **Kubernetes** (3): Causely, Parity, Azure SRE Agent. **Incident Response** (5): Cleric, Resolve AI, NeuBird Hawkeye, Edge Delta, Traversal. **Observability** (2): SigNoz, Flip AI. **Security** (7): Aikido, ZeroPath, Pixee, Corgea, Backslash, Ghost Security, Cyera. **FinOps** (3): Antimetal, PointFive, ProsperOps. **IaC** (2): Resourcely, Terrateam. **Agent Frameworks** (5): Letta, Strands Agents, BeeAI, Agno, Mirascope. **MCP Servers** (15): Render, Fly.io, SigNoz, Coralogix, Logz.io, ClickHouse, Turso, Databricks, Harness, Twilio, Stripe, CrowdStrike Falcon, Wiz, Bitwarden, Doppler. **Total: 459 tools** across 20 categories.
 
@@ -160,6 +162,13 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [Causely](https://www.causely.ai/) - Causal AI platform with MCP server for diagnosing Kubernetes issues, cutting agent token use 60% and raising root-cause accuracy versus Claude Code, Codex, and HolmesGPT.
 - [Parity](https://www.tryparity.com/) - YC-backed AI SRE purpose-built for on-call Kubernetes engineers, conducting root-cause investigation, runbook execution, and cluster dialog before the engineer is paged.
 - [Azure SRE Agent](https://azure.microsoft.com/en-us/products/sre-agent) - Microsoft's GA AI ops teammate for AKS that investigates and, with governance approval, executes remediation through Azure Monitor, Resource Graph, and AKS diagnostics.
+- [NVIDIA Grove](https://github.com/ai-dynamo/grove) - Kubernetes API for orchestrating complex multi-node AI inference with hierarchical gang scheduling, topology-aware placement, and PodCliqueScalingGroups, part of the NVIDIA Dynamo ecosystem.
+- [Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox) - Kubernetes SIG Apps subproject providing a Sandbox CRD for isolated, stateful AI-agent workloads using gVisor or Kata at up to 300 sandboxes per second, the emerging K8s primitive for running untrusted LLM-generated code.
+- [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - Sidecar-deployable runtime policy engine that enforces all 10 OWASP agentic-AI risks with sub-millisecond decisions on AKS, the first open-source agent guardrail toolkit built for Kubernetes deployment.
+- [KubeCopilot Core](https://github.com/kubecopilot/kubecopilot-core) - Kubernetes operator that deploys an in-cluster Copilot AI agent controlled via CRDs, engine-agnostic across OpenAI, Claude, and Gemini for natural-language cluster operations.
+- [kube-agent](https://github.com/feiskyer/kube-agent) - Autonomous AI agent for Kubernetes that plans and executes multi-step cluster operations from the kube-copilot author, one of the few openly autonomous K8s agents beyond chat-only assistants.
+- [LLMKube](https://github.com/defilantech/llmkube) - Operator for local LLM inference on Kubernetes with llama.cpp, vLLM, and TGI backends, targeting air-gapped and sovereign AI workloads with multi-GPU autoscaling.
+- [OpenSRE](https://github.com/Tracer-Cloud/opensre) - Open-source toolkit and training/eval environment for building AI SRE agents that resolve incidents across Kubernetes, EC2, Lambda, ECS, and Flink with 60+ tool connectors and scored synthetic RCA evals.
 
 ## AI-Powered Terraform and IaC
 
@@ -182,6 +191,12 @@ Tools that bring AI capabilities to Infrastructure as Code workflows.
 - [Terracotta AI](https://tryterracotta.com/) - AI-powered IaC PR reviewer (YC) for Terraform, OpenTofu, and CDK-TF code providing plan analysis, drift detection, IAM security, cost impact, and architecture diagrams on every pull request.
 - [Resourcely](https://www.resourcely.io/) - Terraform and OpenTofu guardrails platform with reusable blueprints and the Really policy language enforced at PR time, reducing manual review overhead in regulated infrastructure.
 - [Terrateam](https://github.com/terrateamio/terrateam) - Open-source MPL-2.0 GitOps IaC orchestration for Terraform, OpenTofu, Terragrunt, CDKTF, and Pulumi via GitHub or GitLab pull requests with an OPA and Rego policy engine.
+- [Pulumi Neo](https://www.pulumi.com/product/neo/) - Agentic AI platform engineer that provisions, governs, and optimizes multi-cloud Infrastructure as Code end-to-end with delegation through the Pulumi MCP server.
+- [HashiCorp Project Infragraph](https://developer.hashicorp.com/hcp/docs/infragraph) - Real-time infrastructure knowledge graph powering agentic AI reasoning over Terraform state, cloud APIs, and Kubernetes resources for HashiCorp's IBM-era platform vision.
+- [HashiCorp Agent Skills](https://www.hashicorp.com/en/blog/introducing-hashicorp-agent-skills) - Official Claude Code plugin pack with Skills for generating, refactoring, and testing Terraform and Packer configurations using HashiCorp best practices.
+- [Overmind](https://github.com/overmindtech) - AI-powered Terraform blast-radius risk analysis and assistant that discovers unmanaged AWS resources and converts them to Terraform, with PR-level impact visualization.
+- [Saturnhead AI](https://spacelift.io/blog/introducing-saturnhead-ai) - Spacelift's generative AI engine that auto-explains failed Terraform run logs across init, plan, and apply phases in natural language for faster troubleshooting.
+- [Quali Torque](https://www.quali.com/agentic-ai/) - Agentic control-plane platform with modular AI agents for blueprint creation, cost modeling, drift remediation, and FinOps guardrails across IaC and GPU infrastructure.
 
 ## AI Incident Response and Troubleshooting
 
@@ -206,6 +221,9 @@ AI systems that detect, investigate, and remediate production incidents.
 - [NeuBird Hawkeye](https://neubird.ai/) - Agentic AI SRE for hybrid and multi-cloud incident resolution with Datadog, Splunk, PagerDuty, and ServiceNow integrations, available SaaS or VPC with SOC-2 compliance.
 - [Edge Delta](https://edgedelta.com/) - Telemetry pipelines combined with AI Teammates, a role-aware multi-agent team covering SRE, DevOps, security, and cloud that autonomously investigates anomalies.
 - [Traversal](https://www.traversal.com/) - AI SRE using causal ML and reinforcement learning on a Production World Model to surface ranked root causes with confidence scores, backed by Amex Ventures.
+- [Datafruit](https://datafruit.dev/) - Agentic DevOps engineer (YC S25) that learns infra and deploy standards and handles ops requests like preview environments, secret rotation, and cost spikes via Slack.
+- [SRE.ai](https://www.sre.ai/) - YC-backed AI DevOps platform delivering autonomous agents for enterprise CI, test, and incident workflow automation, raised $7.2M seed in August 2025.
+- [AWS Security Incident Response Agent](https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025/) - AWS-native agentic AI for autonomous on-call incident response launched at re:Invent 2025 alongside the Security Agent and DevOps Agent trio.
 
 ## AI Monitoring and Observability
 
@@ -233,6 +251,10 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Dash0](https://dash0.com/) - OpenTelemetry-native observability platform with Agent0, specialized AI agents for SRE, cost optimization, migration, and security that transform telemetry into autonomous action.
 - [SigNoz](https://github.com/SigNoz/signoz) - Open-source OpenTelemetry-native APM unifying logs, metrics, and traces with native LLM and AI-app observability for frameworks like CrewAI and Vercel AI SDK.
 - [Flip AI](https://www.flip.ai/) - DevOps-specific LLM that predicts incidents and generates root-cause analyses in seconds across Datadog, Splunk, and AppDynamics with on-prem, hybrid, and multi-cloud deployment.
+- [Coralogix Olly](https://ollyhq.com/) - Autonomous AI observability agent that correlates logs, metrics, and traces with natural-language queries and code-aware root cause analysis, launched with Coralogix's $115M unicorn round.
+- [LogicMonitor Edwin AI](https://www.logicmonitor.com/edwin-ai) - AIOps agent that connects 3,000+ tools, correlates alerts, performs root cause analysis, and executes remediation autonomously across hybrid infrastructure.
+- [New Relic SRE Agent](https://newrelic.com/platform/sre-agent) - AI-powered SRE agent for autonomous incident diagnosis across application and infrastructure layers with Intelligent Root Cause Analysis (iRCA) across the New Relic platform.
+- [AgentSight](https://github.com/eunomia-bpf/agentsight) - eBPF-based boundary tracing for AI agent observability without instrumentation, validated against Claude Code, Cursor, and Gemini CLI with under 3% overhead for runtime agent monitoring.
 
 ## AI Security Scanning
 
@@ -270,6 +292,15 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [Backslash Security](https://www.backslash.security/) - Vibe coding security platform with a digital-twin approach for AI-native development covering IDEs, agents, MCPs, and AI-generated code.
 - [Ghost Security](https://ghostsecurity.ai/) - Agent-native AppSec platform with the Exorcist autonomous engine, the open-source Reaper framework, and a Claude Code plugin for in-IDE vulnerability find and fix.
 - [Cyera](https://www.cyera.com/) - AI-native data security posture management platform with an agentless classifier scanning hundreds of petabytes to secure the data fueling AI applications.
+- [Prophet Security](https://www.prophetsecurity.ai/) - Agentic AI SOC platform with autonomous agents for Tier 1-3 alert triage, investigation, response, and threat hunting, raised $30M Series A led by Accel.
+- [Dropzone AI](https://www.dropzone.ai/) - Pre-trained AI agents acting as Tier-1 SOC analysts that autonomously investigate alerts end-to-end, raised $37M Series B in 2025.
+- [7AI](https://7ai.com/) - Agentic security platform from the Cybereason founders that has processed 2.5M+ alerts and raised $130M Series A — the largest Series A round in cybersecurity history.
+- [Conifers CognitiveSOC](https://www.conifers.ai/) - Multi-tier AI SOC agents named a Gartner "Company to Beat" in the December 2025 AI SOC Vendor Race for enterprise-scale autonomous triage and response.
+- [Hex Security](https://www.ycombinator.com/companies/hex-security) - YC W26 AI agents that run continuous autonomous penetration tests 24/7, finding vulnerabilities before attackers do.
+- [Upwind](https://www.upwind.io/) - Runtime-first CNAPP with eBPF-based threat detection, AI workload security, and $250M Series B at a $1.5B valuation in January 2026.
+- [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - Open-source MCP server bridging LLMs to 150+ offensive security tools for AI-driven penetration testing and red-team automation.
+- [Databricks Lakewatch](https://www.databricks.com/product/lakewatch) - Open agentic SIEM on the lakehouse with Agent Bricks and Genie for automated triage, detection authoring, and natural-language-to-SQL queries, launched March 2026.
+- [Microsoft Security Copilot](https://learn.microsoft.com/en-us/copilot/security/agents-overview) - Microsoft's agentic AI SOC platform extending Defender with autonomous investigation agents for alert triage, phishing analysis, and vulnerability management.
 
 ## AI Cost Optimization
 
@@ -289,6 +320,7 @@ AI and automation tools for cloud cost management, FinOps, and resource optimiza
 - [Antimetal](https://www.antimetal.com/) - AI autopilot for AWS that autonomously purchases Reserved Instances and Savings Plans based on real-time usage analysis and commitment optimization.
 - [PointFive](https://www.pointfive.co/) - Multi-cloud cost optimization platform with DeepWaste detection covering 400+ checks and the Claude-powered Pointer AI assistant for actionable savings recommendations.
 - [ProsperOps](https://www.prosperops.com/) - Autonomous Discount Management for AWS, Azure, and GCP commitments that manages over $6B in annual cloud spend with a no-touch optimization model.
+- [Costimizer](https://costimizer.ai/) - Agentic FinOps autopilot that rightsizes workloads, auto-parks idle resources, and enforces budgets without manual intervention across AWS, Azure, and GCP.
 
 ## MCP Servers for DevOps
 
@@ -359,6 +391,13 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Wiz MCP Server](https://www.wiz.io/blog/introducing-mcp-server-for-wiz) - Official Wiz MCP server translating natural-language queries into Wiz operations across cloud inventory, misconfigurations, and security risk posture.
 - [Bitwarden MCP Server](https://github.com/bitwarden/mcp-server) - Official local-only Bitwarden MCP server giving AI assistants secure CLI-backed access to vault items and organization administration.
 - [Doppler MCP Server](https://github.com/DopplerHQ/mcp-server) - Official Doppler MCP server providing AI assistants with access to the Doppler API for secrets and configuration management.
+- [Hetzner Cloud MCP Server](https://github.com/dkruyt/mcp-hetzner) - MCP server for managing Hetzner Cloud resources including servers, networks, and volumes via natural language with AI assistants.
+- [Snowflake MCP Server](https://github.com/Snowflake-Labs/mcp) - Official Snowflake Labs MCP server with Cortex AI integration, object management, and SQL orchestration for AI-driven data warehouse operations.
+- [MCP Toolbox for Databases](https://github.com/googleapis/mcp-toolbox) - Google's open-source MCP server covering BigQuery, Spanner, AlloyDB, Cloud SQL, and 15+ databases for unified AI database access.
+- [LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server) - Official LaunchDarkly MCP server for managing feature flags, targeting rules, segments, and AI configs through natural language.
+- [Unleash MCP Server](https://github.com/cuongtl1992/unleash-mcp) - MCP server for the Unleash open-source feature toggle system enabling AI agents to read and toggle flags.
+- [Temporal MCP Server](https://github.com/alisaitteke/temporal-mcp) - MCP server for running, querying, and signaling Temporal workflows from AI assistants for durable execution use cases.
+- [Istio MCP Server](https://github.com/krutsko/istio-mcp-server) - MCP server providing read-only access to Istio Virtual Services, Destination Rules, Gateways, and Envoy configs for AI-driven service mesh diagnosis.
 
 ## AI-Powered CI/CD
 
@@ -436,6 +475,10 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [BeeAI Framework](https://github.com/i-am-bee/beeai-framework) - IBM and Linux Foundation open-source multi-agent toolkit for Python and TypeScript with Agent Communication Protocol for cross-framework interoperability.
 - [Agno](https://github.com/agno-agi/agno) - Lightweight pure-Python multi-modal agent framework with built-in FastAPI runtime, 100+ integrations, and agentic RAG for DevOps automation.
 - [Mirascope](https://github.com/Mirascope/mirascope) - Pythonic LLM toolkit positioned as an anti-framework with a unified provider interface across OpenAI, Anthropic, Mistral, and Gemini plus structured outputs via Pydantic.
+- [Kubiya](https://www.kubiya.ai/) - Agentic engineering platform with deterministic execution, MCP-based tool integration, and Slack and Teams natural-language interface for Terraform and CI/CD automation.
+- [agentgateway](https://github.com/agentgateway/agentgateway) - AI-native Rust-built proxy with deep MCP and A2A protocol awareness, inference gateway support, and unified LLM routing for agentic systems contributed by Solo.io.
+- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) - TypeScript-native multi-agent orchestrator that decomposes a goal into a task DAG with MCP integration and live tracing for transparent execution.
+- [Composio Agent Orchestrator](https://github.com/ComposioHQ/agent-orchestrator) - Parallel coding-agent fleet manager with per-agent git worktrees, autonomous CI fix-up, and merge-conflict handling for large-scale agent workflows.
 
 ## AI for Platform Engineering
 
@@ -454,6 +497,7 @@ AI tools for building internal developer platforms, service catalogs, and self-s
 - [Upbound](https://www.upbound.io/) - Universal cloud platform built on Crossplane for building internal platforms with declarative infrastructure APIs.
 - [Score](https://github.com/score-spec/spec) - Open-source workload specification that eliminates configuration drift between local and remote environments.
 - [StackGen](https://stackgen.com/) - Autonomous infrastructure platform with AI agents that generate validated, policy-compliant Terraform from natural language descriptions.
+- [OpenChoreo](https://github.com/openchoreo/openchoreo) - CNCF Sandbox Internal Developer Platform (Jan 2026) exposing MCP servers so AI agents deploy components and reason about platform state, with a built-in SRE LLM agent.
 
 ## AI for Database Operations
 
@@ -511,6 +555,7 @@ AI tools for chaos engineering, resilience testing, and reliability validation.
 - [Steadybit](https://www.steadybit.com/) - Chaos engineering platform with AI-assisted experiment design and automated reliability validation.
 - [Testkube](https://github.com/kubeshop/testkube) - Kubernetes-native test orchestration framework for running any testing tool inside clusters with CI/CD integration.
 - [Toxiproxy](https://github.com/Shopify/toxiproxy) - TCP proxy by Shopify for simulating network conditions and testing system resilience to network failures.
+- [ChaosEater](https://github.com/ntt-dkiku/chaos-eater) - NTT's open-source LLM-based system that automates the entire chaos engineering cycle (hypothesis, experiment, analysis, improvement) supporting GPT, Claude, Gemini, and Ollama backends.
 
 ## AI for Cloud Migration and Modernization
 
