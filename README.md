@@ -301,6 +301,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - Open-source MCP server bridging LLMs to 150+ offensive security tools for AI-driven penetration testing and red-team automation.
 - [Databricks Lakewatch](https://www.databricks.com/product/lakewatch) - Open agentic SIEM on the lakehouse with Agent Bricks and Genie for automated triage, detection authoring, and natural-language-to-SQL queries, launched March 2026.
 - [Microsoft Security Copilot](https://learn.microsoft.com/en-us/copilot/security/agents-overview) - Microsoft's agentic AI SOC platform extending Defender with autonomous investigation agents for alert triage, phishing analysis, and vulnerability management.
+- [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
 
 ## AI Cost Optimization
 
