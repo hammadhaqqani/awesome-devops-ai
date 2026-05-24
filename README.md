@@ -245,6 +245,7 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Sumo Logic](https://www.sumologic.com/) - Cloud-native machine data analytics with AI-driven log analysis, threat detection, and infrastructure intelligence.
 - [Thanos](https://github.com/thanos-io/thanos) - CNCF incubating highly available Prometheus setup with long-term storage and global query view for large-scale monitoring.
 - [OpenObserve](https://github.com/openobserve/openobserve) - Open-source observability platform built in Rust covering logs, metrics, and traces with 140x lower storage costs and SQL query interface.
+- [Opswald](https://www.opswald.com/ai-agent-debugging/) - AI agent debugging and observability platform that captures prompts, retrieved context, tool calls, retries, outputs, and side effects so engineers can replay failures and trace the first unsupported decision in production runs.
 - [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - Fast, cost-effective monitoring solution and time series database compatible with Prometheus and Grafana.
 - [Coroot](https://github.com/coroot/coroot) - Open-source observability and APM tool with AI-powered root cause analysis, eBPF-based zero-instrumentation telemetry, deployment tracking, and SLO-based alerting.
 - [Apache SkyWalking](https://github.com/apache/skywalking) - Full-stack open-source APM with distributed tracing, service topology, and eBPF-powered Kubernetes monitoring for microservices and cloud-native architectures.
