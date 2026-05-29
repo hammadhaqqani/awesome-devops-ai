@@ -708,3 +708,5 @@ Join the [discussion](https://github.com/hammadhaqqani/awesome-devops-ai/discuss
 If you find this useful, consider buying me a coffee!
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/hammadhaqqani)
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time monitoring dashboard for OpenClaw AI agents. Track token usage, session status, and message trends.
