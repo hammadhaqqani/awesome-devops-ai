@@ -400,6 +400,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Temporal MCP Server](https://github.com/alisaitteke/temporal-mcp) - MCP server for running, querying, and signaling Temporal workflows from AI assistants for durable execution use cases.
 - [Istio MCP Server](https://github.com/krutsko/istio-mcp-server) - MCP server providing read-only access to Istio Virtual Services, Destination Rules, Gateways, and Envoy configs for AI-driven service mesh diagnosis.
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring and preflight checks for AI agents on Solana before executing paid runbooks or remediation API calls via x402 micropayments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 ## AI-Powered CI/CD
 
 AI tools that enhance continuous integration and delivery pipelines.
