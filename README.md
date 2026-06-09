@@ -224,6 +224,7 @@ AI systems that detect, investigate, and remediate production incidents.
 - [Datafruit](https://datafruit.dev/) - Agentic DevOps engineer (YC S25) that learns infra and deploy standards and handles ops requests like preview environments, secret rotation, and cost spikes via Slack.
 - [SRE.ai](https://www.sre.ai/) - YC-backed AI DevOps platform delivering autonomous agents for enterprise CI, test, and incident workflow automation, raised $7.2M seed in August 2025.
 - [AWS Security Incident Response Agent](https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025/) - AWS-native agentic AI for autonomous on-call incident response launched at re:Invent 2025 alongside the Security Agent and DevOps Agent trio.
+- [KnoxOps](https://knoxops.app/?invite_token=GITHUB26) - AI-native ops agent for SREs — gives agents execution power on live systems with safety guardrails, human review, and a built-in knowledge graph.
 
 ## AI Monitoring and Observability
 
