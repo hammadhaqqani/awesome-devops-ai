@@ -323,6 +323,7 @@ AI and automation tools for cloud cost management, FinOps, and resource optimiza
 - [PointFive](https://www.pointfive.co/) - Multi-cloud cost optimization platform with DeepWaste detection covering 400+ checks and the Claude-powered Pointer AI assistant for actionable savings recommendations.
 - [ProsperOps](https://www.prosperops.com/) - Autonomous Discount Management for AWS, Azure, and GCP commitments that manages over $6B in annual cloud spend with a no-touch optimization model.
 - [Costimizer](https://costimizer.ai/) - Agentic FinOps autopilot that rightsizes workloads, auto-parks idle resources, and enforces budgets without manual intervention across AWS, Azure, and GCP.
+- [Fortem](https://fortem.dev) - ECS Fargate fleet control plane that schedules dev/staging environments off nights and weekends, cutting compute spend 60-70% with no code changes.
 
 ## MCP Servers for DevOps
 
@@ -490,6 +491,7 @@ AI tools for building internal developer platforms, service catalogs, and self-s
 - [Backstage](https://github.com/backstage/backstage) - CNCF incubating project by Spotify for building developer portals with service catalogs, templates, and plugin-based extensibility.
 - [Cortex](https://www.cortex.io/) - Internal developer portal with AI-driven service maturity scorecards, ownership tracking, and reliability standards enforcement.
 - [Cycloid](https://www.cycloid.io/) - Platform engineering solution with AI-powered infrastructure self-service, cost governance, and green IT scoring.
+- [Fortem](https://fortem.dev) - Control plane for teams running 10+ ECS Fargate environments — fleet-wide visibility, developer self-service with RBAC, per-environment cost attribution, and AI diagnostics that read CloudWatch and propose fixes.
 - [Humanitec](https://humanitec.com/) - Platform orchestrator that powers enterprise internal developer platforms with dynamic configuration management.
 - [Kratix](https://github.com/syntasso/kratix) - Open-source framework for building platforms-as-a-product on Kubernetes with composable promise-based abstractions.
 - [Mia-Platform](https://mia-platform.eu/) - Internal developer platform with AI-powered microservice orchestration, API management, and developer self-service.
