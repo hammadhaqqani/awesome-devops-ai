@@ -1,12 +1,6 @@
 # Awesome DevOps AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome Lint](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml/badge.svg?branch=main)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/awesome-lint.yml)
-[![Link Check](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml/badge.svg?branch=main)](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/link-check.yml)
-[![GitHub Pages](https://github.com/hammadhaqqani/awesome-devops-ai/actions/workflows/pages.yml/badge.svg?branch=main)](https://hammadhaqqani.github.io/awesome-devops-ai/)
-[![GitHub stars](https://img.shields.io/github/stars/hammadhaqqani/awesome-devops-ai?style=social)](https://github.com/hammadhaqqani/awesome-devops-ai/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/hammadhaqqani/awesome-devops-ai?style=social)](https://github.com/hammadhaqqani/awesome-devops-ai/network/members)
-
-> A curated list of AI tools, agents, MCP servers, and resources for DevOps, SRE, and Platform Engineering.
+> AI tools, agents, and MCP servers for DevOps, SRE, and Platform Engineering.
 
 The AI revolution is transforming how infrastructure is built, monitored, and operated. This list tracks every meaningful tool at the intersection of AI and DevOps, from coding agents that write Terraform to AI-powered incident response that pages you with a root cause already identified.
 
