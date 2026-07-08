@@ -12,7 +12,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**459 tools** across **20 categories** — updated April 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**474 tools** across **20 categories** — updated July 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -48,11 +48,13 @@ If this list is useful, please give it a star to help others find it.
 
 ## Tool of the Week
 
-**NVIDIA Grove** — NVIDIA's Kubernetes API for orchestrating complex multi-node AI inference with hierarchical gang scheduling and topology-aware placement. Announced at KubeCon 2026 as part of the Dynamo ecosystem, it fills GPU orchestration gaps that plain Deployments and StatefulSets cannot cover.
+**Superlog** — Open-source AI observability tool that groups errors into incidents, investigates each one with full context from your stack, and posts a single mergeable fix PR in Slack. A YC-backed 2026 entrant that crossed 1,000 GitHub stars within weeks of launch, it collapses the detect-triage-fix loop into one automated flow.
 
-> Previous picks: JetBrains Junie (LLM-agnostic coding agent) | Gemini CLI (Google's terminal AI agent) | Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics) | HolmesGPT (agentic troubleshooting)
+> Previous picks: NVIDIA Grove (multi-node AI inference orchestration) | JetBrains Junie (LLM-agnostic coding agent) | Gemini CLI (Google's terminal AI agent) | Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics)
 
 ## What's New
+
+**July 2026** — Research refresh adding 56 new link-verified tools across 10 categories. **MCP Servers** (15): Confluent, Netlify, Railway, Kong Konnect, Alibaba Cloud Ops, Linode, Vultr, Okta, Auth0, Infisical, Sysdig, Chronosphere, Honeycomb, Better Stack, Postgres MCP Pro. **Incident Response** (8): Deductive AI, Ciroos AI, Wild Moose, DrDroid, Middleware OpsAI, Mezmo Agentic SRE, TierZero AI, Superlog. **Security** (6): Cycode, DryRun Security, Arnica, StackHawk, Jit, Legit Security. **Agent Frameworks** (6): Langflow, Flowise, Inngest, Restate, Trigger.dev, DBOS. **Coding Agents** (4): StarSling, Specific, Sculptor, Conductor. **Kubernetes** (4): kube-copilot, Kimchi, Botkube, Lens Prism. **Observability** (4): Last9, Selector AI, InsightFinder, Maxim AI. **Platform Engineering** (3): Northflank, Mogenius, Facets. **Supply Chain** (3): HiddenLayer, Protect AI Guardian, Kusari. **CI/CD** (3): CodeRabbit, Greptile, Sourcery. **Total: 474 tools** across 20 categories.
 
 **May 2026** — Deep research update adding 43 new tools across 9 categories. **Kubernetes** (7): NVIDIA Grove, Agent Sandbox, Microsoft Agent Governance Toolkit, KubeCopilot Core, kube-agent, LLMKube, OpenSRE. **IaC** (6): Pulumi Neo, HashiCorp Project Infragraph, HashiCorp Agent Skills, Overmind, Saturnhead AI, Quali Torque. **Incident Response** (3): Datafruit, SRE.ai, AWS Security Incident Response Agent. **Observability** (4): Coralogix Olly, LogicMonitor Edwin AI, New Relic SRE Agent, AgentSight. **Security** (9): Prophet Security, Dropzone AI, 7AI, Conifers CognitiveSOC, Hex Security, Upwind, HexStrike AI, Databricks Lakewatch, Microsoft Security Copilot. **FinOps** (1): Costimizer. **MCP Servers** (7): Hetzner Cloud, Snowflake, MCP Toolbox for Databases, LaunchDarkly, Unleash, Temporal, Istio. **Agent Frameworks** (4): Kubiya, agentgateway, open-multi-agent, Composio Agent Orchestrator. **Platform Engineering** (1): OpenChoreo. **Chaos** (1): ChaosEater. **Total: 502 tools** across 20 categories.
 
@@ -72,7 +74,9 @@ The most popular open-source projects in this list by GitHub stars.
 
 | Project                 | Stars                                                                                    | Category            |
 | ----------------------- | ---------------------------------------------------------------------------------------- | ------------------- |
+| Langflow                | ![Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=flat)            | AI Agent Frameworks |
 | Gemini CLI              | ![Stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat)        | AI Coding Agents    |
+| Flowise                 | ![Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=flat)               | AI Agent Frameworks |
 | OpenClaw                | ![Stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat)               | AI Agent Frameworks |
 | Grafana                 | ![Stars](https://img.shields.io/github/stars/grafana/grafana?style=flat)                 | AI Monitoring       |
 | Elasticsearch           | ![Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=flat)           | AI Log Analysis     |
@@ -278,6 +282,7 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Selector AI](https://www.selector.ai/) - AI-powered network and infrastructure observability platform that correlates data horizontally across the stack for automated root cause analysis.
 - [InsightFinder](https://insightfinder.com/) - AI-driven reliability platform using composite AI and unsupervised machine learning for anomaly detection and root cause analysis across IT and AI systems.
 - [Maxim AI](https://www.getmaxim.ai/products/agent-observability) - AI agent observability platform providing end-to-end request tracing with real-time monitoring, evaluations, and alerting for production LLM agents.
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time monitoring dashboard for OpenClaw AI agents tracking token usage, session status, and message trends.
 
 ## AI Security Scanning
 
@@ -770,4 +775,12 @@ If you find this useful, consider buying me a coffee!
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/hammadhaqqani)
 
-- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time monitoring dashboard for OpenClaw AI agents. Track token usage, session status, and message trends.
+### Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hammadhaqqani/awesome-devops-ai&type=Date)](https://www.star-history.com/#hammadhaqqani/awesome-devops-ai&Date)
+
+### Contributors
+
+Thanks to everyone who has contributed!
+
+[![Contributors](https://contrib.rocks/image?repo=hammadhaqqani/awesome-devops-ai)](https://github.com/hammadhaqqani/awesome-devops-ai/graphs/contributors)
