@@ -484,6 +484,7 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [agentgateway](https://github.com/agentgateway/agentgateway) - AI-native Rust-built proxy with deep MCP and A2A protocol awareness, inference gateway support, and unified LLM routing for agentic systems contributed by Solo.io.
 - [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) - TypeScript-native multi-agent orchestrator that decomposes a goal into a task DAG with MCP integration and live tracing for transparent execution.
 - [Composio Agent Orchestrator](https://github.com/ComposioHQ/agent-orchestrator) - Parallel coding-agent fleet manager with per-agent git worktrees, autonomous CI fix-up, and merge-conflict handling for large-scale agent workflows.
+- [OpenAgentic](https://github.com/agentic-work/openagentic) - Self-hosted platform to build and orchestrate AI agents with no-code Flows, 11 built-in MCP tool servers, and a human-approval audit gate.
 
 ## AI for Platform Engineering
 
