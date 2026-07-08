@@ -164,10 +164,10 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [Parity](https://www.tryparity.com/) - YC-backed AI SRE purpose-built for on-call Kubernetes engineers, conducting root-cause investigation, runbook execution, and cluster dialog before the engineer is paged.
 - [Azure SRE Agent](https://azure.microsoft.com/en-us/products/sre-agent) - Microsoft's GA AI ops teammate for AKS that investigates and, with governance approval, executes remediation through Azure Monitor, Resource Graph, and AKS diagnostics.
 - [NVIDIA Grove](https://github.com/ai-dynamo/grove) - Kubernetes API for orchestrating complex multi-node AI inference with hierarchical gang scheduling, topology-aware placement, and PodCliqueScalingGroups, part of the NVIDIA Dynamo ecosystem.
-- [Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox) - Kubernetes SIG Apps subproject providing a Sandbox CRD for isolated, stateful AI-agent workloads using gVisor or Kata at up to 300 sandboxes per second, the emerging K8s primitive for running untrusted LLM-generated code.
+- [Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox) - Kubernetes SIG Apps subproject providing a Sandbox CRD for isolated, stateful AI-agent workloads using gVisor or Kata at up to 300 sandboxes per second, the emerging Kubernetes primitive for running untrusted LLM-generated code.
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - Sidecar-deployable runtime policy engine that enforces all 10 OWASP agentic-AI risks with sub-millisecond decisions on AKS, the first open-source agent guardrail toolkit built for Kubernetes deployment.
 - [KubeCopilot Core](https://github.com/kubecopilot/kubecopilot-core) - Kubernetes operator that deploys an in-cluster Copilot AI agent controlled via CRDs, engine-agnostic across OpenAI, Claude, and Gemini for natural-language cluster operations.
-- [kube-agent](https://github.com/feiskyer/kube-agent) - Autonomous AI agent for Kubernetes that plans and executes multi-step cluster operations from the kube-copilot author, one of the few openly autonomous K8s agents beyond chat-only assistants.
+- [kube-agent](https://github.com/feiskyer/kube-agent) - Autonomous AI agent for Kubernetes that plans and executes multi-step cluster operations from the kube-copilot author, one of the few openly autonomous Kubernetes agents beyond chat-only assistants.
 - [LLMKube](https://github.com/defilantech/llmkube) - Operator for local LLM inference on Kubernetes with llama.cpp, vLLM, and TGI backends, targeting air-gapped and sovereign AI workloads with multi-GPU autoscaling.
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre) - Open-source toolkit and training/eval environment for building AI SRE agents that resolve incidents across Kubernetes, EC2, Lambda, ECS, and Flink with 60+ tool connectors and scored synthetic RCA evals.
 
@@ -324,7 +324,6 @@ AI and automation tools for cloud cost management, FinOps, and resource optimiza
 - [PointFive](https://www.pointfive.co/) - Multi-cloud cost optimization platform with DeepWaste detection covering 400+ checks and the Claude-powered Pointer AI assistant for actionable savings recommendations.
 - [ProsperOps](https://www.prosperops.com/) - Autonomous Discount Management for AWS, Azure, and GCP commitments that manages over $6B in annual cloud spend with a no-touch optimization model.
 - [Costimizer](https://costimizer.ai/) - Agentic FinOps autopilot that rightsizes workloads, auto-parks idle resources, and enforces budgets without manual intervention across AWS, Azure, and GCP.
-- [Fortem](https://fortem.dev) - ECS Fargate fleet control plane that schedules dev/staging environments off nights and weekends, cutting compute spend 60-70% with no code changes.
 
 ## MCP Servers for DevOps
 
@@ -483,7 +482,7 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [Kubiya](https://www.kubiya.ai/) - Agentic engineering platform with deterministic execution, MCP-based tool integration, and Slack and Teams natural-language interface for Terraform and CI/CD automation.
 - [agentgateway](https://github.com/agentgateway/agentgateway) - AI-native Rust-built proxy with deep MCP and A2A protocol awareness, inference gateway support, and unified LLM routing for agentic systems contributed by Solo.io.
 - [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) - TypeScript-native multi-agent orchestrator that decomposes a goal into a task DAG with MCP integration and live tracing for transparent execution.
-- [Composio Agent Orchestrator](https://github.com/ComposioHQ/agent-orchestrator) - Parallel coding-agent fleet manager with per-agent git worktrees, autonomous CI fix-up, and merge-conflict handling for large-scale agent workflows.
+- [Composio Agent Orchestrator](https://github.com/ComposioHQ/agent-orchestrator) - Parallel coding-agent fleet manager with per-agent Git worktrees, autonomous CI fix-up, and merge-conflict handling for large-scale agent workflows.
 - [OpenAgentic](https://github.com/agentic-work/openagentic) - Self-hosted platform to build and orchestrate AI agents with no-code Flows, 11 built-in MCP tool servers, and a human-approval audit gate.
 
 ## AI for Platform Engineering

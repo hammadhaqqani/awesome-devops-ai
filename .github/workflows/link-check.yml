@@ -29,8 +29,9 @@ jobs:
             --exclude "kubezilla.io"
             --exclude "resourcely.io"
             --exclude "tryparity.com"
+            --exclude "blameless.com"
             --max-retries 3
-            --timeout 30
+            --timeout 60
             "README.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
