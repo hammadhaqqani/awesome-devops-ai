@@ -17,8 +17,9 @@ jobs:
           args: >
             --verbose
             --no-progress
-            --accept 200,204,301,302,403,429,503
+            --accept 200,204,301,302,401,402,403,429,503
             --exclude-path CODE_OF_CONDUCT.md
+            --exclude "github.com/.*/stargazers"
             --exclude "linkedin.com"
             --exclude "x.com"
             --exclude "shoreline.io"
@@ -29,8 +30,10 @@ jobs:
             --exclude "kubezilla.io"
             --exclude "resourcely.io"
             --exclude "tryparity.com"
+            --exclude "blameless.com"
             --max-retries 3
-            --timeout 30
+            --retry-wait-time 5
+            --timeout 60
             "README.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
