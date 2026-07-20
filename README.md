@@ -666,6 +666,7 @@ Courses, certifications, articles, and guides on AI for DevOps.
 - [I Built 41 Free AI and DevOps Tools](https://hammadhaqqani.com/blog/41-free-ai-devops-tools-no-signup) - Deep dive into building client-side AI and DevOps tools that run entirely in the browser.
 - [The AI Singularity Is Closer Than You Think](https://hammadhaqqani.com/blog/the-ai-singularity-is-closer-than-you-think) - First-hand account of how AI agents are replacing engineering workflows from a DevOps veteran with 10+ years of experience.
 - [Top 15 AI Prompts Every DevOps Engineer Should Master](https://kubezilla.io/top-15-ai-prompts-every-devops-engineer-should-master-in-2026) - Essential prompt patterns for infrastructure automation.
+- [Your Retry Just Sent the Email Twice: Idempotency Keys for Agents](https://loopandretry.github.io/posts/idempotency-keys-for-agents/?ref=awesome-devops-ai) - Explains why retry safety for agent tool calls must be built into the tool as an idempotency key, not set as a flag on the retry loop.
 
 ### Books
 
