@@ -211,6 +211,7 @@ AI systems that detect, investigate, and remediate production incidents.
 
 - [BigPanda](https://www.bigpanda.io/) - AIOps platform for event correlation, automated root cause analysis, and intelligent incident management across hybrid environments.
 - [Blameless](https://www.blameless.com/) - SRE platform with AI-powered incident management, automated retrospectives, and reliability insights across distributed systems.
+- [Chronicle](https://github.com/shlokkokk/Chronicle) - Deduplicates alerts by signature, retrieves matching past incident resolutions from vector memory, and auto-escalates SLA breaches.
 - [FireHydrant](https://firehydrant.com/) - Incident management platform with AI-powered retrospective generation, automated status pages, and runbook execution.
 - [GitHub Agentic Workflows](https://github.github.io/gh-aw/) - Run AI agents in GitHub Actions for automated issue triage, CI failure analysis, and PR review.
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt) - Agentic AI troubleshooting for Kubernetes and cloud-native environments, a CNCF Sandbox project combining observability telemetry with LLM reasoning.
