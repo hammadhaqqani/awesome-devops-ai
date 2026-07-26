@@ -146,6 +146,7 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [KServe](https://github.com/kserve/kserve) - Standardized distributed AI inference platform for Kubernetes supporting multi-framework model serving with autoscaling and canary rollouts.
 - [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI-powered operations, MCP server for natural-language cluster management, and real-time observability across edge and cloud clusters. CNCF Sandbox project.
 - [Komodor](https://komodor.com/) - Kubernetes troubleshooting platform with AI-driven root cause analysis, change tracking, and automated remediation workflows.
+- [kprompt](https://github.com/kprompt/kprompt) - AI Kubernetes CLI that turns natural language into a reviewable plan, then approve before apply, with BYOK and CI-stable PlanResult JSON.
 - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) - Google Cloud kubectl plugin that uses LLMs to generate and apply Kubernetes manifests from natural language.
 - [Kubernetes ChatGPT Bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) - ChatGPT integration for Kubernetes troubleshooting via Slack notifications.
 - [Kubeflow](https://github.com/kubeflow/kubeflow) - CNCF incubating ML platform for Kubernetes with distributed training, model serving, pipelines, and notebook environments for AI workloads.
