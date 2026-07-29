@@ -297,6 +297,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [SonarQube](https://www.sonarsource.com/products/sonarqube/) - Code quality and security analysis platform with AI-powered code smell detection and vulnerability identification.
 - [Terraform Sentinel](https://www.hashicorp.com/sentinel) - Policy-as-code framework by HashiCorp that enforces fine-grained, logic-based policies on Terraform infrastructure changes.
 - [tfsec](https://github.com/aquasecurity/tfsec) - Security scanner for Terraform code that checks for security misconfigurations and compliance violations.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes.
 - [Trivy](https://github.com/aquasecurity/trivy) - Comprehensive open-source vulnerability scanner for containers, IaC, Kubernetes, and code that is fast, accurate, and widely adopted.
 - [Wiz](https://www.wiz.io/) - Cloud security platform that unifies vulnerability findings with cloud context to prioritize exploitable risks.
 - [Kyverno](https://github.com/kyverno/kyverno) - CNCF incubating Kubernetes-native policy engine for validating, mutating, and generating configurations.
