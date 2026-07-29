@@ -219,6 +219,7 @@ AI systems that detect, investigate, and remediate production incidents.
 - [IncidentFox](https://github.com/incidentfox/incidentfox) - Open-source AI SRE platform for automated incident investigation, hypothesis formation, and fix suggestions with Slack and PagerDuty integration.
 - [Moogsoft](https://www.moogsoft.com/) - AIOps platform with AI-driven noise reduction, correlation, and situation awareness for reducing alert fatigue.
 - [NudgeBee](https://github.com/nudgebee/nudgebee) - Self-hosted agentic platform that investigates incidents to a cited root cause across AWS, Azure, GCP, and Kubernetes and executes approval-gated remediation runbooks.
+- [OpenSRE (opensre.in)](https://github.com/swapnildahiphale/OpenSRE) - Self-hosted AI SRE platform with episodic memory, a knowledge graph, Web UI, Slack, and Teams.
 - [Opsgenie](https://www.atlassian.com/software/opsgenie) - Incident management with AI-powered alert routing, on-call scheduling, and intelligent escalation by Atlassian.
 - [PagerDuty AIOps](https://www.pagerduty.com/platform/aiops/) - AI event correlation, noise reduction, and intelligent routing that reduces alert fatigue with ML-based grouping.
 - [Keep](https://github.com/keephq/keep) - Open-source AIOps platform that correlates, deduplicates, and routes alerts from any monitoring tool with AI-powered noise reduction and workflow automation.
