@@ -354,6 +354,7 @@ AI and automation tools for cloud cost management, FinOps, and resource optimiza
 
 Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and Cursor access to DevOps tools and infrastructure.
 
+- [Adios MCP Server](https://github.com/adiosdotdev/mcp) - Official MCP server for managing Adios workspaces, previews, builds, logs, services, and production deployments from AI.
 - [Atlassian MCP Server](https://www.npmjs.com/package/@anthropic/mcp-atlassian) - MCP server for Jira and Confluence integration enabling AI agents to query issues, create tickets, and search documentation.
 - [AWS MCP Servers](https://awslabs.github.io/mcp/) - Official AWS MCP server suite covering Terraform, CDK, CloudFormation, Lambda, S3, CloudWatch, ECS, and more.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive curated list of all MCP servers across every category.
