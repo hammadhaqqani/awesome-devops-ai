@@ -184,6 +184,7 @@ Tools that bring AI capabilities to Infrastructure as Code workflows.
 - [Atmos](https://github.com/cloudposse/atmos) - Universal tool for DevOps workflows that provides a framework for managing Terraform configurations at scale with AI-assisted component discovery.
 - [AWS Terraform MCP Server](https://pypi.org/project/awslabs.terraform-mcp-server/) - AWS Labs MCP server with Terraform best practices, Checkov security scanning, and AWS provider documentation search.
 - [Brainboard](https://www.brainboard.co/) - Visual Terraform designer with AI-powered architecture generation from cloud diagrams.
+- [ChangeSafe](https://github.com/wonkwonlee/ChangeSafe) - Deterministic CI gate for AI-proposed Terraform, Kubernetes, and network changes that validates policy and rollback evidence without execution.
 - [Env0](https://www.env0.com/) - Self-service infrastructure platform with AI-assisted policy enforcement, cost estimation, and drift detection for Terraform.
 - [Firefly](https://www.firefly.ai/) - Cloud asset management that uses AI to detect drift, generate Terraform from existing resources, and manage IaC coverage gaps.
 - [Infracost](https://github.com/infracost/infracost) - Cloud cost estimates for Terraform in pull requests, supporting 1,100+ AWS, Azure, and GCP resources.
