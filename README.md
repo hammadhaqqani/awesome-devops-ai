@@ -446,6 +446,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 
 AI tools that enhance continuous integration and delivery pipelines.
 
+- [agent-qa](https://github.com/vostride/agent-qa) - Self-improving QA agent for natural-language web and mobile tests with memory, self-healing, and CLI workflows.
 - [ArgoCD](https://github.com/argoproj/argo-cd) - CNCF GitOps continuous delivery for Kubernetes that serves as the foundation for AI-driven deployment workflows.
 - [Buildkite](https://buildkite.com/) - CI/CD platform with AI-powered test analytics, flaky test detection, and intelligent pipeline optimization for infrastructure builds.
 - [CircleCI](https://circleci.com/) - Cloud CI/CD platform with AI-powered test splitting, flaky test detection, and pipeline optimization insights.
