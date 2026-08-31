@@ -243,7 +243,7 @@ AI systems that detect, investigate, and remediate production incidents.
 - [Mezmo Agentic SRE](https://www.mezmo.com/platform/agentic-sre) - AI agent that automates incident triage, root cause analysis, and remediation across logs, metrics, and traces using context engineering.
 - [TierZero AI](https://tierzero.ai/) - AI production agent that investigates incidents, triages alerts, fixes CI/CD failures, and executes remediation across the stack.
 - [Superlog](https://github.com/superloglabs/superlog) - Open-source AI observability tool that groups errors into incidents, investigates with full context, and posts a single mergeable fix PR in Slack.
-- [Aidenn for SRE](https://stackgen.com/product/aiden-for-sre) - Aiden that acts autonomously on recurring incidents and works complex ones alongside your team through to resolution — policy-bound and fully auditable.
+- [Aiden for SRE](https://stackgen.com/product/aiden-for-sre) - AI SRE agent that acts autonomously on recurring incidents and works complex ones alongside your team through to resolution — policy-bound and fully auditable.
 
 ## AI Monitoring and Observability
 
