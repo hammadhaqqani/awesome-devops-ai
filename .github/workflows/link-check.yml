@@ -5,6 +5,8 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   link-check:
@@ -35,5 +37,6 @@ jobs:
             --retry-wait-time 5
             --timeout 60
             "README.md"
+            "GUIDE.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
