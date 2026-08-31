@@ -240,6 +240,7 @@ AI systems that detect, investigate, and remediate production incidents.
 - [Mezmo Agentic SRE](https://www.mezmo.com/platform/agentic-sre) - AI agent that automates incident triage, root cause analysis, and remediation across logs, metrics, and traces using context engineering.
 - [TierZero AI](https://tierzero.ai/) - AI production agent that investigates incidents, triages alerts, fixes CI/CD failures, and executes remediation across the stack.
 - [Superlog](https://github.com/superloglabs/superlog) - Open-source AI observability tool that groups errors into incidents, investigates with full context, and posts a single mergeable fix PR in Slack.
+- [Aidenn for SRE](https://stackgen.com/product/aiden-for-sre) - Aiden that acts autonomously on recurring incidents and works complex ones alongside your team through to resolution — policy-bound and fully auditable.
 
 ## AI Monitoring and Observability
 
@@ -277,6 +278,7 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [InsightFinder](https://insightfinder.com/) - AI-driven reliability platform using composite AI and unsupervised machine learning for anomaly detection and root cause analysis across IT and AI systems.
 - [Maxim AI](https://www.getmaxim.ai/products/agent-observability) - AI agent observability platform providing end-to-end request tracing with real-time monitoring, evaluations, and alerting for production LLM agents.
 - [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time monitoring dashboard for OpenClaw AI agents tracking token usage, session status, and message trends.
+- [Aiden for Observability](https://stackgen.com/product/aiden-for-observability) - Unified observability platform with 300+ integrations, instant setup, and AI-powered root cause analysis that eliminates tool fragmentation.
 
 ## AI Security Scanning
 
