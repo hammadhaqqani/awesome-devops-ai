@@ -6,7 +6,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**471 tools** across **20 categories** — updated August 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**475 tools** across **20 categories** — updated August 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -48,7 +48,7 @@ If this list is useful, please give it a star to help others find it.
 
 ## What's New
 
-**August 2026** — Community contribution wave and link hygiene pass. Merged 9 community PRs adding 10 link-verified entries: **MCP Servers** (2): SandBase Harness, emisar. **CI/CD** (1): agent-qa. **Incident Response** (3): NudgeBee, OpenSRE, Aiden for SRE. **Observability** (1): Aiden for Observability. **Security** (1): Darkmoon. **Kubernetes** (1): kprompt. **Platform Engineering** (1): Canopy. Removed 4 defunct tools (Flip AI, Kubiya, LogAI, OpenAgentic) and refreshed moved links: Lacework is now Fortinet's FortiCNAPP, Protect AI Guardian lives on as Palo Alto Prisma AIRS Model Security, plus updated Claude Agent SDK docs and CNCF Slack invite URLs. **Total: 471 tools** across 20 categories.
+**August 2026** — Community contribution wave and link hygiene pass. Merged 9 community PRs adding 10 link-verified entries: **MCP Servers** (2): SandBase Harness, emisar. **CI/CD** (1): agent-qa. **Incident Response** (3): NudgeBee, OpenSRE, Aiden for SRE. **Observability** (1): Aiden for Observability. **Security** (1): Darkmoon. **Kubernetes** (1): kprompt. **Platform Engineering** (1): Canopy. Removed 4 defunct tools (Flip AI, Kubiya, LogAI, OpenAgentic) and refreshed moved links: Lacework is now Fortinet's FortiCNAPP, Protect AI Guardian lives on as Palo Alto Prisma AIRS Model Security, plus updated Claude Agent SDK docs and CNCF Slack invite URLs. Research additions (4): **AWS DevOps Agent** (GA March 2026 frontier ops agent), **PagerDuty SRE Agent**, **Gemini Cloud Assist**, and **Grafana Assistant**. **Total: 475 tools** across 20 categories.
 
 **July 2026** — Research refresh adding 56 new link-verified tools across 10 categories. **MCP Servers** (15): Confluent, Netlify, Railway, Kong Konnect, Alibaba Cloud Ops, Linode, Vultr, Okta, Auth0, Infisical, Sysdig, Chronosphere, Honeycomb, Better Stack, Postgres MCP Pro. **Incident Response** (8): Deductive AI, Ciroos AI, Wild Moose, DrDroid, Middleware OpsAI, Mezmo Agentic SRE, TierZero AI, Superlog. **Security** (6): Cycode, DryRun Security, Arnica, StackHawk, Jit, Legit Security. **Agent Frameworks** (6): Langflow, Flowise, Inngest, Restate, Trigger.dev, DBOS. **Coding Agents** (4): StarSling, Specific, Sculptor, Conductor. **Kubernetes** (4): kube-copilot, Kimchi, Botkube, Lens Prism. **Observability** (4): Last9, Selector AI, InsightFinder, Maxim AI. **Platform Engineering** (3): Northflank, Mogenius, Facets. **Supply Chain** (3): HiddenLayer, Protect AI Guardian, Kusari. **CI/CD** (3): CodeRabbit, Greptile, Sourcery. **Total: 474 tools** across 20 categories.
 
@@ -212,9 +212,11 @@ Tools that bring AI capabilities to Infrastructure as Code workflows.
 
 AI systems that detect, investigate, and remediate production incidents.
 
+- [AWS DevOps Agent](https://aws.amazon.com/devops-agent/) - AWS frontier agent, generally available since March 2026, that works as an always-on operations teammate resolving and proactively preventing incidents across AWS, multicloud, and on-prem environments.
 - [BigPanda](https://www.bigpanda.io/) - AIOps platform for event correlation, automated root cause analysis, and intelligent incident management across hybrid environments.
 - [Blameless](https://www.blameless.com/) - SRE platform with AI-powered incident management, automated retrospectives, and reliability insights across distributed systems.
 - [FireHydrant](https://firehydrant.com/) - Incident management platform with AI-powered retrospective generation, automated status pages, and runbook execution.
+- [Gemini Cloud Assist](https://cloud.google.com/products/gemini/cloud-assist) - Google Cloud's AI assistant for cloud operations with Investigations for root cause analysis, troubleshooting, and cost and reliability optimization across GCP resources.
 - [GitHub Agentic Workflows](https://github.github.io/gh-aw/) - Run AI agents in GitHub Actions for automated issue triage, CI failure analysis, and PR review.
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt) - Agentic AI troubleshooting for Kubernetes and cloud-native environments, a CNCF Sandbox project combining observability telemetry with LLM reasoning.
 - [incident.io](https://incident.io/) - Incident management platform with AI-powered summaries, automated workflows, and native Slack integration for end-to-end response.
@@ -224,6 +226,7 @@ AI systems that detect, investigate, and remediate production incidents.
 - [OpenSRE (opensre.in)](https://github.com/swapnildahiphale/OpenSRE) - Self-hosted AI SRE platform with episodic memory, a knowledge graph, Web UI, Slack, and Teams.
 - [Opsgenie](https://www.atlassian.com/software/opsgenie) - Incident management with AI-powered alert routing, on-call scheduling, and intelligent escalation by Atlassian.
 - [PagerDuty AIOps](https://www.pagerduty.com/platform/aiops/) - AI event correlation, noise reduction, and intelligent routing that reduces alert fatigue with ML-based grouping.
+- [PagerDuty SRE Agent](https://www.pagerduty.com/platform/ai-agents/sre/) - Virtual responder with shared agent memory that investigates incidents using logs, diagnostics, runbooks, and incident history, then recommends or executes approved remediations across 750+ integrations.
 - [Keep](https://github.com/keephq/keep) - Open-source AIOps platform that correlates, deduplicates, and routes alerts from any monitoring tool with AI-powered noise reduction and workflow automation.
 - [Rootly](https://rootly.com/) - AI-powered incident management with automated timelines, AI-generated postmortems, and Slack-native workflows.
 - [Shoreline](https://shoreline.io/) - AI-powered incident automation that converts runbooks into automated remediation executing across fleets.
@@ -257,6 +260,7 @@ AI-enhanced monitoring, alerting, and observability platforms.
 - [Datadog Bits AI](https://www.datadoghq.com/product/platform/bits-ai/) - AI assistant for natural language metric queries, root cause analysis, and automated investigation across infrastructure.
 - [Dynatrace Davis AI](https://docs.dynatrace.com/docs/platform/davis-ai) - Causal AI engine for automated root cause analysis, impact assessment, and predictive problem detection.
 - [Grafana](https://github.com/grafana/grafana) - Open-source monitoring and observability platform that serves as the foundation for AI-powered monitoring workflows.
+- [Grafana Assistant](https://grafana.com/docs/grafana-cloud/platform/grafana-assistant/) - Agentic AI assistant in Grafana Cloud that writes PromQL and LogQL queries, builds and edits dashboards, and investigates issues from natural language.
 - [Grafana AI](https://grafana.com/products/cloud/ai-tools-for-observability/) - Built-in AI agents for observability including SRE agent for root cause analysis, adaptive telemetry for cost reduction, and AI-assisted query generation.
 - [Groundcover](https://www.groundcover.com/) - eBPF-based observability platform with AI-powered root cause analysis that requires zero instrumentation.
 - [Honeycomb](https://www.honeycomb.io/) - Observability platform with AI-powered query assistant that translates natural language into complex queries for debugging distributed systems.
