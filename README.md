@@ -543,6 +543,7 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 AI tools for building internal developer platforms, service catalogs, and self-service infrastructure.
 
 - [Backstage](https://github.com/backstage/backstage) - CNCF incubating project by Spotify for building developer portals with service catalogs, templates, and plugin-based extensibility.
+- [Canopy](https://canopy.8starlabs.com/) - AI-assisted architecture mapping for service catalogs, dependencies, ownership, and cloud cost context from GitHub repositories.
 - [Cortex](https://www.cortex.io/) - Internal developer portal with AI-driven service maturity scorecards, ownership tracking, and reliability standards enforcement.
 - [Cycloid](https://www.cycloid.io/) - Platform engineering solution with AI-powered infrastructure self-service, cost governance, and green IT scoring.
 - [Fortem](https://fortem.dev) - Control plane for teams running 10+ ECS Fargate environments — fleet-wide visibility, developer self-service with RBAC, per-environment cost attribution, and AI diagnostics that read CloudWatch and propose fixes.
