@@ -527,6 +527,7 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [smolagents](https://github.com/huggingface/smolagents) - Minimalist open-source AI agent library from Hugging Face where agents write and execute Python code directly with sandboxed execution.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's SDK for integrating LLMs into applications with plugin architecture ideal for building infrastructure automation agents.
 - [Temporal](https://github.com/temporalio/temporal) - Durable execution platform for orchestrating long-running infrastructure workflows with built-in retry and failure handling.
+- [YYLO](https://github.com/yylo-dev/yylo) - CLI orchestrator for coding agents with typed validation, merge, and release-readiness boundaries, per-task Git worktrees, and a risk-based merge queue.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Stanford framework for programming language models with automatic prompt optimization and weight tuning, ideal for building reliable DevOps AI pipelines.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal AI assistant with 50+ integrations across messaging platforms, self-extending agent skills, and fully local execution for privacy.
 - [Wren AI](https://github.com/Canner/WrenAI) - Open-source text-to-SQL AI agent that generates SQL queries from natural language for infrastructure analytics and reporting.
