@@ -495,6 +495,7 @@ AI tools for log analysis, pattern detection, and debugging production systems.
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - Foundation for AI-powered log analysis with ES|QL, vector search, and ML anomaly detection.
 - [Grafana Loki](https://github.com/grafana/loki) - Log aggregation system designed for cloud-native environments that pairs with Grafana AI for intelligent log querying.
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) - Vendor-agnostic telemetry collection that serves as the essential pipeline for feeding logs, metrics, and traces to AI analysis tools.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding agent below the harness so model traffic, shell exit codes, file changes and MCP calls share one timeline, then replays the run offline or forks it onto another model.
 - [Parseable](https://github.com/parseablehq/parseable) - Cloud-native log storage and observability platform built in Rust with AI-powered log analysis and alerting.
 - [Vector](https://github.com/vectordotdev/vector) - High-performance observability data pipeline for collecting, transforming, and routing logs, metrics, and traces to AI analysis backends.
 - [Zebrium](https://www.zebrium.com/) - ML-powered root cause analysis from logs that automatically identifies incident root cause without manual queries.
