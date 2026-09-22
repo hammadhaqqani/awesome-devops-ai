@@ -320,6 +320,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [AccuKnox](https://accuknox.com/) - Cloud-native zero-trust security platform with AI CoPilot for Kubernetes using eBPF-based runtime visibility, GenAI policy generation, and compliance tracking.
 - [Checkmarx One](https://checkmarx.com/) - Unified application security platform combining SAST, SCA, DAST, IaC, API, container, and supply chain security with AI-powered autonomous vulnerability remediation.
 - [Credo AI](https://www.credo.ai/) - AI governance and compliance platform for enforcing EU AI Act, NIST AI RMF, and other frameworks across enterprise AI systems and LLM deployments.
+- [HOL Guard](https://hol.org/guard) - Open-source local runtime policy layer for AI coding agents that evaluates supported tool actions before execution.
 - [Holistic AI](https://www.holisticai.com/) - AI governance and risk management platform providing continuous audit, bias detection, and compliance tracking for AI systems in production infrastructure.
 - [Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview) - Unified data governance and AI security platform with data loss prevention, insider risk management, and AI compliance controls across Microsoft 365 and Azure.
 - [Aikido Security](https://www.aikido.dev/) - Unified AppSec platform combining SAST, DAST, SCA, IaC, secrets, and runtime scanning with AI AutoTriage that cuts noise 95% and AutoFix that drops false positives 85%.
