@@ -342,7 +342,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [DryRun Security](https://www.dryrun.security/) - AI-native code security platform using contextual analysis to detect injection, authorization, IDOR, and business-logic flaws in human- and AI-generated pull requests.
 - [Arnica](https://www.arnica.io/) - Agentic AppSec platform providing pipelineless SAST, SCA, IaC, and secrets scanning, plus a rules enforcer that injects security policy into AI coding assistants.
 - [StackHawk](https://www.stackhawk.com/) - AI-driven DAST and API security platform that runs runtime security tests in CI/CD and lets AI coding agents automatically remediate discovered vulnerabilities.
-- [Jit](https://www.jit.io/) - AI agent platform for product security that automatically executes code scanning, cloud security, and compliance workflows with human-in-the-loop approvals.
+- [Jit](https://jit.io/) - AI agent platform for product security that automatically executes code scanning, cloud security, and compliance workflows with human-in-the-loop approvals.
 - [Legit Security](https://www.legitsecurity.com/) - AI-native ASPM platform automating AppSec discovery, prioritization, and remediation, with VibeGuard guardrails for securing AI-generated code.
 
 ## AI Cost Optimization
