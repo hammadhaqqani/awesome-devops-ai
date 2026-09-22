@@ -230,6 +230,7 @@ AI systems that detect, investigate, and remediate production incidents.
 - [PagerDuty SRE Agent](https://www.pagerduty.com/platform/ai-agents/sre/) - Virtual responder with shared agent memory that investigates incidents using logs, diagnostics, runbooks, and incident history, then recommends or executes approved remediations across 750+ integrations.
 - [Keep](https://github.com/keephq/keep) - Open-source AIOps platform that correlates, deduplicates, and routes alerts from any monitoring tool with AI-powered noise reduction and workflow automation.
 - [Rootly](https://rootly.com/) - AI-powered incident management with automated timelines, AI-generated postmortems, and Slack-native workflows.
+- [Sherlocks AI](https://www.sherlocks.ai/) - AI SRE platform whose agents investigate production alerts to a root cause across AWS, GCP, Azure, and Kubernetes, with an on-prem data option.
 - [Shoreline](https://shoreline.io/) - AI-powered incident automation that converts runbooks into automated remediation executing across fleets.
 - [Tracecat](https://github.com/TracecatHQ/tracecat) - Open-source AI automation for security and reliability operations with 100+ integrations and sandboxed execution.
 - [Cleric](https://cleric.ai/) - Autonomous AI SRE that maps architecture, tests hypotheses across logs and metrics, and delivers root-cause diagnoses with confidence scores in Slack, named a Gartner Cool Vendor 2025.
