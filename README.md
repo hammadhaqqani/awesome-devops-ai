@@ -674,6 +674,7 @@ Ready-to-use AI agent configurations for infrastructure repositories.
 - [DevOps GPT Prompts](https://github.com/dair-ai/Prompt-Engineering-Guide) - Comprehensive prompt engineering guide with patterns applicable to DevOps automation.
 
 ## Learning Resources
+- [NextReset](https://nextreset.ai/) - Independent, source-linked Codex reset history and official AI incident references, with a browser-local personal timer; no private account access or timing guarantees.
 
 Courses, certifications, articles, and guides on AI for DevOps.
 
