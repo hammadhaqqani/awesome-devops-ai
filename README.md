@@ -344,6 +344,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [StackHawk](https://www.stackhawk.com/) - AI-driven DAST and API security platform that runs runtime security tests in CI/CD and lets AI coding agents automatically remediate discovered vulnerabilities.
 - [Jit](https://jit.io/) - AI agent platform for product security that automatically executes code scanning, cloud security, and compliance workflows with human-in-the-loop approvals.
 - [Legit Security](https://www.legitsecurity.com/) - AI-native ASPM platform automating AppSec discovery, prioritization, and remediation, with VibeGuard guardrails for securing AI-generated code.
+- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 
 ## AI Cost Optimization
 
