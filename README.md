@@ -6,7 +6,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**480 tools** across **20 categories** — updated September 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**479 tools** across **20 categories** — updated September 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -48,7 +48,7 @@ If this list is useful, please give it a star to help others find it.
 
 ## What's New
 
-**September 2026** — Merged 5 community PRs adding 5 link-verified entries: **Incident Response** (2): Corelayer, Sherlocks AI. **Log Analysis** (1): OrcaReplay. **Agent Frameworks** (1): YYLO. **Security** (1): HOL Guard. **Total: 480 tools** across 20 categories.
+**September 2026** — Merged 5 community PRs adding 5 link-verified entries: **Incident Response** (2): Corelayer, Sherlocks AI. **Log Analysis** (1): OrcaReplay. **Agent Frameworks** (1): YYLO. **Security** (1): HOL Guard. Removed Tabnine, whose site now redirects to Tricentis after the acquisition. **Total: 479 tools** across 20 categories.
 
 **August 2026** — Community contribution wave and link hygiene pass. Merged 9 community PRs adding 10 link-verified entries: **MCP Servers** (2): SandBase Harness, emisar. **CI/CD** (1): agent-qa. **Incident Response** (3): NudgeBee, OpenSRE, Aiden for SRE. **Observability** (1): Aiden for Observability. **Security** (1): Darkmoon. **Kubernetes** (1): kprompt. **Platform Engineering** (1): Canopy. Removed 4 defunct tools (Flip AI, Kubiya, LogAI, OpenAgentic) and refreshed moved links: Lacework is now Fortinet's FortiCNAPP, Protect AI Guardian lives on as Palo Alto Prisma AIRS Model Security, plus updated Claude Agent SDK docs and CNCF Slack invite URLs. Research additions (4): **AWS DevOps Agent** (GA March 2026 frontier ops agent), **PagerDuty SRE Agent**, **Gemini Cloud Assist**, and **Grafana Assistant**. Learning Resources refresh: 5 new books (AI Agents: The Definitive Guide, Build a Machine Learning Platform, Building AI Agent Platforms, Observability in the AI-Native Era, Vibe Coding) and 3 new certifications (Certified GitOps Associate, NVIDIA AI Infrastructure and Operations Associate, NVIDIA AI Operations Professional), plus a fixed FinOps Practitioner link. **Total: 475 tools** across 20 categories.
 
@@ -117,7 +117,6 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [Roo Code](https://github.com/RooCodeInc/Roo-Code) - Open-source VS Code AI coding agent with Custom Modes, agentic multi-file editing, and enterprise SOC 2 compliance forked from Cline.
 - [Trae](https://www.trae.ai/) - ByteDance's free AI-first IDE with vibe coding that generates production-ready code from natural language prompts with built-in MCP support.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with full codebase context, ideal for navigating large monorepos with shared infrastructure modules.
-- [Tabnine](https://www.tabnine.com/) - AI code completion that runs locally or in the cloud with enterprise-grade privacy for sensitive infrastructure code.
 - [Windsurf](https://codeium.com/windsurf) - AI IDE by Codeium with agentic Cascade mode for multi-step infrastructure tasks.
 - [Void](https://voideditor.com/) - Open-source AI code editor forked from VS Code that supports local and remote LLMs for privacy-first infrastructure development.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source AI agent for the terminal with built-in tools, MCP server support, and a free tier of 1,000 requests per day using Gemini models.
