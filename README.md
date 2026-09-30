@@ -6,7 +6,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**475 tools** across **20 categories** — updated August 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**479 tools** across **20 categories** — updated September 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -47,6 +47,8 @@ If this list is useful, please give it a star to help others find it.
 > Previous picks: Superlog (AI observability with mergeable fix PRs) | NVIDIA Grove (multi-node AI inference orchestration) | JetBrains Junie (LLM-agnostic coding agent) | Gemini CLI (Google's terminal AI agent) | Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics)
 
 ## What's New
+
+**September 2026** — Merged 4 community PRs adding 4 link-verified entries: **Incident Response** (2): Corelayer, Sherlocks AI. **Log Analysis** (1): OrcaReplay. **Agent Frameworks** (1): YYLO. **Total: 479 tools** across 20 categories.
 
 **August 2026** — Community contribution wave and link hygiene pass. Merged 9 community PRs adding 10 link-verified entries: **MCP Servers** (2): SandBase Harness, emisar. **CI/CD** (1): agent-qa. **Incident Response** (3): NudgeBee, OpenSRE, Aiden for SRE. **Observability** (1): Aiden for Observability. **Security** (1): Darkmoon. **Kubernetes** (1): kprompt. **Platform Engineering** (1): Canopy. Removed 4 defunct tools (Flip AI, Kubiya, LogAI, OpenAgentic) and refreshed moved links: Lacework is now Fortinet's FortiCNAPP, Protect AI Guardian lives on as Palo Alto Prisma AIRS Model Security, plus updated Claude Agent SDK docs and CNCF Slack invite URLs. Research additions (4): **AWS DevOps Agent** (GA March 2026 frontier ops agent), **PagerDuty SRE Agent**, **Gemini Cloud Assist**, and **Grafana Assistant**. Learning Resources refresh: 5 new books (AI Agents: The Definitive Guide, Build a Machine Learning Platform, Building AI Agent Platforms, Observability in the AI-Native Era, Vibe Coding) and 3 new certifications (Certified GitOps Associate, NVIDIA AI Infrastructure and Operations Associate, NVIDIA AI Operations Professional), plus a fixed FinOps Practitioner link. **Total: 475 tools** across 20 categories.
 
@@ -230,6 +232,7 @@ AI systems that detect, investigate, and remediate production incidents.
 - [PagerDuty SRE Agent](https://www.pagerduty.com/platform/ai-agents/sre/) - Virtual responder with shared agent memory that investigates incidents using logs, diagnostics, runbooks, and incident history, then recommends or executes approved remediations across 750+ integrations.
 - [Keep](https://github.com/keephq/keep) - Open-source AIOps platform that correlates, deduplicates, and routes alerts from any monitoring tool with AI-powered noise reduction and workflow automation.
 - [Rootly](https://rootly.com/) - AI-powered incident management with automated timelines, AI-generated postmortems, and Slack-native workflows.
+- [Sherlocks AI](https://www.sherlocks.ai/) - AI SRE platform whose agents investigate production alerts to a root cause across AWS, GCP, Azure, and Kubernetes, with an on-prem data option.
 - [Shoreline](https://shoreline.io/) - AI-powered incident automation that converts runbooks into automated remediation executing across fleets.
 - [Tracecat](https://github.com/TracecatHQ/tracecat) - Open-source AI automation for security and reliability operations with 100+ integrations and sandboxed execution.
 - [Cleric](https://cleric.ai/) - Autonomous AI SRE that maps architecture, tests hypotheses across logs and metrics, and delivers root-cause diagnoses with confidence scores in Slack, named a Gartner Cool Vendor 2025.
@@ -340,7 +343,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [DryRun Security](https://www.dryrun.security/) - AI-native code security platform using contextual analysis to detect injection, authorization, IDOR, and business-logic flaws in human- and AI-generated pull requests.
 - [Arnica](https://www.arnica.io/) - Agentic AppSec platform providing pipelineless SAST, SCA, IaC, and secrets scanning, plus a rules enforcer that injects security policy into AI coding assistants.
 - [StackHawk](https://www.stackhawk.com/) - AI-driven DAST and API security platform that runs runtime security tests in CI/CD and lets AI coding agents automatically remediate discovered vulnerabilities.
-- [Jit](https://www.jit.io/) - AI agent platform for product security that automatically executes code scanning, cloud security, and compliance workflows with human-in-the-loop approvals.
+- [Jit](https://jit.io/) - AI agent platform for product security that automatically executes code scanning, cloud security, and compliance workflows with human-in-the-loop approvals.
 - [Legit Security](https://www.legitsecurity.com/) - AI-native ASPM platform automating AppSec discovery, prioritization, and remediation, with VibeGuard guardrails for securing AI-generated code.
 
 ## AI Cost Optimization
@@ -496,6 +499,7 @@ AI tools for log analysis, pattern detection, and debugging production systems.
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - Foundation for AI-powered log analysis with ES|QL, vector search, and ML anomaly detection.
 - [Grafana Loki](https://github.com/grafana/loki) - Log aggregation system designed for cloud-native environments that pairs with Grafana AI for intelligent log querying.
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) - Vendor-agnostic telemetry collection that serves as the essential pipeline for feeding logs, metrics, and traces to AI analysis tools.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding agent below the harness so model traffic, shell exit codes, file changes and MCP calls share one timeline, then replays the run offline or forks it onto another model.
 - [Parseable](https://github.com/parseablehq/parseable) - Cloud-native log storage and observability platform built in Rust with AI-powered log analysis and alerting.
 - [Vector](https://github.com/vectordotdev/vector) - High-performance observability data pipeline for collecting, transforming, and routing logs, metrics, and traces to AI analysis backends.
 - [Zebrium](https://www.zebrium.com/) - ML-powered root cause analysis from logs that automatically identifies incident root cause without manual queries.
@@ -528,6 +532,7 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [smolagents](https://github.com/huggingface/smolagents) - Minimalist open-source AI agent library from Hugging Face where agents write and execute Python code directly with sandboxed execution.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's SDK for integrating LLMs into applications with plugin architecture ideal for building infrastructure automation agents.
 - [Temporal](https://github.com/temporalio/temporal) - Durable execution platform for orchestrating long-running infrastructure workflows with built-in retry and failure handling.
+- [YYLO](https://github.com/yylo-dev/yylo) - CLI orchestrator for coding agents with typed validation, merge, and release-readiness boundaries, per-task Git worktrees, and a risk-based merge queue.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Stanford framework for programming language models with automatic prompt optimization and weight tuning, ideal for building reliable DevOps AI pipelines.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal AI assistant with 50+ integrations across messaging platforms, self-extending agent skills, and fully local execution for privacy.
 - [Wren AI](https://github.com/Canner/WrenAI) - Open-source text-to-SQL AI agent that generates SQL queries from natural language for infrastructure analytics and reporting.
