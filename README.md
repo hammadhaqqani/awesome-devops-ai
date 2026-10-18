@@ -6,7 +6,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**479 tools** across **20 categories** — updated September 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**481 tools** across **20 categories** — updated October 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -47,6 +47,8 @@ If this list is useful, please give it a star to help others find it.
 > Previous picks: Superlog (AI observability with mergeable fix PRs) | NVIDIA Grove (multi-node AI inference orchestration) | JetBrains Junie (LLM-agnostic coding agent) | Gemini CLI (Google's terminal AI agent) | Goose (Block's Rust-based autonomous agent) | K8sGPT (CNCF Kubernetes diagnostics)
 
 ## What's New
+
+**October 2026** — Merged 2 community PRs adding 2 link-verified entries: **CI/CD** (2): Orbi, Endtest. **Total: 481 tools** across 20 categories.
 
 **September 2026** — Merged 5 community PRs adding 5 link-verified entries: **Incident Response** (2): Corelayer, Sherlocks AI. **Log Analysis** (1): OrcaReplay. **Agent Frameworks** (1): YYLO. **Security** (1): HOL Guard. Removed Tabnine, whose site now redirects to Tricentis after the acquisition. **Total: 479 tools** across 20 categories.
 
@@ -482,10 +484,10 @@ AI tools that enhance continuous integration and delivery pipelines.
 - [Claude Code Review](https://github.com/anthropics/claude-code-security-review) - Anthropic's multi-agent GitHub Action that analyzes pull requests for logic errors, race conditions, data handling mistakes, API misuse, and security vulnerabilities in parallel.
 - [Cursor BugBot](https://cursor.com/bugbot) - AI code review bot from Cursor that reviews 2 million+ PRs monthly using 8 parallel review passes with randomized diff order to catch bugs single-pass reviewers miss.
 - [Mendral](https://www.mendral.com/) - Always-on AI DevOps engineer (YC W26) that autonomously diagnoses CI failures, fixes flaky tests, and opens fix PRs with a 75% acceptance rate.
+- [Endtest](https://endtest.io/) - Agentic AI test automation platform for web and mobile apps, with autonomous test generation, CI/CD integrations, cloud test execution, and AI-powered failure analysis.
 - [Momentic](https://momentic.ai/) - AI-native automated testing platform (YC) that writes, runs, and maintains end-to-end tests for CI/CD pipelines with self-healing capabilities.
 - [Stably AI](https://www.stably.ai/) - AI testing platform (YC, Vercel Ventures) that auto-writes, runs, and maintains diff-aware end-to-end tests directly in CI with automatic selector healing.
 - [testRigor](https://testrigor.com/) - AI-driven codeless testing platform that integrates into CI/CD pipelines with natural language test creation and intelligent test maintenance.
-- [Endtest](https://endtest.io/) - Agentic AI test automation platform for web and mobile apps, with autonomous test generation, CI/CD integrations, cloud test execution, and AI-powered failure analysis.
 - [Testsigma](https://github.com/testsigmahq/testsigma) - Open-source agentic AI test automation platform with self-healing tests, natural language test creation, and CI/CD integration.
 - [CodeRabbit](https://www.coderabbit.ai/) - AI code review tool that posts PR walkthroughs and inline suggestions across GitHub, GitLab, Azure DevOps, and Bitbucket, integrating 40+ linters and scanners.
 - [Greptile](https://www.greptile.com/) - AI code review platform that builds a graph index of the codebase and uses agent swarms to catch multi-file bugs and security risks on pull requests.
