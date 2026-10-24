@@ -373,6 +373,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Atlassian MCP Server](https://www.npmjs.com/package/@anthropic/mcp-atlassian) - MCP server for Jira and Confluence integration enabling AI agents to query issues, create tickets, and search documentation.
 - [AWS MCP Servers](https://awslabs.github.io/mcp/) - Official AWS MCP server suite covering Terraform, CDK, CloudFormation, Lambda, S3, CloudWatch, ECS, and more.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive curated list of all MCP servers across every category.
+- [CallMeMCP](https://github.com/radres/call-me) - MCP server that lets an agent ring an engineer's iPhone, ask a question aloud, and return the spoken answer as text; the iPhone app needs a paid subscription.
 - [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare) - Official Cloudflare MCP server for managing Workers, KV, R2, and DNS from AI agents.
 - [Datadog MCP Server](https://github.com/datadog-labs/mcp-server) - MCP server for querying Datadog metrics, monitors, dashboards, and logs from AI agents.
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway) - Docker-maintained MCP server for container management, image operations, and Docker Compose workflows.
