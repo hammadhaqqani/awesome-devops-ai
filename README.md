@@ -384,6 +384,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Linear MCP Server](https://github.com/jerhadf/linear-mcp-server) - MCP server for Linear project management enabling AI agents to manage issues, projects, and cycles.
 - [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, PostgreSQL, Puppeteer, and more.
 - [PagerDuty MCP Server](https://github.com/PagerDuty/pagerduty-mcp-server) - MCP server for PagerDuty incident management, on-call schedules, and alert routing from AI agents.
+- [ReMCP](https://github.com/getremcp/remcp) - OAuth-protected remote MCP for operational terminal, file, browser and desktop actions on explicitly paired computers; operations may change state and require appropriate device permissions.
 - [Sentry MCP Server](https://github.com/getsentry/sentry-mcp) - Official Sentry MCP server for error tracking, issue search, and event analysis from AI agents.
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) - Official HashiCorp MCP server for Terraform module search, provider documentation, and policy enforcement.
 - [Argo CD MCP Server](https://github.com/argoproj-labs/mcp-for-argocd) - Official Argo Project MCP server enabling AI assistants to list, inspect, sync, and manage Argo CD applications via natural language.
