@@ -385,6 +385,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, PostgreSQL, Puppeteer, and more.
 - [PagerDuty MCP Server](https://github.com/PagerDuty/pagerduty-mcp-server) - MCP server for PagerDuty incident management, on-call schedules, and alert routing from AI agents.
 - [Sentry MCP Server](https://github.com/getsentry/sentry-mcp) - Official Sentry MCP server for error tracking, issue search, and event analysis from AI agents.
+- [Speakeasy control plane](https://github.com/speakeasy-api/gram) - Governed MCP gateway for DevOps agents with identity-based tool permissions, per-action policies, and audit logs.
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) - Official HashiCorp MCP server for Terraform module search, provider documentation, and policy enforcement.
 - [Argo CD MCP Server](https://github.com/argoproj-labs/mcp-for-argocd) - Official Argo Project MCP server enabling AI assistants to list, inspect, sync, and manage Argo CD applications via natural language.
 - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) - Official Microsoft MCP server for Azure DevOps work items, pull requests, pipelines, repos, and wikis with Entra authentication.
