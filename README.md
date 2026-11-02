@@ -303,6 +303,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [Endor Labs](https://www.endorlabs.com/) - AI-powered dependency management that identifies reachable vulnerabilities and reduces false positives in software supply chains.
 - [Lacework FortiCNAPP](https://www.fortinet.com/products/forticnapp) - Cloud security platform, now part of Fortinet, with behavioral AI that detects anomalies and threats across cloud workloads without rules.
 - [MCP-Scan](https://labs.snyk.io/) - Open-source tool for analyzing Model Context Protocol security issues and auditing MCP servers for vulnerabilities.
+- [npmscan](https://github.com/salemalem/npmscan-mcp-plugin) - MCP server and agent plugin that lets AI coding agents check npm dependencies for confirmed malware, known vulnerabilities, maintainer takeovers, and risky install scripts before installing them, plus a PASS/WARN/FAIL pull-request gate.
 - [Orca Security](https://orca.security/) - Agentless cloud security with AI-powered risk prioritization across workloads, configurations, and identities.
 - [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud) - Comprehensive cloud-native application protection platform with AI-driven vulnerability prioritization and compliance.
 - [Semgrep](https://github.com/semgrep/semgrep) - Fast open-source static analysis for finding bugs and enforcing code standards across 30+ languages including HCL and YAML.
