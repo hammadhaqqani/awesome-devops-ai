@@ -682,6 +682,7 @@ Courses, certifications, articles, and guides on AI for DevOps.
 
 ### Articles and Guides
 
+- [AI SRE Agents Compared](https://aiagentsearch.ai/ai-sre-agents-compared.html) - Independent comparison of 14 AI SRE agents on what each can change in production and who must approve it.
 - [FinOps for AI Overview](https://www.finops.org/wg/finops-for-ai-overview/) - FinOps Foundation guide on managing AI workload costs in the cloud.
 - [HolmesGPT: Agentic Troubleshooting for Cloud Native](https://www.cncf.io/blog/2026/01/07/holmesgpt-agentic-troubleshooting-built-for-the-cloud-native-era/) - CNCF deep dive into AI-powered Kubernetes troubleshooting.
 - [I Built 41 Free AI and DevOps Tools](https://hammadhaqqani.com/blog/41-free-ai-devops-tools-no-signup) - Deep dive into building client-side AI and DevOps tools that run entirely in the browser.
