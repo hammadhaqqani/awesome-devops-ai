@@ -6,7 +6,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**481 tools** across **20 categories** — updated October 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**484 tools** across **20 categories** — updated November 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -48,7 +48,9 @@ If this list is useful, please give it a star to help others find it.
 
 ## What's New
 
-**October 2026** — Merged 2 community PRs adding 2 link-verified entries: **CI/CD** (2): Orbi, Endtest. **Total: 481 tools** across 20 categories.
+**November 2026** — Merged 2 community PRs adding 2 link-verified entries: **Incident Response** (1): Aurora. **MCP Servers** (1): CallMeMCP. Updated the OpenSRE entry to its new name and site, OpenSRE.in. **Total: 484 tools** across 20 categories.
+
+**October 2026** — Merged 3 community PRs adding 3 link-verified entries: **CI/CD** (2): Orbi, Endtest. **Kubernetes** (1): Devproof AI. **Total: 482 tools** across 20 categories.
 
 **September 2026** — Merged 5 community PRs adding 5 link-verified entries: **Incident Response** (2): Corelayer, Sherlocks AI. **Log Analysis** (1): OrcaReplay. **Agent Frameworks** (1): YYLO. **Security** (1): HOL Guard. Removed Tabnine, whose site now redirects to Tricentis after the acquisition. **Total: 479 tools** across 20 categories.
 
