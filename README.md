@@ -6,7 +6,7 @@ The AI revolution is transforming how infrastructure is built, monitored, and op
 
 **Why this list?** Engineers are adopting AI tooling faster than any technology shift in history, but the landscape is fragmented across hundreds of repos, products, and frameworks. This is one place to find them all.
 
-**460 tools** across **20 categories** — updated November 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
+**473 tools** across **20 categories** — updated November 2026. See the [Quick Start Guide](GUIDE.md) for role-based recommendations.
 
 If this list is useful, please give it a star to help others find it.
 
@@ -48,7 +48,7 @@ If this list is useful, please give it a star to help others find it.
 
 ## What's New
 
-**November 2026** — Merged 2 community PRs adding 2 link-verified entries: **Incident Response** (1): Aurora. **MCP Servers** (1): CallMeMCP. Updated the OpenSRE entry to its new name and site, OpenSRE.in. Hygiene pass removing 24 entries. **Shut down or archived** (8): Roo Code, Flowise, Terrascan, Glasskube, IncidentFox, Plandex, Parity, Shoreline. **Acquired or absorbed** (8): Jit (Torq), Resourcely (Cursor), Blameless (FireHydrant), Spot by NetApp (Flexera), Slim.AI (Aikido), Codefresh (Octopus Deploy), Windsurf (now Devin Desktop, already listed), Datafruit (pivoted away from DevOps). **Off-topic or unmaintained** (8): toprank and NotFair (SEO and ad tooling), Istio MCP Server, KubeCopilot Core, kube-agent, Terraform Copilot Prompts, Kubernetes ChatGPT Bot, ValidKube. Moved MCP entries to official successors (Atlassian, DigitalOcean, Dynatrace, incident.io, Linear, PagerDuty, Supabase, Temporal, Unleash) and refreshed renamed links: OpenCode, Goose (Agentic AI Foundation), Stategraph (formerly Terrateam), OGX (formerly Llama Stack), Skylar Advisor (formerly Zebrium), env zero, Agent Orchestrator, and more. **Total: 460 tools** across 20 categories.
+**November 2026** — Merged 2 community PRs adding 2 link-verified entries: **Incident Response** (1): Aurora. **MCP Servers** (1): CallMeMCP. Updated the OpenSRE entry to its new name and site, OpenSRE.in. Hygiene pass removing 24 entries. **Shut down or archived** (8): Roo Code, Flowise, Terrascan, Glasskube, IncidentFox, Plandex, Parity, Shoreline. **Acquired or absorbed** (8): Jit (Torq), Resourcely (Cursor), Blameless (FireHydrant), Spot by NetApp (Flexera), Slim.AI (Aikido), Codefresh (Octopus Deploy), Windsurf (now Devin Desktop, already listed), Datafruit (pivoted away from DevOps). **Off-topic or unmaintained** (8): toprank and NotFair (SEO and ad tooling), Istio MCP Server, KubeCopilot Core, kube-agent, Terraform Copilot Prompts, Kubernetes ChatGPT Bot, ValidKube. Moved MCP entries to official successors (Atlassian, DigitalOcean, Dynatrace, incident.io, Linear, PagerDuty, Supabase, Temporal, Unleash) and refreshed renamed links: OpenCode, Goose (Agentic AI Foundation), Stategraph (formerly Terrateam), OGX (formerly Llama Stack), Skylar Advisor (formerly Zebrium), env zero, Agent Orchestrator, and more. Research additions (13): **Coding Agents** (5): Amp, GitHub Copilot CLI, Grok Build, Pi, Warp. **Agent Frameworks** (3): ContextForge, Microsoft MCP Gateway, Obot. **Kubernetes** (1): Agent Substrate. **Security** (1): Cisco DefenseClaw. **FinOps** (1): AWS FinOps Agent. **MCP Servers** (1): Azure MCP Server. **CI/CD** (1): Chunk. **Total: 473 tools** across 20 categories.
 
 **October 2026** — Merged 3 community PRs adding 3 link-verified entries: **CI/CD** (2): Orbi, Endtest. **Kubernetes** (1): Devproof AI. **Total: 482 tools** across 20 categories.
 
@@ -132,6 +132,11 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [Specific](https://specific.dev) - Cloud platform built for coding agents like Claude Code, Cursor, and Codex to define infrastructure, deploy full-stack apps, and observe production.
 - [Sculptor](https://github.com/imbue-ai/sculptor) - Imbue's open-source desktop app for running multiple AI coding agents in parallel, each isolated in its own container with local IDE sync.
 - [Conductor](https://conductor.build/) - Mac app for orchestrating parallel Claude Code, Codex, and Cursor coding agents across isolated Git worktree workspaces.
+- [Amp](https://ampcode.com/) - Coding agent from the Sourcegraph team that runs in the terminal and popular editors and works autonomously on multi-step changes across large codebases.
+- [GitHub Copilot CLI](https://github.com/github/copilot-cli) - GitHub's terminal coding agent, generally available since February 2026, that plans, edits, and runs commands behind approval prompts and ships with GitHub's MCP server for repos, issues, and pull requests.
+- [Grok Build](https://github.com/xai-org/grok-build) - SpaceXAI's (formerly xAI) open-source Apache-2.0 terminal coding agent that edits files, runs shell commands, and works headlessly in CI or inside editors through the Agent Client Protocol.
+- [Pi](https://github.com/earendil-works/pi) - Minimal MIT-licensed terminal coding agent and toolkit with a small core extended through skills, extensions, and prompt templates, scriptable through JSON and RPC modes.
+- [Warp](https://github.com/warpdotdev/warp) - Agentic development environment born out of the terminal, open source under AGPL-3.0, for running and managing coding agents alongside shell workflows.
 
 
 ## AI-Powered Kubernetes
@@ -173,6 +178,7 @@ AI tools specifically designed for Kubernetes cluster management, troubleshootin
 - [Kimchi](https://cast.ai/kimchi/) - CAST AI Kubernetes operator for running frontier LLM inference and coding models inside your own cluster with autoscaling, model routing, governance, and cost controls.
 - [Botkube](https://botkube.io/) - Collaborative Kubernetes AI assistant delivering real-time alerts and GPT-powered troubleshooting directly inside Slack, Teams, Discord, and Mattermost.
 - [Lens Prism](https://lenshq.io/blog/introducing-lens-prism) - Context-aware AI Kubernetes copilot built into the Lens Desktop IDE for querying and managing live clusters using natural language.
+- [Agent Substrate](https://github.com/agent-substrate/substrate) - CNCF Sandbox zero-trust runtime donated by Google that runs sandboxed agents on Kubernetes in gVisor or microVMs, suspending idle agents onto a small pool of warm worker pods.
 
 ## AI-Powered Terraform and IaC
 
@@ -330,6 +336,7 @@ AI-powered security tools for infrastructure, containers, and supply chain.
 - [Arnica](https://www.arnica.io/) - Agentic AppSec platform providing pipelineless SAST, SCA, IaC, and secrets scanning, plus a rules enforcer that injects security policy into AI coding assistants.
 - [StackHawk](https://www.stackhawk.com/) - AI-driven DAST and API security platform that runs runtime security tests in CI/CD and lets AI coding agents automatically remediate discovered vulnerabilities.
 - [Legit Security](https://www.legitsecurity.com/) - AI-native ASPM platform automating AppSec discovery, prioritization, and remediation, with VibeGuard guardrails for securing AI-generated code.
+- [Cisco DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw) - Open-source security governance layer for AI coding agents that scans skills and MCP servers before use, inspects runtime traffic through a gateway, and exports audit evidence.
 
 ## AI Cost Optimization
 
@@ -349,6 +356,7 @@ AI and automation tools for cloud cost management, FinOps, and resource optimiza
 - [PointFive](https://www.pointfive.co/) - Multi-cloud cost optimization platform with DeepWaste detection covering 400+ checks and the Claude-powered Pointer AI assistant for actionable savings recommendations.
 - [ProsperOps](https://www.prosperops.com/) - Autonomous Discount Management for AWS, Azure, and GCP commitments that manages over $6B in annual cloud spend with a no-touch optimization model.
 - [Costimizer](https://costimizer.ai/) - Agentic FinOps autopilot that rightsizes workloads, auto-parks idle resources, and enforces budgets without manual intervention across AWS, Azure, and GCP.
+- [AWS FinOps Agent](https://docs.aws.amazon.com/finops-agent/latest/userguide/what-is.html) - AWS agent, in public preview since June 2026, that investigates cost anomalies, answers natural-language cost questions, and delivers findings to Slack or Jira.
 
 ## MCP Servers for DevOps
 
@@ -443,6 +451,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Honeycomb MCP Server](https://docs.honeycomb.io/integrations/mcp) - Official Honeycomb MCP server letting agents query and visualize traces, metrics, and logs, run BubbleUp anomaly analysis, and inspect Triggers and SLOs.
 - [Better Stack MCP Server](https://betterstack.com/docs/getting-started/integrations/mcp/) - Official remote MCP server for uptime, telemetry, and error tracking covering monitors, incidents, on-call, and ClickHouse log and metric queries.
 - [Postgres MCP Pro](https://github.com/crystaldba/postgres-mcp) - Community PostgreSQL MCP server with configurable read/write SQL, index tuning, query plan analysis, and database health checks.
+- [Azure MCP Server](https://github.com/microsoft/mcp) - Official Microsoft MCP server for Azure, stable since its 3.0 release in October 2026, with tools for resource management, Terraform, backup, recovery, and troubleshooting.
 
 ## AI-Powered CI/CD
 
@@ -474,6 +483,7 @@ AI tools that enhance continuous integration and delivery pipelines.
 - [CodeRabbit](https://www.coderabbit.ai/) - AI code review tool that posts PR walkthroughs and inline suggestions across GitHub, GitLab, Azure DevOps, and Bitbucket, integrating 40+ linters and scanners.
 - [Greptile](https://www.greptile.com/) - AI code review platform that builds a graph index of the codebase and uses agent swarms to catch multi-file bugs and security risks on pull requests.
 - [Sourcery](https://www.sourcery.ai/) - AI code review tool delivering automated reviews and suggested fixes on GitHub and GitLab pull requests across 30+ languages.
+- [Chunk](https://chunk.ai/) - CircleCI's agent that validates AI-generated code in clean Linux microVMs before it reaches CI and diagnoses or fixes failing builds and flaky tests.
 
 ## AI Log Analysis and Debugging
 
@@ -535,6 +545,9 @@ General-purpose AI agent frameworks with strong infrastructure and DevOps use ca
 - [Restate](https://restate.dev/) - Lightweight runtime for durable execution, workflows, and durable AI agents with built-in automatic failure recovery.
 - [Trigger.dev](https://trigger.dev/) - Open-source platform for building and deploying durable background tasks and AI agents in TypeScript that survive redeploys and crashes.
 - [DBOS](https://www.dbos.dev/) - Open-source durable execution library that makes AI agents and workflows fault-tolerant via code decorators, requiring only PostgreSQL.
+- [ContextForge](https://github.com/IBM/mcp-context-forge) - IBM's open-source AI gateway and registry that federates MCP servers, A2A agents, and REST or gRPC APIs behind one governed endpoint.
+- [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway) - Open-source reverse proxy and control plane from Microsoft that deploys MCP servers on Kubernetes and routes, authorizes, and manages them at scale.
+- [Obot](https://github.com/obot-platform/obot) - Open-source AI governance platform with MCP and LLM gateways, curated MCP and skills registries, isolated MCP hosting, and audit logs across agents like Claude Code, Codex, and Cursor.
 
 ## AI for Platform Engineering
 
