@@ -8,15 +8,15 @@ Not sure where to start? This guide maps the landscape and recommends tools by r
 | ------------------------ | --------------------------------- | -------------------------------- | --------------------- |
 | **Coding Agents**        | Aider, Cline, Continue            | Claude Code, Cursor, Copilot     | -                     |
 | **Kubernetes**           | K8sGPT, kubectl-ai, Headlamp     | Komodor, Robusta                 | K8sGPT, Kagent, KAITO |
-| **IaC and Terraform**    | OpenTofu, Infracost, Checkov      | Spacelift, Env0, Firefly         | -                     |
-| **Incident Response**    | HolmesGPT, IncidentFox, OpenSRE  | AWS DevOps Agent, PagerDuty SRE Agent, Rootly | HolmesGPT             |
+| **IaC and Terraform**    | OpenTofu, Infracost, Checkov      | Spacelift, env zero, Firefly     | -                     |
+| **Incident Response**    | HolmesGPT, Aurora, OpenSRE       | AWS DevOps Agent, PagerDuty SRE Agent, Rootly | HolmesGPT             |
 | **Monitoring**           | Grafana, Prometheus               | Datadog, Dynatrace, Splunk       | Prometheus            |
 | **Security**             | Trivy, Falco, Checkov, Semgrep    | Snyk, Wiz, Prisma Cloud          | Falco                 |
 | **Cost and FinOps**      | OpenCost, Kubecost                | CAST AI, Vantage, CloudZero      | OpenCost              |
 | **MCP Servers**          | MCP Reference, Kubernetes MCP     | AWS MCP, GitHub MCP              | -                     |
 | **CI/CD**                | ArgoCD, Tekton, Dagger            | GitLab Duo, Harness              | ArgoCD, Tekton        |
 | **Platform Engineering** | Backstage, Kratix                 | Port, Humanitec, Cortex          | Backstage             |
-| **GitOps**               | Flux, Kustomize, Helm             | Weave GitOps, Codefresh          | Flux, Helm            |
+| **GitOps**               | Flux, Kustomize, Helm             | Weave GitOps                     | Flux, Helm            |
 | **Chaos Engineering**    | Chaos Mesh, Litmus                | Gremlin, Steadybit               | Chaos Mesh, Litmus    |
 
 ## Quick Start by Role
