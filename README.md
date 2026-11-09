@@ -216,6 +216,7 @@ Tools that bring AI capabilities to Infrastructure as Code workflows.
 
 AI systems that detect, investigate, and remediate production incidents.
 
+- [Aurora](https://github.com/Arvo-AI/aurora) - Self-hosted agent that investigates incidents across AWS, Azure, GCP, and Kubernetes and returns a root-cause analysis.
 - [AWS DevOps Agent](https://aws.amazon.com/devops-agent/) - AWS frontier agent, generally available since March 2026, that works as an always-on operations teammate resolving and proactively preventing incidents across AWS, multicloud, and on-prem environments.
 - [BigPanda](https://www.bigpanda.io/) - AIOps platform for event correlation, automated root cause analysis, and intelligent incident management across hybrid environments.
 - [Blameless](https://www.blameless.com/) - SRE platform with AI-powered incident management, automated retrospectives, and reliability insights across distributed systems.
