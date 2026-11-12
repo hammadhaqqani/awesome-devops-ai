@@ -137,6 +137,7 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [Grok Build](https://github.com/xai-org/grok-build) - SpaceXAI's (formerly xAI) open-source Apache-2.0 terminal coding agent that edits files, runs shell commands, and works headlessly in CI or inside editors through the Agent Client Protocol.
 - [Pi](https://github.com/earendil-works/pi) - Minimal MIT-licensed terminal coding agent and toolkit with a small core extended through skills, extensions, and prompt templates, scriptable through JSON and RPC modes.
 - [Warp](https://github.com/warpdotdev/warp) - Agentic development environment born out of the terminal, open source under AGPL-3.0, for running and managing coding agents alongside shell workflows.
+- [Sno Station](https://github.com/sno-ai/sno-station) - Runs Claude Code, Codex, and Cursor as one team on your own machine, where one agent builds, another reviews the change, and work passes to the next agent when one hits its usage limit.
 
 
 ## AI-Powered Kubernetes
