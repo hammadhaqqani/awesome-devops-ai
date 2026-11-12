@@ -117,6 +117,7 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source AI software engineering platform (MIT) with 77.6% SWEBench success rate, autonomous shell commands, file navigation, and debugging capabilities.
 - [Qwen Code](https://github.com/QwenLM/Qwen3-Coder) - Alibaba Qwen's official CLI coding agent with 20k+ stars supporting Qwen3-Coder models for infrastructure code generation and refactoring.
 - [Replit Agent](https://replit.com/ai) - AI agent that builds and deploys full-stack applications from natural language, useful for rapid prototyping of infrastructure dashboards.
+- [Sno Station](https://github.com/sno-ai/sno-station) - Runs Claude Code, Codex, and Cursor as one team on your own machine, where one agent builds, another reviews the change, and work passes to the next agent when one hits its usage limit.
 - [Trae](https://www.trae.ai/) - ByteDance's free AI-first IDE with vibe coding that generates production-ready code from natural language prompts with built-in MCP support.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with full codebase context, ideal for navigating large monorepos with shared infrastructure modules.
 - [Void](https://voideditor.com/) - Open-source AI code editor forked from VS Code that supports local and remote LLMs for privacy-first infrastructure development.
@@ -137,7 +138,6 @@ AI-powered coding agents that help write, review, and maintain infrastructure co
 - [Grok Build](https://github.com/xai-org/grok-build) - SpaceXAI's (formerly xAI) open-source Apache-2.0 terminal coding agent that edits files, runs shell commands, and works headlessly in CI or inside editors through the Agent Client Protocol.
 - [Pi](https://github.com/earendil-works/pi) - Minimal MIT-licensed terminal coding agent and toolkit with a small core extended through skills, extensions, and prompt templates, scriptable through JSON and RPC modes.
 - [Warp](https://github.com/warpdotdev/warp) - Agentic development environment born out of the terminal, open source under AGPL-3.0, for running and managing coding agents alongside shell workflows.
-- [Sno Station](https://github.com/sno-ai/sno-station) - Runs Claude Code, Codex, and Cursor as one team on your own machine, where one agent builds, another reviews the change, and work passes to the next agent when one hits its usage limit.
 
 
 ## AI-Powered Kubernetes
