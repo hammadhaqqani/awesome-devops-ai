@@ -397,6 +397,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive curated list of all MCP servers across every category.
 - [CallMeMCP](https://github.com/radres/call-me) - MCP server that lets an agent ring an engineer's iPhone, ask a question aloud, and return the spoken answer as text; the iPhone app needs a paid subscription.
 - [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare) - Official Cloudflare MCP server for managing Workers, KV, R2, and DNS from AI agents.
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Public remote MCP server for 1,700+ US and Canadian live-music venues.
 - [Datadog MCP Server](https://github.com/datadog-labs/mcp-server) - MCP server for querying Datadog metrics, monitors, dashboards, and logs from AI agents.
 - [DBHub](https://github.com/bytebase/dbhub) - Bytebase's token-efficient database MCP server for PostgreSQL, MySQL, SQL Server, Oracle, MariaDB, and SQLite.
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway) - Docker-maintained MCP server for container management, image operations, and Docker Compose workflows.
