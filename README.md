@@ -374,6 +374,7 @@ AI and automation tools for cloud cost management, FinOps, and resource optimiza
 - [CAST AI](https://cast.ai/) - AI-powered Kubernetes cost optimization with automated rightsizing, spot instance management, and cluster autoscaling.
 - [CloudZero](https://www.cloudzero.com/) - Cloud cost intelligence platform with AI-driven cost allocation, anomaly detection, and unit economics tracking.
 - [Finout](https://www.finout.io/) - FinOps platform with AI-powered cost allocation across cloud, Kubernetes, and SaaS that combines billing data with observability.
+- [Kaeso](https://github.com/logicplanes/kaeso) - Self-hosted, MIT-licensed AI gateway in Rust that puts one API in front of 50 model providers and enforces hard or soft spend, token and request budgets per project, member, service account or key, with per-request costs in its request logs.
 - [Kubecost](https://github.com/kubecost/kubecost) - Real-time Kubernetes cost monitoring by service, deployment, namespace, and container with cloud billing integration.
 - [nOps](https://www.nops.io/) - AWS cost optimization platform with AI-driven rightsizing, commitment management, and automated savings execution.
 - [OpenCost](https://github.com/opencost/opencost) - CNCF Sandbox project for vendor-neutral, real-time Kubernetes cost monitoring and allocation.
