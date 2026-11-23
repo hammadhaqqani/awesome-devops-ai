@@ -811,6 +811,7 @@ Courses, certifications, articles, and guides on AI for DevOps.
 Communities, forums, and newsletters covering AI and DevOps.
 
 - [Agentic AI Foundation](https://aaif.io/) - Linux Foundation community anchored by MCP, Goose, and AGENTS.md for open standards in agentic AI infrastructure and DevOps workflows.
+- [AI SRE Weekly](https://www.linkedin.com/company/ai-sre-weekly/) - Weekly newsletter tracking the AI SRE category: vendor launches, funding, incident-automation research and what changed for on-call teams.
 - [CNCF Slack](https://slack.cncf.io/) - Cloud Native Computing Foundation community with channels for K8sGPT, HolmesGPT, and AI-native projects.
 - [DevOps Weekly](https://www.devopsweekly.com/) - Weekly newsletter covering DevOps tooling and practices including AI adoption.
 - [KubeWeekly](https://www.cncf.io/kubeweekly/) - Official CNCF newsletter covering Kubernetes ecosystem updates and AI-powered tooling announcements.
