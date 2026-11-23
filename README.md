@@ -413,6 +413,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [Linear MCP Server](https://linear.app/docs/mcp) - Official remote MCP server for Linear project management enabling AI agents to manage issues, projects, and cycles.
 - [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference implementations including filesystem, Git, GitHub, PostgreSQL, Puppeteer, and more.
 - [Octopus Deploy MCP Server](https://github.com/OctopusDeploy/mcp-server) - Official Octopus Deploy MCP server for inspecting projects, releases, deployments, and runbooks from AI assistants.
+- [OmniForge Launch Audit MCP](https://github.com/zColdWater/mcp-launch-audit) - Open-source read-only MCP server exposing pre-launch DevOps checks for web security headers, client-side secret leaks, SPF/DKIM/DMARC DNS auth, and AI crawler readiness.
 - [OpenSearch MCP Server](https://github.com/opensearch-project/opensearch-mcp-server-py) - Official OpenSearch MCP server for searching indices, inspecting cluster health, and running queries from AI agents.
 - [PagerDuty MCP Server](https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server) - Official hosted MCP server for PagerDuty incident management, on-call schedules, and alert routing from AI agents.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Microsoft's MCP server that lets AI agents drive a browser through accessibility snapshots for end-to-end testing and smoke checks.
