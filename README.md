@@ -405,6 +405,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [GKE MCP Server](https://github.com/GoogleCloudPlatform/gke-mcp) - Google's MCP server for managing and troubleshooting Google Kubernetes Engine clusters from AI assistants.
 - [Grafana MCP Server](https://github.com/grafana/mcp-grafana) - Official Grafana MCP server for querying dashboards, datasources, and alerts from AI agents.
 - [Heroku MCP Server](https://github.com/heroku/heroku-mcp-server) - Official Heroku MCP server for managing apps, dynos, add-ons, and pipelines through the Heroku CLI.
+- [IPGeolocation.io MCP Server](https://github.com/IPGeolocation/ipgeolocation-io-mcp) - Get IP geolocation, IP security (VPN, proxy, Tor, bot, hosting and spam detection), company, ASN and network data, abuse contacts and currency data.
 - [kubectl MCP Server](https://github.com/rohitg00/kubectl-mcp-server) - MCP server listed in the CNCF Landscape that lets AI assistants run kubectl, Helm, and cluster diagnostics in natural language.
 - [Kubernetes and OpenShift MCP Server](https://github.com/containers/kubernetes-mcp-server) - Native Go MCP server for Kubernetes and OpenShift that talks to the API server directly without requiring kubectl or Helm.
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes) - MCP server for kubectl operations, pod management, and cluster introspection.
