@@ -416,7 +416,7 @@ Model Context Protocol servers that give AI assistants like Claude, ChatGPT, and
 - [OpenSearch MCP Server](https://github.com/opensearch-project/opensearch-mcp-server-py) - Official OpenSearch MCP server for searching indices, inspecting cluster health, and running queries from AI agents.
 - [PagerDuty MCP Server](https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server) - Official hosted MCP server for PagerDuty incident management, on-call schedules, and alert routing from AI agents.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Microsoft's MCP server that lets AI agents drive a browser through accessibility snapshots for end-to-end testing and smoke checks.
-- [Sandscale](https://sandscale.dev/sandboxes/mcp) - Remote MCP server (Streamable HTTP, OAuth 2.1) that creates a Firecracker microVM sandbox per task, runs commands and moves files in it, with allow/ask/deny rules per tool and an audit log.
+- [Sandscale](https://sandscale.dev/sandboxes/mcp) - Remote MCP server (Streamable HTTP, OAuth 2.1) that creates a Firecracker microVM sandbox per task, runs commands and moves files in it, with every call recorded in an audit log.
 - [Sentry MCP Server](https://github.com/getsentry/toolkit) - Official Sentry MCP server for error tracking, issue search, and event analysis from AI agents.
 - [SonarQube MCP Server](https://github.com/SonarSource/sonarqube-mcp-server) - Official SonarQube MCP server that brings code quality and security findings into AI agents.
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) - Official HashiCorp MCP server for Terraform module search, provider documentation, and policy enforcement.
